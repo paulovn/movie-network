@@ -1,0 +1,329 @@
+.node
+{
+    fill: #EBC763;
+}
+
+.link
+{
+    stroke:#B8D2D7;
+}
+
+/* ....................................................................... */
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: blue;
+}
+/* ....................................................................... */
+
+.tooltip{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    padding: 8px;
+    font: 15px Helvetica Neue;
+    background: #FFF;
+    border: solid 1px #aaa;
+    border-radius: 8px;
+    pointer-events: none;
+    z-order:1000;
+    text-align:center;
+    background: rgba(222,223,163,0.8);
+}
+
+
+/* ....................................................................... */
+
+div#close_faq {
+    position: fixed; 
+    margin-left: 820px; 
+    margin-top: 0px;
+    padding: 0px;
+}
+
+div#faq {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    padding: 4px;
+    width: 860px;
+    height: 600px;
+    overflow-y: auto;
+    z-index: 1002;
+    background: #E5E4D6;
+
+    font-size: 11pt;
+
+    border: solid 1px #aaa;
+    border-radius: 8px;    
+    -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+div#faq dt {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 13pt;    
+    color: #5D1D4D;
+    font-weight: bold;
+    margin-top: .4em;
+}
+
+div#faq dd {
+    font-family: Georgia, Times New Roman, Times, serif;
+    padding-left: 0px;
+    margin-left: 0.7em;
+}
+
+/* ....................................................................... */
+
+div#sidepanel {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+div#title {
+    margin-right: 4px;
+    margin-top: 4px;
+    text-align: right;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 18px;    
+    color: #5D1D4D;
+    font-weight: bold;    
+}
+
+div#help {
+    margin: 6px;
+    padding: 4px;
+    background-color: #DEDFA3;
+    position: absolute;
+    width: 420px;
+    right: 0px;
+    z-index: 1001;
+    border: 1px solid #989970;
+
+/*    -moz-transition: visibility 1.2s;
+    -o-transition: visibility 1.2s;
+    -webkit-transition: visibility 1.2s;
+    transition: visibility 1.2s;*/
+
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+
+    -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+div#movieInfo {
+    position: relative;
+    right: 4px;
+    cursor: text;
+    width: 300px;
+    z-index: 1000;
+    background: #E5E4D6;
+    border: solid 1px #aaa;
+    border-radius: 8px;    
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;    
+    padding: 4px;
+    text-align: right;
+}
+
+div#movieInfo img {
+    margin-bottom: 6px;
+/*    float: right;*/
+}
+
+
+div#movieInfo div {
+    border-top: 1px dotted #8E5981;
+    margin-bottom: 3px;
+    margin-top: 3px;
+}
+
+div#movieInfo div.t {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+div#movieInfo span.d {
+    font-weight: bold;
+}
+
+div#movieInfo span.c {
+    font-style: italic;
+}
+
+div#movieInfo span.l {
+    font-size: 11px;
+    color: #24553E;
+    font-variant: small-caps;
+}
+
+div#movieNetwork {
+    cursor: crosshair;
+}
+
+/* ....................................................................... */
+
+div.panel_off {
+    visibility: hidden;
+    pointer-events: none;
+}
+
+div.panel_on {
+    visibility: visible;
+    pointer-events: all;
+}
+
+
+div.off {
+    visibility: hidden;
+}
+
+div.on {
+    visibility: visible;
+}
+
+
+div.zoomed {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: normal;
+    text-align: center;
+    color: 0;
+    border: none;
+    z-index: 0;
+    z-order: 0;
+}
+
+div.main {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px;
+    color: #f00000;
+    border: 1px solid #babaae;
+    background: rgba(233,232,93,0.7);
+
+/*    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+*/
+
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    z-index: 2;
+    z-order: 2;
+/*    -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);*/
+}
+
+div.sibling {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: normal;
+    text-align: center;
+    color: #001010;
+    padding: 0px;
+    background: rgba(190,224,141,0.5);
+    border: 1px solid #babaae;
+    z-index: 1;
+    z-order: 1;
+}
+
+
+/* ....................................................................... */
+
+.nlabel_on {
+    visibility: visible;
+    font-size: 12px;
+    opacity: 1.0;
+    fill: #101000;
+    stroke: #ffffff;
+    font-weight: bold;
+}
+
+/* ....................................................................... */
+
+text {
+    text-anchor: middle;
+    opacity: 0.0;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    background: #f0f0f0;
+    dominant-baseline: central;
+}
+
+text.on {
+    visibility: visible;
+}
+
+text.off {
+    visibility: hidden;
+}
+
+text.sibling {
+    font-size: 12px;
+    font-weight: bold;
+    opacity: 1.0;
+    fill: #000;
+    stroke: #fff;
+    /*font-stretch: condensed;*/
+}
+
+
+text.shadow {
+    stroke: #fff;
+    stroke-width: 3px;
+    stroke-opacity: .8;
+}
+
+text.main {
+    font-size: 14px;
+    font-weight: bold;
+    opacity: 1.0;
+    fill: #f00;
+    stroke: #fff;
+    
+}
+
+
+/* ....................................................................... */
+
+circle {
+    cursor: pointer;
+}
+
+circle.level1 {
+    stroke: #f00;
+}
+
+circle.level2 {
+    opacity: 0.8;
+    stroke: #777;
+}
+
+circle.level3 {
+    opacity: 0.5;
+#    fill: #999;
+}
+
+circle.on {
+    fill: green;
+}
+
