@@ -1,5 +1,5 @@
 The PopCha! Movie Network
-*************************
+=========================
 
 A visualization of similarity between movies by means of a network graph
 
