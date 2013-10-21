@@ -1,8 +1,21 @@
 /* ---------------------------------------------------------------------------
    (c) Telefónica I+D, 2013
    Author: Paulo Villegas
-   This script is FREE SOFTWARE, it can be freely copied GPL v.2
+
+   This script is free software: you can redistribute it and/or modify
+   it under the terms of the GNU General Public License as published by
+   the Free Software Foundation, either version 3 of the License, or
+   (at your option) any later version.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU General Public License for more details.
+
+   You should have received a copy of the GNU General Public License
+   along with this program.  If not, see <http://www.gnu.org/licenses/>.
    -------------------------------------------------------------------------- */
+
 
 // Some constants
 var WIDTH = 960,
@@ -32,7 +45,7 @@ var force = d3.layout.force()
   .linkStrength( function(d,idx) { return d.weight; } );
 
 // Add to the page the SVG element that will contain the movie network
-var svg = d3.select("#movieNetwork").append("svg")
+var svg = d3.select("#movieNetwork").append("svg:svg")
   .attr('xmlns','http://www.w3.org/2000/svg')
   .attr("width", WIDTH)
   .attr("height", HEIGHT)
@@ -180,18 +193,36 @@ d3.json(
 
     // ------- Create the elements of the layout (links and nodes) ------
 
+    var networkGraph = svg.append('svg:g').attr('class','grpParent');
+
     // links: simple lines
-    var link = svg.selectAll(".link")
+    var graphLinks = networkGraph.append('svg:g').attr('class','grp gLinks')
+      .selectAll("line")
       .data(linkArray, function(d) {return d.source.id+'-'+d.target.id;} )
       .enter().append("line")
       .style('stroke-width', function(d) { return edge_width(d.weight);} )
       .attr("class", "link");
 
     // nodes: an SVG group with a circle and an HTML DIV (the title)
-    var node_group = svg.selectAll(".node")
+    var graphNodes = networkGraph.append('svg:g').attr('class','grp gNodes')
+      .selectAll("circle")
       .data( nodeArray, function(d){return d.label} )
-      .enter().append("g")
-      .attr('id', function(d) { return "n" + d.index; } );
+      .enter().append("svg:circle")
+      .attr('id', function(d) { return "c" + d.index; } )
+      .attr('class', function(d) { return 'node level'+d.level;} )
+      .attr('r', function(d) { return node_size(d.weight); } )
+      .attr('pointer-events', 'all')
+      //.on("click", function(d) { showNode(d,true,this); } )	    
+      .on("click", function(d) { showMoviePanel(d); } )
+      .on("mouseover", function(d) { showNode(d,true,this);  } )
+      .on("mouseout",  function(d) { showNode(d,false,this); } );
+
+    var graphLabels = networkGraph.append('svg:g').attr('class','grp gLabel')
+      .selectAll("g.node")
+      .data( nodeArray, function(d){return d.label} )
+      .enter().append("svg:g")
+      .attr('id', function(d) { return "l" + d.index; } )
+      .attr('class','label');
 
 
 /*	  bb = node_group.append("rect")
@@ -204,34 +235,27 @@ d3.json(
           /*node_group
 	    .attr('id', function(d) { return "n" + d.id; } );*/
 
-    circles = node_group.append("circle")
-      .attr('id', function(d) { return "c" + d.index; } )
-      .attr('class', function(d) { return 'node level'+d.level;} )
-      .attr('r', function(d) { return node_size(d.weight); } )
-      .attr('pointer-events', 'all')
-      //.on("click", function(d) { showNode(d,true,this); } )	    
-      .on("click", function(d) { showMoviePanel(d); } )
-      .on("mouseover", function(d) { showNode(d,true,this);  } )
-      .on("mouseout",  function(d) { showNode(d,false,this); } );
 
     /*	  titles = node_group.append("text")
 	  .attr('id', function(d) { return "t" + d.id; } )
 	  .attr('pointer-events', 'none') // so that they go to the circle beneath
 	  .attr('class',"shadow")
 	  .text( function(d) { return d.label; } );*/
-
-    titles = node_group.append('foreignObject')
-    //.attr('requiredExtensions','http://www.w3.org/2000/xhtml')
-      .attr('requiredFeatures','http://www.w3.org/TR/SVG11/feature#Extensibility')
-      .attr('x','-4em')
-      .attr('y','-1em')
-      .attr('width','8em')
-      .attr('height','3em')
-      .attr('pointer-events','none')
-      .append("xhtml:div")
-      .attr('id', function(d) { return "t" + d.index; } )
+   
+    shadows = graphLabels.append('svg:text')
+      .attr('x','-2em')
+      .attr('y','-.3em')
       .attr('pointer-events', 'none') // they go to the circle beneath
-      .attr('class','off')
+      .attr('id', function(d) { return "lb" + d.index; } )
+      .attr('class','nshadow')
+      .text( function(d) { return d.label; } );
+
+    labels = graphLabels.append('svg:text')
+      .attr('x','-2em')
+      .attr('y','-.3em')
+      .attr('pointer-events', 'none') // they go to the circle beneath
+      .attr('id', function(d) { return "lf" + d.index; } )
+      .attr('class','nlabel')
       .text( function(d) { return d.label; } );
 
     /*var txtWidth = textContnt.getBBox().width;
@@ -252,22 +276,15 @@ d3.json(
        - dom_circle: (optional) pointer to the DOM node for the circle 
        representing the network node
     */
-    function showNode( node, on, dom_circle )
+    function showNode( node, on )
     {
       //if( d3.event.shiftKey ) on = false; // for debugging
       console.log("SHOW NODE ["+node.label + "]: " + on);
       console.log(" ..object ["+node + "]: " + on);
-      // locate the SVG nodes: box & circle
-      if( dom_circle === undefined ) {
-	group = d3.select( '#n' + node.index );
-	box = group.select( 'div' );
-	circle = group.select( 'circle' );
-      }
-      else {
-	circle = d3.select(dom_circle);
-	box = d3.select(dom_circle.parentNode).select("div");
-      }
-      console.log(" ..DOM: ",box);
+      // locate the SVG nodes: circle & label
+      circle = d3.select( '#c' + node.index );
+      label  = d3.select( '#l' + node.index );
+      console.log(" ..DOM: ",label);
 
       // If we are to activate a movie, and there's already one active,
       // first switch that off
@@ -275,28 +292,29 @@ d3.json(
 	showNode( nodeArray[activeMovie], false );
 
       // activate/deactivate the node itself
-      console.log( " ..box CLASS BEFORE:", box.attr("class") );
+      console.log( " ..box CLASS BEFORE:", label.attr("class") );
       console.log( " ..circle CLASS BEFORE:", circle.attr("class") );
       //d3.select(dom_node.parentNode).select("div")
       circle
 	.classed( 'on', on );
-      box
-	.attr("class", on ? "on main" : 
-	      zoomValue >= SHOW_THRESHOLD ? "zoomed" : "off" );
+      label
+	.classed( 'on', on || zoomValue >= SHOW_THRESHOLD );
+      label.selectAll('text')
+	.classed( 'main', on );
       console.log( " ..circle CLASS AFTER:", circle.attr("class") );
-      console.log( " ..box CLASS AFTER:", box.attr("class") );
-      console.log( " " ,box );
+      console.log( " ..box CLASS AFTER:", label.attr("class") );
+      console.log( " " ,label );
 
       // activate all siblings
       console.log(" ..SIBLINGS:"+node.links);
       //Object.keys(d3_node.out).forEach( function(id) {
       Object(node.links).forEach( function(id) {
-	sibling = d3.select("#n"+id);
-	sibling.select('div')
-	  .attr("class", on ? "on sibling" : 
-		zoomValue>SHOW_THRESHOLD ? "zoomed" : "off" );
-	sibling.select('circle')
-	  .classed( 'on', on );
+	d3.select("#c"+id).classed( 'on', on );
+	label = d3.select('#l'+id);
+	label.classed( 'on', on || zoomValue >= SHOW_THRESHOLD );
+	label.selectAll('text.nlabel')
+	  .classed( 'sibling', on );
+	  
       } );
 
       // set the value for the current active movie
@@ -327,7 +345,7 @@ d3.json(
 	height = s.h<HEIGHT ? s.h : HEIGHT;
 	offset = { x : (s.x + width/2  - nodeArray[new_idx].x)/zoomValue,
 		   y : (s.y + height/2 - nodeArray[new_idx].y)/zoomValue };
-	repositionGraph( offset, zoomValue, true );
+	repositionGraph( offset, undefined, 'move' );
       }
       showNode( nodeArray[new_idx], true );
       showMoviePanel( nodeArray[new_idx] );
@@ -353,27 +371,49 @@ d3.json(
        - on zoom changes (user zooming)
        - on explicit node highlight (user click in a movie panel link)
     */
-    function repositionGraph( off, z, transition ) {
+    function repositionGraph( off, z, mode ) {
+      console.log( "REPOS: ", off, z, mode );
+
       // do we want a transition?
-      var doTr = (typeof transition === "undefined") ? false : transition;
+      var doTr = (mode == 'move');
       // compute new offset
       if( off !== undefined ) {
+	if( off.x != offsetValue.x || off.y != offsetValue.y )
+	  g = d3.select('g.grpParent')
+	if( doTr )
+	  g = g.transition().duration(500);
+	g.attr("transform", function(d) { return "translate("
+					  +zoomValue*off.x+","
+					  +zoomValue*off.y+")" } );
 	offsetValue.x = off.x;
 	offsetValue.y = off.y;
       }
+
+      if( z === undefined ) {
+	if( mode != 'tick' )
+	  return;	// no zoom, no tick, we don't need to go further
+	z = zoomValue;
+      }
+
       // move edges
-      l = doTr ? link.transition().duration(500) : link;
-      l
-	.attr("x1", function(d) { return z*(d.source.x+offsetValue.x); })
-        .attr("y1", function(d) { return z*(d.source.y+offsetValue.y); })
-        .attr("x2", function(d) { return z*(d.target.x+offsetValue.x); })
-        .attr("y2", function(d) { return z*(d.target.y+offsetValue.y); });
+      e = doTr ? graphLinks.transition().duration(500) : graphLinks;
+      e
+	.attr("x1", function(d) { return z*(d.source.x); })
+        .attr("y1", function(d) { return z*(d.source.y); })
+        .attr("x2", function(d) { return z*(d.target.x); })
+        .attr("y2", function(d) { return z*(d.target.y); });
       // move nodes
-      n = doTr ? node_group.transition().duration(500) : node_group;
+      n = doTr ? graphNodes.transition().duration(500) : graphNodes;
       n
 	.attr("transform", function(d) { return "translate("
-					 +z*(d.x+offsetValue.x)+","
-					 +z*(d.y+offsetValue.y)+")" } );
+					 +z*(d.x)+","
+					 +z*(d.y)+")" } );
+      // move labels
+      l = doTr ? graphLabels.transition().duration(500) : graphLabels;
+      l
+	.attr("transform", function(d) { return "translate("
+					 +z*(d.x)+","
+					 +z*(d.y)+")" } );
     }
            
 
@@ -385,7 +425,7 @@ d3.json(
       console.log("DRAG", d3.event );
       offset = { x : offsetValue.x + d3.event.dx,
 		 y : offsetValue.y + d3.event.dy };
-      repositionGraph( offset, zoomValue );
+      repositionGraph( offset, undefined );
     }
 
 
@@ -402,13 +442,12 @@ d3.json(
 
       // See if we cross the 'show' threshold in either direction
       if( zoomValue<SHOW_THRESHOLD && d3.event.scale>=SHOW_THRESHOLD )
-	svg.selectAll("div.off").attr("class","zoomed")
+	svg.selectAll("g.label").classed('on',true);
       else if( zoomValue>=SHOW_THRESHOLD && d3.event.scale<SHOW_THRESHOLD )
-	svg.selectAll("div.zoomed").attr("class","off")
+	svg.selectAll("g.label").classed('on',false);
 
-      // Store the current zoom & reposition the graph
-      zoomValue = d3.event.scale;
-      repositionGraph( {x:0, y:0}, zoomValue );
+      // Reposition the graph
+      repositionGraph( undefined, d3.event.scale );
 
       //node_group.attr("transform", transform);
       //link.attr("transform", transform);
@@ -419,7 +458,7 @@ d3.json(
 
     /* events for the force-directed graph */
     force.on("tick", function() {
-      repositionGraph(undefined,zoomValue);
+      repositionGraph(undefined,undefined,'tick');
     });
 
   });

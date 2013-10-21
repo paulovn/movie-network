@@ -292,3 +292,47 @@ circle.on {
     font-weight: bold;
 }
 
+/* ....................................................................... */
+
+text {
+    font: 10px sans-serif;
+    font-weight: normal;
+}
+
+text.nlabel {
+    opacity: 1.0;
+    /*stroke: #000000;*/
+}
+
+text.nshadow {
+    stroke: #fff;
+    stroke-width: 3px;
+    stroke-opacity: 0.5;
+    /*visibility: hidden;*/
+}
+
+
+text.main {
+    font: 12px sans-serif;
+    font-weight: bold;
+}
+
+g.gLabel {
+    font: 10px sans-serif;
+    font-weight: normal;
+    visibility: hidden;
+}
+
+g.on {
+    visibility: visible;    
+}
+
+g.zoomed {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: normal;
+    text-align: center;
+    color: #000;
+    border: none;
+    z-index: 0;
+}
