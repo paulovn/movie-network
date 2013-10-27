@@ -20,12 +20,12 @@
 // Some constants
 var WIDTH = 960,
     HEIGHT = 600,
-    SHOW_THRESHOLD = 2.0;
+    SHOW_THRESHOLD = 2.5;
 
 // Graph behaviour variables
 var activeMovie = undefined;
-var offsetValue = { x : 0, y : 0 };
-var zoomValue = 1.0;
+var currentOffset = { x : 0, y : 0 };
+var currentZoom = 1.0;
 
 // The D3.js scales
 var xScale = d3.scale.linear()
@@ -34,7 +34,10 @@ var xScale = d3.scale.linear()
 var yScale = d3.scale.linear()
   .domain([0, HEIGHT])
   .range([0, HEIGHT]);
-
+var zoomScale = d3.scale.linear()
+  .domain([1,6])
+  .range([1,6])
+  .clamp(true);
 
 /* .......................................................................... */
 
@@ -49,9 +52,10 @@ var svg = d3.select("#movieNetwork").append("svg:svg")
   .attr('xmlns','http://www.w3.org/2000/svg')
   .attr("width", WIDTH)
   .attr("height", HEIGHT)
+  .attr("style","border: 1px solid red;")
   .attr("id","graph")
-  .attr("viewBox", "0 0 " + WIDTH + " " + HEIGHT )
-  .attr("preserveAspectRatio", "xMidYMid meet")
+  .attr("viewBox", "0 0 " + WIDTH + " " + HEIGHT );
+//  .attr("preserveAspectRatio", "xMidYMid meet")
 
 // Movie panel: the div into which the movie details info will be written
 movieInfoDiv = d3.select("#movieInfo");
@@ -60,6 +64,9 @@ movieInfoDiv = d3.select("#movieInfo");
 // movie highlighted in the graph. It is a closure within the d3.json() call.
 var selectMovie = undefined;
 
+// The call to set a zoom value -- currently unused
+// (zoom is set via standard mouse-based zooming)
+var zoomCall = undefined;
 
 
 /* .......................................................................... */
@@ -107,7 +114,7 @@ function toggleDiv( id, status ) {
 function clearAndSelect(id) {
   toggleDiv('faq','off'); 
   toggleDiv('help','off'); 
-  selectMovie(id,true);	// we use here teh selectMovie() closure
+  selectMovie(id,true);	// we use here the selectMovie() closure
 }
 
 
@@ -212,13 +219,13 @@ d3.json(
       .attr('class', function(d) { return 'node level'+d.level;} )
       .attr('r', function(d) { return node_size(d.weight); } )
       .attr('pointer-events', 'all')
-      //.on("click", function(d) { showNode(d,true,this); } )	    
+      //.on("click", function(d) { highlightGraphNode(d,true,this); } )    
       .on("click", function(d) { showMoviePanel(d); } )
-      .on("mouseover", function(d) { showNode(d,true,this);  } )
-      .on("mouseout",  function(d) { showNode(d,false,this); } );
+      .on("mouseover", function(d) { highlightGraphNode(d,true,this);  } )
+      .on("mouseout",  function(d) { highlightGraphNode(d,false,this); } );
 
     var graphLabels = networkGraph.append('svg:g').attr('class','grp gLabel')
-      .selectAll("g.node")
+      .selectAll("g.label")
       .data( nodeArray, function(d){return d.label} )
       .enter().append("svg:g")
       .attr('id', function(d) { return "l" + d.index; } )
@@ -258,6 +265,7 @@ d3.json(
       .attr('class','nlabel')
       .text( function(d) { return d.label; } );
 
+
     /*var txtWidth = textContnt.getBBox().width;
       var txtHeight = textContnt.getBBox().height;
       var actualTextY =  y + ( txtHeight/2) ;
@@ -269,56 +277,57 @@ d3.json(
 
     /* --------------------------------------------------------------------- */
 
-    /* Select/unselect a node in the network.
+    /* Select/unselect a node in the network graph.
        Parameters are: 
        - node: data for the node to be changed,  
        - on: true/false to show/hide the node
-       - dom_circle: (optional) pointer to the DOM node for the circle 
-       representing the network node
     */
-    function showNode( node, on )
+    function highlightGraphNode( node, on )
     {
+      // If we are to activate a movie, and there's already one active,
+      // first switch that one off
+      if( on && activeMovie !== undefined ) {
+	console.log("..clear: ",activeMovie);
+	highlightGraphNode( nodeArray[activeMovie], false );
+	console.log("..cleared: ",activeMovie);	
+      }
+
       //if( d3.event.shiftKey ) on = false; // for debugging
-      console.log("SHOW NODE ["+node.label + "]: " + on);
+      console.log("SHOWNODE "+node.index+" ["+node.label + "]: " + on);
       console.log(" ..object ["+node + "]: " + on);
       // locate the SVG nodes: circle & label
       circle = d3.select( '#c' + node.index );
       label  = d3.select( '#l' + node.index );
       console.log(" ..DOM: ",label);
 
-      // If we are to activate a movie, and there's already one active,
-      // first switch that off
-      if( on && activeMovie !== undefined )
-	showNode( nodeArray[activeMovie], false );
-
       // activate/deactivate the node itself
-      console.log( " ..box CLASS BEFORE:", label.attr("class") );
-      console.log( " ..circle CLASS BEFORE:", circle.attr("class") );
+      console.log(" ..box CLASS BEFORE:", label.attr("class"));
+      console.log(" ..circle",circle.attr('id'),"BEFORE:",circle.attr("class"));
       //d3.select(dom_node.parentNode).select("div")
       circle
-	.classed( 'on', on );
+	.classed( 'main', on );
       label
-	.classed( 'on', on || zoomValue >= SHOW_THRESHOLD );
+	.classed( 'on', on || currentZoom >= SHOW_THRESHOLD );
       label.selectAll('text')
 	.classed( 'main', on );
-      console.log( " ..circle CLASS AFTER:", circle.attr("class") );
+      console.log( " ..circle ",circle.attr('id')," AFTER:", circle.attr("class") );
       console.log( " ..box CLASS AFTER:", label.attr("class") );
-      console.log( " " ,label );
+      console.log( " ..label=" ,label );
 
       // activate all siblings
-      console.log(" ..SIBLINGS:"+node.links);
+      console.log(" ..SIBLINGS ["+on+"]: "+node.links);
       //Object.keys(d3_node.out).forEach( function(id) {
       Object(node.links).forEach( function(id) {
-	d3.select("#c"+id).classed( 'on', on );
+	d3.select("#c"+id).classed( 'sibling', on );
 	label = d3.select('#l'+id);
-	label.classed( 'on', on || zoomValue >= SHOW_THRESHOLD );
+	label.classed( 'on', on || currentZoom >= SHOW_THRESHOLD );
 	label.selectAll('text.nlabel')
 	  .classed( 'sibling', on );
-	  
       } );
 
       // set the value for the current active movie
       activeMovie = on ? node.index : undefined;
+      console.log("SHOWNODE finished: ",node.index," = ",on );
     }
 
 
@@ -336,18 +345,22 @@ d3.json(
       // we need to pass the DOM node here, not a d3 selection
       //circle = document.getElementById( 'c' + nodeArray[new_idx].index );
       console.log("SELECT", new_idx, doMoveTo );
+
+      // do we want to center the graph on the node?
       doMoveTo = doMoveTo || false;
       if( doMoveTo ) {
-	console.log("..POS: ", offsetValue.x, offsetValue.y, '->', 
+	console.log("..POS: ", currentOffset.x, currentOffset.y, '->', 
 		    nodeArray[new_idx].x, nodeArray[new_idx].y );
 	s = getViewportSize();
 	width  = s.w<WIDTH ? s.w : WIDTH;
 	height = s.h<HEIGHT ? s.h : HEIGHT;
-	offset = { x : (s.x + width/2  - nodeArray[new_idx].x)/zoomValue,
-		   y : (s.y + height/2 - nodeArray[new_idx].y)/zoomValue };
+	//console.log("MOVE (w,h)=("+w+","+h+") "
+	offset = { x : s.x + width/2  - nodeArray[new_idx].x*currentZoom,
+		   y : s.y + height/2 - nodeArray[new_idx].y*currentZoom };
 	repositionGraph( offset, undefined, 'move' );
       }
-      showNode( nodeArray[new_idx], true );
+      // now highlight the graph node and show its movie panel
+      highlightGraphNode( nodeArray[new_idx], true );
       showMoviePanel( nodeArray[new_idx] );
     }
 
@@ -370,30 +383,34 @@ d3.json(
        - on translations (user panning)
        - on zoom changes (user zooming)
        - on explicit node highlight (user click in a movie panel link)
+       Set also the values keeping track of current offset & zoom
     */
     function repositionGraph( off, z, mode ) {
-      console.log( "REPOS: ", off, z, mode );
+      console.log( "REPOS: off="+off, "zoom="+z, "mode="+mode );
 
       // do we want a transition?
       var doTr = (mode == 'move');
-      // compute new offset
-      if( off !== undefined ) {
-	if( off.x != offsetValue.x || off.y != offsetValue.y )
-	  g = d3.select('g.grpParent')
+
+      // drag: translate to new offset
+      if( off !== undefined &&
+	  (off.x != currentOffset.x || off.y != currentOffset.y ) ) {
+	g = d3.select('g.grpParent')
 	if( doTr )
 	  g = g.transition().duration(500);
-	g.attr("transform", function(d) { return "translate("
-					  +zoomValue*off.x+","
-					  +zoomValue*off.y+")" } );
-	offsetValue.x = off.x;
-	offsetValue.y = off.y;
+	g.attr("transform", function(d) { return "translate("+
+					  off.x+","+
+					  off.y+")" } );
+	currentOffset.x = off.x;
+	currentOffset.y = off.y;
       }
 
       if( z === undefined ) {
 	if( mode != 'tick' )
 	  return;	// no zoom, no tick, we don't need to go further
-	z = zoomValue;
+	z = currentZoom;
       }
+      else
+	currentZoom = z;
 
       // move edges
       e = doTr ? graphLinks.transition().duration(500) : graphLinks;
@@ -406,14 +423,12 @@ d3.json(
       n = doTr ? graphNodes.transition().duration(500) : graphNodes;
       n
 	.attr("transform", function(d) { return "translate("
-					 +z*(d.x)+","
-					 +z*(d.y)+")" } );
+					 +z*d.x+","+z*d.y+")" } );
       // move labels
       l = doTr ? graphLabels.transition().duration(500) : graphLabels;
       l
 	.attr("transform", function(d) { return "translate("
-					 +z*(d.x)+","
-					 +z*(d.y)+")" } );
+					 +z*d.x+","+z*d.y+")" } );
     }
            
 
@@ -423,8 +438,8 @@ d3.json(
     function dragmove(d) {
       //console.log("DRAG", JSON.stringify(d3.event) );
       console.log("DRAG", d3.event );
-      offset = { x : offsetValue.x + d3.event.dx,
-		 y : offsetValue.y + d3.event.dy };
+      offset = { x : currentOffset.x + d3.event.dx,
+		 y : currentOffset.y + d3.event.dy };
       repositionGraph( offset, undefined );
     }
 
@@ -435,24 +450,35 @@ d3.json(
      * (nodes do not change size, but get spread out or streched
      * together as zoom changes)
      */
-    function doZoom() {
-      console.log("ZOOM",zoomValue,"->",d3.event.scale,d3.event.translate);
-      if( zoomValue == d3.event.scale )
+    function doZoom( increment ) {
+      newZoom = increment === undefined ? d3.event.scale 
+					: zoomScale(currentZoom+increment);
+      console.log("ZOOM",currentZoom,"->",newZoom,increment);
+      if( currentZoom == newZoom )
 	return;	// no zoom change
 
       // See if we cross the 'show' threshold in either direction
-      if( zoomValue<SHOW_THRESHOLD && d3.event.scale>=SHOW_THRESHOLD )
+      if( currentZoom<SHOW_THRESHOLD && newZoom>=SHOW_THRESHOLD )
 	svg.selectAll("g.label").classed('on',true);
-      else if( zoomValue>=SHOW_THRESHOLD && d3.event.scale<SHOW_THRESHOLD )
+      else if( currentZoom>=SHOW_THRESHOLD && newZoom<SHOW_THRESHOLD )
 	svg.selectAll("g.label").classed('on',false);
 
-      // Reposition the graph
-      repositionGraph( undefined, d3.event.scale );
+      // See what is the current graph window
+      s = getViewportSize();
+      width  = s.w<WIDTH  ? s.w : WIDTH;
+      height = s.h<HEIGHT ? s.h : HEIGHT;
 
-      //node_group.attr("transform", transform);
-      //link.attr("transform", transform);
+      // Compute the new offset
+      zoomRatio = newZoom/currentZoom;
+      newOffset = { x : currentOffset.x*zoomRatio + width/2*(1-zoomRatio),
+		    y : currentOffset.y*zoomRatio + height/2*(1-zoomRatio) };
+      console.log("offset",currentOffset,"->",newOffset);
+
+      // Reposition the graph
+      repositionGraph( newOffset, newZoom );
     }
 
+    zoomCall = doZoom;	// unused
 
     /* --------------------------------------------------------------------- */
 
