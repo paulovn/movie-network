@@ -22,7 +22,7 @@ var WIDTH = 960,
     HEIGHT = 600,
     SHOW_THRESHOLD = 2.5;
 
-// Graph behaviour variables
+// Variables keeping graph state
 var activeMovie = undefined;
 var currentOffset = { x : 0, y : 0 };
 var currentZoom = 1.0;
@@ -54,7 +54,7 @@ var svg = d3.select("#movieNetwork").append("svg:svg")
   .attr("height", HEIGHT)
   .attr("id","graph")
   .attr("viewBox", "0 0 " + WIDTH + " " + HEIGHT );
-//  .attr("preserveAspectRatio", "xMidYMid meet")
+  .attr("preserveAspectRatio", "xMidYMid meet")
 
 // Movie panel: the div into which the movie details info will be written
 movieInfoDiv = d3.select("#movieInfo");
@@ -251,15 +251,6 @@ d3.json(
       .attr('class','nlabel')
       .text( function(d) { return d.label; } );
 
-
-    /*var txtWidth = textContnt.getBBox().width;
-      var txtHeight = textContnt.getBBox().height;
-      var actualTextY =  y + ( txtHeight/2) ;
-      canvas.change(rect,{"width":txtWidth,"height":txtHeight});
-      canvas.change(textContnt,{"y":actualTextY});*/
-
-    /*circles.append("title")
-      .text(function(d) { return d.name; });*/
 
     /* --------------------------------------------------------------------- */
 
