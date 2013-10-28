@@ -53,8 +53,8 @@ var svg = d3.select("#movieNetwork").append("svg:svg")
   .attr("width", WIDTH)
   .attr("height", HEIGHT)
   .attr("id","graph")
-  .attr("viewBox", "0 0 " + WIDTH + " " + HEIGHT );
-  .attr("preserveAspectRatio", "xMidYMid meet")
+  .attr("viewBox", "0 0 " + WIDTH + " " + HEIGHT )
+  .attr("preserveAspectRatio", "xMidYMid meet");
 
 // Movie panel: the div into which the movie details info will be written
 movieInfoDiv = d3.select("#movieInfo");
