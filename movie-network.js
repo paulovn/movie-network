@@ -52,7 +52,6 @@ var svg = d3.select("#movieNetwork").append("svg:svg")
   .attr('xmlns','http://www.w3.org/2000/svg')
   .attr("width", WIDTH)
   .attr("height", HEIGHT)
-  .attr("style","border: 1px solid red;")
   .attr("id","graph")
   .attr("viewBox", "0 0 " + WIDTH + " " + HEIGHT );
 //  .attr("preserveAspectRatio", "xMidYMid meet")
@@ -123,26 +122,30 @@ function clearAndSelect(id) {
    */
 function getMovieInfo( n, nodeArray ) {
   console.log( "INFO", n );
-  info = '<img src="img/close.png" style="float:left; cursor: pointer;" onClick="toggleDiv(\'movieInfo\');"/>';
-
+  info = '<div id="cover">';
   if( n.cover )
-    info += '<img height="300" src="' + n.cover + '" title="' + n.label + '"/>';
+    info += '<img class="cover" height="300" src="' + n.cover + '" title="' + n.label + '"/>';
   else
-    info += "<div class=t>" + n.title + '</div>';
+    info += '<div class=t style="float: right">' + n.title + '</div>';
+  info +=
+    '<img src="img/close.png" class="action" style="top: 0px;" title="close panel" onClick="toggleDiv(\'movieInfo\');"/>' +
+    '<img src="img/target-32.png" class="action" style="top: 280px;" title="center graph on movie" onclick="selectMovie('+n.index+',true);"/>';
+
+  info += '<br/></div><div style="clear: both;">'
   if( n.genre )
-    info += '<div><span class=l>Genre</span>: <span class=g>' 
+    info += '<div class=f><span class=l>Genre</span>: <span class=g>' 
          + n.genre + '</span></div>';
   if( n.director )
-    info += '<div><span class=l>Directed by</span>: <span class=d>' 
+    info += '<div class=f><span class=l>Directed by</span>: <span class=d>' 
          + n.director + '</span></div>';
   if( n.cast )
-    info += '<div><span class=l>Cast</span>: <span class=c>' 
+    info += '<div class=f><span class=l>Cast</span>: <span class=c>' 
          + n.cast + '</span></div>';
   if( n.duration )
-    info += '<div><span class=l>Year</span>: ' + n.year 
-         + ' <span class=l>Duration</span>: ' + n.duration + '</div>';
+    info += '<div class=f><span class=l>Year</span>: ' + n.year 
+         + '<span class=l style="margin-left:1em;">Duration</span>: ' + n.duration + '</div>';
   if( n.links ) {
-    info += '<div><span class=l>Related to</span>: ';
+    info += '<div class=f><span class=l>Related to</span>: ';
     n.links.forEach( function(idx) {
       info += '[<a href="javascript:void(0);" onclick="selectMovie('  
 	   + idx + ',true);">' + nodeArray[idx].label + '</a>]'
@@ -210,7 +213,7 @@ d3.json(
       .style('stroke-width', function(d) { return edge_width(d.weight);} )
       .attr("class", "link");
 
-    // nodes: an SVG group with a circle and an HTML DIV (the title)
+    // nodes: an SVG circle
     var graphNodes = networkGraph.append('svg:g').attr('class','grp gNodes')
       .selectAll("circle")
       .data( nodeArray, function(d){return d.label} )
@@ -224,30 +227,13 @@ d3.json(
       .on("mouseover", function(d) { highlightGraphNode(d,true,this);  } )
       .on("mouseout",  function(d) { highlightGraphNode(d,false,this); } );
 
+    // labels: a group with two SVG text: a title and a shadow (as background)
     var graphLabels = networkGraph.append('svg:g').attr('class','grp gLabel')
       .selectAll("g.label")
       .data( nodeArray, function(d){return d.label} )
       .enter().append("svg:g")
       .attr('id', function(d) { return "l" + d.index; } )
       .attr('class','label');
-
-
-/*	  bb = node_group.append("rect")
-	    .attr('x',0)
-	    .attr('y',0)
-	    .attr('height', 20 )
-	    .attr('width', 20 )
-	    .attr('style','stroke:#ff0000')
-*/
-          /*node_group
-	    .attr('id', function(d) { return "n" + d.id; } );*/
-
-
-    /*	  titles = node_group.append("text")
-	  .attr('id', function(d) { return "t" + d.id; } )
-	  .attr('pointer-events', 'none') // so that they go to the circle beneath
-	  .attr('class',"shadow")
-	  .text( function(d) { return d.label; } );*/
    
     shadows = graphLabels.append('svg:text')
       .attr('x','-2em')
@@ -327,7 +313,7 @@ d3.json(
 
       // set the value for the current active movie
       activeMovie = on ? node.index : undefined;
-      console.log("SHOWNODE finished: ",node.index," = ",on );
+      console.log("SHOWNODE finished: "+node.index+" = "+on );
     }
 
 
