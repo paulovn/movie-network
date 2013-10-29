@@ -52,6 +52,15 @@ div#title img {
 }
 
 
+img#help {
+    position: absolute; 
+    right: 6px; 
+    top: 100px; 
+    pointer-events: all; 
+    cursor: help;
+} 
+
+
 /* ....................................................................... */
 /* On/off toggles for the help/info panels */
 
