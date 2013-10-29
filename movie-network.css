@@ -79,10 +79,10 @@ div#help {
     z-index: 1001;
     border: 1px solid #989970;
 
-/*    -moz-transition: visibility 1.2s;
+    -moz-transition: visibility 1.2s;
     -o-transition: visibility 1.2s;
     -webkit-transition: visibility 1.2s;
-    transition: visibility 1.2s;*/
+    transition: visibility 1.2s;
 
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -91,6 +91,17 @@ div#help {
     -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
     -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+div#help ul {
+    margin: 0.5em 0em 0.5em 0em;
+    padding-left: 1.5em;
+    
+}
+
+div#help li {
+    margin: 0em;
+    padding: 0px;
 }
 
 div#faq {
@@ -199,7 +210,7 @@ div#movieInfo span.l {
 
 div#movieNetwork svg {
     background-color: white;
-    cursor: crosshair;
+    cursor: move;
 }
 
 line.link {
@@ -207,7 +218,7 @@ line.link {
 }
 
 circle {
-    cursor: pointer;
+    cursor: crosshair;
     fill: #EBC763;
 }
 

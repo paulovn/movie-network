@@ -93,6 +93,13 @@ function getViewportSize( w ) {
 }
 
 
+
+function getQStringParameterByName(name) {
+    var match = RegExp('[?&]' + name + '=([^&]*)').exec(window.location.search);
+    return match && decodeURIComponent(match[1].replace(/\+/g, ' '));
+}
+
+
 /* Change status of a panel from visible to hidden or viceversa
    id: identifier of the div to change
    status: 'on' or 'off'. If not specified, the panel will toggle status
@@ -171,10 +178,11 @@ d3.json(
     console.log("LINKS:",linkArray);
 
     //console.log( nodeArray.map( function(n) {return n.weight;} ) );
-    /*max_weight = Math.max.apply( null,
-      nodeArray.map( function(n) {return n.weight;} ) );
-      console.log( max_weight );
-    */
+    minLinkWeight = 
+      Math.min.apply( null, linkArray.map( function(n) {return n.weight;} ) );
+    maxLinkWeight = 
+      Math.max.apply( null, linkArray.map( function(n) {return n.weight;} ) );
+    console.log( "link weight = ["+minLinkWeight+","+maxLinkWeight+"]" );
 
     // Create the force-directed layout, and add the node & link arrays
     force
@@ -184,12 +192,12 @@ d3.json(
 
     // Scales for node radius & edge width
     var node_size = d3.scale.linear()
-      .domain([0,6])
-      .range([3,10])
+      .domain([5,10])
+      .range([1,16])
       .clamp(true);
-    var edge_width = d3.scale.linear()
-      .domain([0,20])
-      .range([1,10])
+    var edge_width = d3.scale.pow().exponent(8)
+      .domain([minLinkWeight,maxLinkWeight])
+      .range([1,3])
       .clamp(true);
 
     /* Add drag & zoom behaviours */
@@ -220,7 +228,7 @@ d3.json(
       .enter().append("svg:circle")
       .attr('id', function(d) { return "c" + d.index; } )
       .attr('class', function(d) { return 'node level'+d.level;} )
-      .attr('r', function(d) { return node_size(d.weight); } )
+      .attr('r', function(d) { return node_size(d.score); } )
       .attr('pointer-events', 'all')
       //.on("click", function(d) { highlightGraphNode(d,true,this); } )    
       .on("click", function(d) { showMoviePanel(d); } )
@@ -459,10 +467,15 @@ d3.json(
 
     /* --------------------------------------------------------------------- */
 
-    /* events for the force-directed graph */
+    /* process events from the force-directed graph */
     force.on("tick", function() {
       repositionGraph(undefined,undefined,'tick');
     });
 
+    /* small hack to start the graph centred on a given id */
+    mid = getQStringParameterByName('id')
+    if( mid != null )
+      clearAndSelect( mid );
   });
-        
+
+

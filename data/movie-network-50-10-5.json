@@ -10,7 +10,7 @@
         219, 
         287
       ], 
-      "weight": 7.554875373840332, 
+      "score": 7.554875373840332, 
       "level": 2, 
       "title": "The Hangover Part II", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/hFUsdnUoQDQ02EVlKTyhDTdehEr.jpg", 
@@ -30,7 +30,7 @@
         297, 
         4
       ], 
-      "weight": 7.273591041564941, 
+      "score": 7.273591041564941, 
       "level": 3, 
       "title": "Friends with Benefits", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/tmVuyRSS9RYFs73YGbMnFous7DH.jpg", 
@@ -51,7 +51,7 @@
         4, 
         416
       ], 
-      "weight": 6.7810797691345215, 
+      "score": 6.7810797691345215, 
       "level": 3, 
       "title": "Hitman", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/sMA8hNVH7hd1TqXwA2qhCYvijQA.jpg", 
@@ -83,7 +83,7 @@
         73, 
         382
       ], 
-      "weight": 7.444244384765625, 
+      "score": 7.444244384765625, 
       "level": 3, 
       "title": "Pirates of the Caribbean: Dead Man's Chest", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/qCoHWE8tipW1fWW4dBUXZ9Nikw.jpg", 
@@ -112,7 +112,7 @@
         313, 
         3
       ], 
-      "weight": 7.354764461517334, 
+      "score": 7.354764461517334, 
       "level": 3, 
       "title": "Pirates of the Caribbean: At World's End", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/jWxHVpomgHY5M70PRbExDG3XQkL.jpg", 
@@ -135,7 +135,7 @@
         391, 
         270
       ], 
-      "weight": 7.482524394989014, 
+      "score": 7.482524394989014, 
       "level": 3, 
       "title": "Death Proof", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/26Hw2xs7eiP1y03HjUugEKEYZtj.jpg", 
@@ -157,7 +157,7 @@
         173, 
         56
       ], 
-      "weight": 7.156175136566162, 
+      "score": 7.156175136566162, 
       "level": 3, 
       "title": "The Ninth Gate", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/uamhDQBebdW3UQqOaVmma3yW8pm.jpg", 
@@ -183,7 +183,7 @@
         465, 
         44
       ], 
-      "weight": 7.456656455993652, 
+      "score": 7.456656455993652, 
       "level": 2, 
       "title": "X-Men", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/4kYj7fUJzhEg7xz8J3oMPi7gDww.jpg", 
@@ -206,7 +206,7 @@
         10, 
         60
       ], 
-      "weight": 7.331575393676758, 
+      "score": 7.331575393676758, 
       "level": 3, 
       "title": "X-Men: First Class", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/oGTAcAonzueaHnetG0kVeiq1CnZ.jpg", 
@@ -230,7 +230,7 @@
         10, 
         44
       ], 
-      "weight": 7.342616081237793, 
+      "score": 7.342616081237793, 
       "level": 3, 
       "title": "X2: X-Men United", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/fdmZ0uHWDQzb6atNTaOQdfdQd9X.jpg", 
@@ -253,7 +253,7 @@
         381, 
         60
       ], 
-      "weight": 7.26857328414917, 
+      "score": 7.26857328414917, 
       "level": 3, 
       "title": "X-Men Origins: Wolverine", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/vbaV7DalSF6Uy4qLyVK7uNdtmFy.jpg", 
@@ -273,7 +273,7 @@
         84, 
         287
       ], 
-      "weight": 7.171367168426514, 
+      "score": 7.171367168426514, 
       "level": 3, 
       "title": "Danny the Dog", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/hfyZgFOjZAk10YlsRl9krBMuQ9K.jpg", 
@@ -288,7 +288,7 @@
     {
       "index": 12, 
       "links": [], 
-      "weight": 8.107501029968262, 
+      "score": 8.107501029968262, 
       "level": 1, 
       "title": "Lost", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/j3NVKm1fSDM5j1ryeO7LGIWJV7K.jpg", 
@@ -307,7 +307,7 @@
         266, 
         192
       ], 
-      "weight": 7.278750419616699, 
+      "score": 7.278750419616699, 
       "level": 3, 
       "title": "Body Double", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/d7P3VAAWqPYrdShefFUORmIvhkF.jpg", 
@@ -329,7 +329,7 @@
         320, 
         402
       ], 
-      "weight": 7.322806358337402, 
+      "score": 7.322806358337402, 
       "level": 2, 
       "title": "Pi", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/d4pDorUHjIVFiVGiJar6sF2r8TQ.jpg", 
@@ -355,7 +355,7 @@
         383, 
         45
       ], 
-      "weight": 7.438932418823242, 
+      "score": 7.438932418823242, 
       "level": 2, 
       "title": "There's Something About Mary", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/mbjxlfb7Z9AFq74C79R4ssqrPeF.jpg", 
@@ -374,7 +374,7 @@
         443, 
         233
       ], 
-      "weight": 7.601029872894287, 
+      "score": 7.601029872894287, 
       "level": 3, 
       "title": "The Rift", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/fj06CLfx8L0IsxVJwOin9r8oIyX.jpg", 
@@ -403,7 +403,7 @@
         157, 
         384
       ], 
-      "weight": 7.898838996887207, 
+      "score": 7.898838996887207, 
       "level": 1, 
       "title": "Moulin Rouge!", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/qwvjlGALFqXInnF1SLTGoQYgekt.jpg", 
@@ -425,7 +425,7 @@
         257, 
         297
       ], 
-      "weight": 6.813796520233154, 
+      "score": 6.813796520233154, 
       "level": 2, 
       "title": "Beowulf", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/j90lLkvlcPNL6VVoLGQ0yzPUfJV.jpg", 
@@ -446,7 +446,7 @@
         37, 
         97
       ], 
-      "weight": 7.425995826721191, 
+      "score": 7.425995826721191, 
       "level": 3, 
       "title": "Water for Elephants", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/h4AqUU5ezhQtPniYxz4aBHiYXUE.jpg", 
@@ -468,7 +468,7 @@
         210, 
         14
       ], 
-      "weight": 6.892204284667969, 
+      "score": 6.892204284667969, 
       "level": 3, 
       "title": "No Country for Old Men", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/6o0UWX2naW7HK45PDNYmoMIk5qs.jpg", 
@@ -511,7 +511,7 @@
         333, 
         53
       ], 
-      "weight": 7.986302852630615, 
+      "score": 7.986302852630615, 
       "level": 1, 
       "title": "Blade Runner", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/p64TtbZGCElxQHpAMWmDHkWJlH2.jpg", 
@@ -533,7 +533,7 @@
         456, 
         368
       ], 
-      "weight": 7.454519748687744, 
+      "score": 7.454519748687744, 
       "level": 2, 
       "title": "All the King's Men", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/cELn9e9diY01jHYOUJtKF6Olufj.jpg", 
@@ -559,7 +559,7 @@
         191, 
         149
       ], 
-      "weight": 7.8216071128845215, 
+      "score": 7.8216071128845215, 
       "level": 2, 
       "title": "Snatch", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/on9JlbGEccLsYkjeEph2Whm1DIp.jpg", 
@@ -578,7 +578,7 @@
         175, 
         421
       ], 
-      "weight": 7.38596248626709, 
+      "score": 7.38596248626709, 
       "level": 3, 
       "title": "A Chorus Line", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/c5arRQMNLQt4lShS6RRdSIOmy9W.jpg", 
@@ -598,7 +598,7 @@
         302, 
         420
       ], 
-      "weight": 7.115314960479736, 
+      "score": 7.115314960479736, 
       "level": 3, 
       "title": "Oblivion", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/hmOzkHlkGvi8x24fYpFSnXvjklv.jpg", 
@@ -617,7 +617,7 @@
         286, 
         280
       ], 
-      "weight": 7.42845344543457, 
+      "score": 7.42845344543457, 
       "level": 3, 
       "title": "Fast Five", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/cA81CI8odKv5KHRUUzJbj83yN7c.jpg", 
@@ -639,7 +639,7 @@
         8, 
         59
       ], 
-      "weight": 6.889481544494629, 
+      "score": 6.889481544494629, 
       "level": 3, 
       "title": "Thor", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/bIuOWTtyFPjsFDevqvF3QrD1aun.jpg", 
@@ -665,7 +665,7 @@
         46, 
         266
       ], 
-      "weight": 7.890395164489746, 
+      "score": 7.890395164489746, 
       "level": 1, 
       "title": "The Champ", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/rcbEf8eTZhrEq1ueNtkVfFzJeOM.jpg", 
@@ -694,7 +694,7 @@
         414, 
         41
       ], 
-      "weight": 7.6147990226745605, 
+      "score": 7.6147990226745605, 
       "level": 2, 
       "title": "Up", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/zh9DXJhBdHVVaWiDURTipADamcK.jpg", 
@@ -716,7 +716,7 @@
         246, 
         262
       ], 
-      "weight": 7.477350234985352, 
+      "score": 7.477350234985352, 
       "level": 2, 
       "title": "Paint Your Wagon", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/tZVKj3audA5ziJNowZijPRl66vf.jpg", 
@@ -740,7 +740,7 @@
         105, 
         90
       ], 
-      "weight": 7.117499828338623, 
+      "score": 7.117499828338623, 
       "level": 3, 
       "title": "Alice in Wonderland", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/gDHVodPe6zLjIO02gdczQgLxD8Q.jpg", 
@@ -762,7 +762,7 @@
         212, 
         248
       ], 
-      "weight": 7.583125114440918, 
+      "score": 7.583125114440918, 
       "level": 2, 
       "title": "Teenage Mutant Ninja Turtles", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/oVBYFpT2eUmXrubA6JtAkpYhdEA.jpg", 
@@ -784,7 +784,7 @@
         251, 
         252
       ], 
-      "weight": 7.7786407470703125, 
+      "score": 7.7786407470703125, 
       "level": 2, 
       "title": "The Evil Dead", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/AfUxqlRUTqLKAS9quduZ1G2WLzD.jpg", 
@@ -806,7 +806,7 @@
         347, 
         335
       ], 
-      "weight": 7.439239025115967, 
+      "score": 7.439239025115967, 
       "level": 3, 
       "title": "Lethal Weapon", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/mF2bTqJuxbZPeEJRIMrA2WeQVxu.jpg", 
@@ -839,7 +839,7 @@
         40, 
         200
       ], 
-      "weight": 7.441287994384766, 
+      "score": 7.441287994384766, 
       "level": 2, 
       "title": "Gremlins", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/eLtimMhc6XFcwmfHCJuFyxEfOU0.jpg", 
@@ -861,7 +861,7 @@
         11, 
         287
       ], 
-      "weight": 7.167704105377197, 
+      "score": 7.167704105377197, 
       "level": 3, 
       "title": "Romeo Must Die", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/pJfYg8odBx1NOVFafOM1ahfvr4V.jpg", 
@@ -886,7 +886,7 @@
         149, 
         65
       ], 
-      "weight": 7.465056419372559, 
+      "score": 7.465056419372559, 
       "level": 3, 
       "title": "Black Swan", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/9aipydFnWTBSyFBxM46rVor7FZ.jpg", 
@@ -914,7 +914,7 @@
         425, 
         195
       ], 
-      "weight": 7.706062316894531, 
+      "score": 7.706062316894531, 
       "level": 2, 
       "title": "Saving Private Ryan", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/gc7IN6bWNaWXv4vI6cxSmeB7PeO.jpg", 
@@ -937,7 +937,7 @@
         383, 
         384
       ], 
-      "weight": 7.5656328201293945, 
+      "score": 7.5656328201293945, 
       "level": 2, 
       "title": "Ghost", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/rtxy3cplRFPUvruZajpcoxOQ7bi.jpg", 
@@ -961,7 +961,7 @@
         208, 
         383
       ], 
-      "weight": 7.563758850097656, 
+      "score": 7.563758850097656, 
       "level": 3, 
       "title": "Close Encounters of the Third Kind", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/mABOVIUl5lB0WF4HG28rfamgxG1.jpg", 
@@ -982,7 +982,7 @@
         29, 
         396
       ], 
-      "weight": 7.61149263381958, 
+      "score": 7.61149263381958, 
       "level": 3, 
       "title": "Tangled", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/nD4WoN1VQmDpoD5SpYxU4v2V85I.jpg", 
@@ -1008,7 +1008,7 @@
         384, 
         368
       ], 
-      "weight": 7.644255638122559, 
+      "score": 7.644255638122559, 
       "level": 2, 
       "title": "As Good as It Gets", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/q2645aW8vgg1g7RL5lil6K93yaA.jpg", 
@@ -1037,7 +1037,7 @@
         132, 
         388
       ], 
-      "weight": 7.642281532287598, 
+      "score": 7.642281532287598, 
       "level": 2, 
       "title": "Batman Begins", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/1ZPuyD8wIrjipmoPya3DWtAs1xg.jpg", 
@@ -1059,7 +1059,7 @@
         9, 
         60
       ], 
-      "weight": 7.348370552062988, 
+      "score": 7.348370552062988, 
       "level": 3, 
       "title": "Hellboy II: The Golden Army", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/fFcZqnWDeQsImDAAIyAimc3SGEl.jpg", 
@@ -1086,7 +1086,7 @@
         51, 
         383
       ], 
-      "weight": 7.945834636688232, 
+      "score": 7.945834636688232, 
       "level": 1, 
       "title": "Pretty Woman", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/mzSlswtc2DIRhzCZAOLhbmjPzno.jpg", 
@@ -1108,7 +1108,7 @@
         262, 
         63
       ], 
-      "weight": 7.071483135223389, 
+      "score": 7.071483135223389, 
       "level": 2, 
       "title": "Black Rain", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/1p9lQ1PewZn07DVltBOjJL3tdoR.jpg", 
@@ -1130,7 +1130,7 @@
         361, 
         403
       ], 
-      "weight": 7.334167003631592, 
+      "score": 7.334167003631592, 
       "level": 2, 
       "title": "No Way Out", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/6XoG37a4U7Jum8ChYoMHq6l5NQQ.jpg", 
@@ -1155,7 +1155,7 @@
         312, 
         149
       ], 
-      "weight": 7.531766414642334, 
+      "score": 7.531766414642334, 
       "level": 2, 
       "title": "Interview with the Vampire", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/hldXwwViSfHJS0kIJr07KBGmHJI.jpg", 
@@ -1177,7 +1177,7 @@
         177, 
         16
       ], 
-      "weight": 7.167639255523682, 
+      "score": 7.167639255523682, 
       "level": 2, 
       "title": "Faust", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/AuFD90gl7wB8dqYWYiRAwHqTjOM.jpg", 
@@ -1200,7 +1200,7 @@
         332, 
         37
       ], 
-      "weight": 7.492472171783447, 
+      "score": 7.492472171783447, 
       "level": 3, 
       "title": "Eternal Sunshine of the Spotless Mind", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/uBfQ7IGpi0jXSP3GPCzp9Pzm10v.jpg", 
@@ -1220,7 +1220,7 @@
         328, 
         105
       ], 
-      "weight": 7.155815601348877, 
+      "score": 7.155815601348877, 
       "level": 3, 
       "title": "Shall We Dance", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/ntKMVXdb1tVr4q3sT9vJOV9wnfN.jpg", 
@@ -1242,7 +1242,7 @@
         210, 
         365
       ], 
-      "weight": 7.557916641235352, 
+      "score": 7.557916641235352, 
       "level": 3, 
       "title": "Full Metal Jacket", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/bleZBRX8XH6e9PR00aGCvdjvu3Q.jpg", 
@@ -1284,7 +1284,7 @@
         75, 
         333
       ], 
-      "weight": 7.577932834625244, 
+      "score": 7.577932834625244, 
       "level": 2, 
       "title": "The Shining", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/5RXSYuAkhqumgV0Xrm7A3Fy4Z8l.jpg", 
@@ -1310,7 +1310,7 @@
         376, 
         441
       ], 
-      "weight": 7.998543739318848, 
+      "score": 7.998543739318848, 
       "level": 1, 
       "title": "El padrino", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/4rguHU1dypp9SG6jBu5RyCeKFDu.jpg", 
@@ -1332,7 +1332,7 @@
         210, 
         453
       ], 
-      "weight": 7.209758758544922, 
+      "score": 7.209758758544922, 
       "level": 3, 
       "title": "American Psycho", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/ecoY7zJL6Ub3URP1oPhPfGflEjV.jpg", 
@@ -1386,7 +1386,7 @@
         65, 
         45
       ], 
-      "weight": 7.663137912750244, 
+      "score": 7.663137912750244, 
       "level": 2, 
       "title": "Edward Scissorhands", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/kgLTB53HinftRRwhft7yrUOclDC.jpg", 
@@ -1411,7 +1411,7 @@
         18, 
         376
       ], 
-      "weight": 7.792819023132324, 
+      "score": 7.792819023132324, 
       "level": 2, 
       "title": "The Lord of the Rings: The Two Towers", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/9mBjBuUmBBgnGjV1JZ2uCIYbaph.jpg", 
@@ -1450,7 +1450,7 @@
         198, 
         232
       ], 
-      "weight": 7.3415846824646, 
+      "score": 7.3415846824646, 
       "level": 2, 
       "title": "Sin City", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/eCJkepVJslq1nEtqURLaC1zLPAL.jpg", 
@@ -1471,7 +1471,7 @@
         388, 
         27
       ], 
-      "weight": 6.893775463104248, 
+      "score": 6.893775463104248, 
       "level": 3, 
       "title": "Captain America: The First Avenger", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/sBZs1jSybBRBXDwcCR8IOyHLUMc.jpg", 
@@ -1495,7 +1495,7 @@
         44, 
         351
       ], 
-      "weight": 7.323087692260742, 
+      "score": 7.323087692260742, 
       "level": 2, 
       "title": "X-Men: The Last Stand", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/5QpaN7ZBAR6D3FotvEIMX0qZxHg.jpg", 
@@ -1517,7 +1517,7 @@
         399, 
         451
       ], 
-      "weight": 7.459616661071777, 
+      "score": 7.459616661071777, 
       "level": 3, 
       "title": "Conan the Barbarian", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/xcOdfPQqIKl6B7neTtDWDL5uFHK.jpg", 
@@ -1539,7 +1539,7 @@
         464, 
         383
       ], 
-      "weight": 7.159158229827881, 
+      "score": 7.159158229827881, 
       "level": 3, 
       "title": "Super 8", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/orkLSuIsWxi2AIGXaCf7CL45T68.jpg", 
@@ -1581,7 +1581,7 @@
         383, 
         385
       ], 
-      "weight": 7.49933385848999, 
+      "score": 7.49933385848999, 
       "level": 2, 
       "title": "Indiana Jones and the Temple of Doom", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/c8wjjTnqxnG835iSEeWUJJifSVp.jpg", 
@@ -1608,7 +1608,7 @@
         320, 
         306
       ], 
-      "weight": 7.571643829345703, 
+      "score": 7.571643829345703, 
       "level": 2, 
       "title": "Shutter Island", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/aZqKsvpJDFy2UzUMsdskNFbfkOd.jpg", 
@@ -1633,7 +1633,7 @@
         37, 
         383
       ], 
-      "weight": 6.582322597503662, 
+      "score": 6.582322597503662, 
       "level": 3, 
       "title": "La piel que habito", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/bg9LpMLrgSahHJDaoRaGh66JmCN.jpg", 
@@ -1658,7 +1658,7 @@
         141, 
         320
       ], 
-      "weight": 7.50564432144165, 
+      "score": 7.50564432144165, 
       "level": 3, 
       "title": "Mystic River", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/qeHasONCKH5sR9HcTWquXI5ZN5y.jpg", 
@@ -1689,7 +1689,7 @@
         384, 
         376
       ], 
-      "weight": 8.05465316772461, 
+      "score": 8.05465316772461, 
       "level": 1, 
       "title": "Gladiator", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/6WBIzCgmDCYrqh64yDREGeDk9d3.jpg", 
@@ -1715,7 +1715,7 @@
         256, 
         78
       ], 
-      "weight": 7.962672710418701, 
+      "score": 7.962672710418701, 
       "level": 1, 
       "title": "Gladiator", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/uMXZfNyWKaY3qPb48sHCY5Dg9uD.jpg", 
@@ -1737,7 +1737,7 @@
         212, 
         96
       ], 
-      "weight": 7.693193435668945, 
+      "score": 7.693193435668945, 
       "level": 2, 
       "title": "Space Jam", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/xI9AwhOWtsbFlS8tYD2PXa80p7u.jpg", 
@@ -1759,7 +1759,7 @@
         98, 
         364
       ], 
-      "weight": 7.755561828613281, 
+      "score": 7.755561828613281, 
       "level": 2, 
       "title": "Dear John", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/2Fen9XsCscjupGJUhi2zaCvOaGd.jpg", 
@@ -1781,7 +1781,7 @@
         283, 
         310
       ], 
-      "weight": 7.343046188354492, 
+      "score": 7.343046188354492, 
       "level": 3, 
       "title": "Rear Window", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/6EDhk01fESTcdfRAvIHct4jfWk5.jpg", 
@@ -1811,7 +1811,7 @@
         165, 
         310
       ], 
-      "weight": 7.890693187713623, 
+      "score": 7.890693187713623, 
       "level": 1, 
       "title": "Top Secret!", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/2ArC4IAAGXf3hTVJCzQfE0G5Vbf.jpg", 
@@ -1830,7 +1830,7 @@
         3, 
         97
       ], 
-      "weight": 6.0010786056518555, 
+      "score": 6.0010786056518555, 
       "level": 3, 
       "title": "The Twilight Saga: New Moon", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/6Q5Eob5giTtwzKfkYDzJXW3cFKf.jpg", 
@@ -1854,7 +1854,7 @@
         228, 
         383
       ], 
-      "weight": 7.6774444580078125, 
+      "score": 7.6774444580078125, 
       "level": 2, 
       "title": "Die unendliche Geschichte", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/uHfRay8H5lS4dhaHkcl4yebhijU.jpg", 
@@ -1877,7 +1877,7 @@
         168, 
         53
       ], 
-      "weight": 7.189327239990234, 
+      "score": 7.189327239990234, 
       "level": 3, 
       "title": "The Thing", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/s5fH3GqFcHbi2F0NSBSh4KRNTc0.jpg", 
@@ -1899,7 +1899,7 @@
         77, 
         287
       ], 
-      "weight": 7.5748066902160645, 
+      "score": 7.5748066902160645, 
       "level": 3, 
       "title": "Blade", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/nAxQVrrFG5m9qzVYDXzOpz70Q2z.jpg", 
@@ -1920,7 +1920,7 @@
         297, 
         287
       ], 
-      "weight": 7.171138286590576, 
+      "score": 7.171138286590576, 
       "level": 3, 
       "title": "Blade: Trinity", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/4WinsdHQBdh5aTt7Bd7T7dbUXbb.jpg", 
@@ -1942,7 +1942,7 @@
         352, 
         96
       ], 
-      "weight": 7.109071731567383, 
+      "score": 7.109071731567383, 
       "level": 2, 
       "title": "Blades of Glory", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/mCiPtfX8ESXVEaABAQGNBiCvbzU.jpg", 
@@ -1965,7 +1965,7 @@
         453, 
         105
       ], 
-      "weight": 7.484918117523193, 
+      "score": 7.484918117523193, 
       "level": 3, 
       "title": "Beetle Juice", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/pBp5dAeIyLXAzkrpKKKiA6RIKJb.jpg", 
@@ -1991,7 +1991,7 @@
         320, 
         384
       ], 
-      "weight": 7.901143550872803, 
+      "score": 7.901143550872803, 
       "level": 1, 
       "title": "Airbag", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/iuUqJwqWo82jhhkbyME3HWsRqrJ.jpg", 
@@ -2039,7 +2039,7 @@
         444, 
         365
       ], 
-      "weight": 7.455394744873047, 
+      "score": 7.455394744873047, 
       "level": 2, 
       "title": "Million Dollar Baby", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/7NV75BjRmHuiLq2PlS1ISaPNxlx.jpg", 
@@ -2064,7 +2064,7 @@
         383, 
         403
       ], 
-      "weight": 7.376936912536621, 
+      "score": 7.376936912536621, 
       "level": 3, 
       "title": "A Few Good Men", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/WgWLwk55YaXFZdlMnPJTKlxGcz.jpg", 
@@ -2093,7 +2093,7 @@
         320, 
         403
       ], 
-      "weight": 7.4675211906433105, 
+      "score": 7.4675211906433105, 
       "level": 2, 
       "title": "The Untouchables", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/nv7FOs90Y3Cq5tBhEITEV8Zebyw.jpg", 
@@ -2117,7 +2117,7 @@
         461, 
         232
       ], 
-      "weight": 7.031434535980225, 
+      "score": 7.031434535980225, 
       "level": 3, 
       "title": "The One", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/baw9Zdb1zJDWs4iJBrmfWKnx62p.jpg", 
@@ -2138,7 +2138,7 @@
         445, 
         3
       ], 
-      "weight": 7.363338470458984, 
+      "score": 7.363338470458984, 
       "level": 3, 
       "title": "Shrek 2", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/akWDA0BMVYK4OTM92T5i91DYnsT.jpg", 
@@ -2159,7 +2159,7 @@
         426, 
         330
       ], 
-      "weight": 7.338700771331787, 
+      "score": 7.338700771331787, 
       "level": 3, 
       "title": "Skyfall", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/hunPAt4uxeFXhoNtEVe9xxhRozS.jpg", 
@@ -2181,7 +2181,7 @@
         168, 
         53
       ], 
-      "weight": 7.3478474617004395, 
+      "score": 7.3478474617004395, 
       "level": 2, 
       "title": "A Nightmare on Elm Street", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/iZrKT9rw8SS82ufyxiNtkzlUguK.jpg", 
@@ -2208,7 +2208,7 @@
         149, 
         384
       ], 
-      "weight": 7.9112324714660645, 
+      "score": 7.9112324714660645, 
       "level": 1, 
       "title": "Braveheart", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/4T4xQJXSdTNbzUrlT6Eh13kiy5H.jpg", 
@@ -2230,7 +2230,7 @@
         393, 
         274
       ], 
-      "weight": 7.303221225738525, 
+      "score": 7.303221225738525, 
       "level": 2, 
       "title": "El Mariachi", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/4S47gyKZI5aLiawwc45e4gnPlPx.jpg", 
@@ -2252,7 +2252,7 @@
         392, 
         394
       ], 
-      "weight": 7.718387126922607, 
+      "score": 7.718387126922607, 
       "level": 3, 
       "title": "The Nightmare Before Christmas", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/6z7sigyOwjpwIzt2JAKb3mWxjfX.jpg", 
@@ -2274,7 +2274,7 @@
         383, 
         63
       ], 
-      "weight": 6.781035900115967, 
+      "score": 6.781035900115967, 
       "level": 3, 
       "title": "Indiana Jones and the Kingdom of the Crystal Skull", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/6Lv49E0aEusW9vKEMgQgLdetlmO.jpg", 
@@ -2295,7 +2295,7 @@
         45, 
         105
       ], 
-      "weight": 7.336627960205078, 
+      "score": 7.336627960205078, 
       "level": 2, 
       "title": "Bridget Jones's Diary", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/ydsXlFK0fmOphAIjqsmf5U6j1LU.jpg", 
@@ -2315,7 +2315,7 @@
         92, 
         105
       ], 
-      "weight": 7.062559127807617, 
+      "score": 7.062559127807617, 
       "level": 3, 
       "title": "Bridget Jones: The Edge of Reason", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/fs3nGIwSBk9H8EcuPtnj7qQrYj2.jpg", 
@@ -2337,7 +2337,7 @@
         304, 
         75
       ], 
-      "weight": 7.333676815032959, 
+      "score": 7.333676815032959, 
       "level": 2, 
       "title": "Juan de los Muertos", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/1CmYbZ7Jt1bACxmMouPFm3vuuP0.jpg", 
@@ -2359,7 +2359,7 @@
         135, 
         262
       ], 
-      "weight": 7.546365737915039, 
+      "score": 7.546365737915039, 
       "level": 3, 
       "title": "Per qualche dollaro in pi\u00f9", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/nEpuBCcgmEkYIUCmLCP2dP3Fk9w.jpg", 
@@ -2388,7 +2388,7 @@
         247, 
         407
       ], 
-      "weight": 7.293097496032715, 
+      "score": 7.293097496032715, 
       "level": 3, 
       "title": "The Mask", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/v8x8p441l1Bep8p82pAG6rduBoK.jpg", 
@@ -2410,7 +2410,7 @@
         19, 
         98
       ], 
-      "weight": 7.378230094909668, 
+      "score": 7.378230094909668, 
       "level": 2, 
       "title": "Remember Me", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/rlWRvkApEUM33yOPmzULJwUnAZI.jpg", 
@@ -2436,7 +2436,7 @@
         440, 
         276
       ], 
-      "weight": 7.906558990478516, 
+      "score": 7.906558990478516, 
       "level": 1, 
       "title": "A Walk to Remember", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/kso0otMalKy9qSEdrzYP7Bc3Rjg.jpg", 
@@ -2458,7 +2458,7 @@
         41, 
         3
       ], 
-      "weight": 7.615682125091553, 
+      "score": 7.615682125091553, 
       "level": 2, 
       "title": "Tangled Ever After", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/nYm3Xzkms4IQKusz6qUE9OSpruw.jpg", 
@@ -2476,7 +2476,7 @@
         366, 
         258
       ], 
-      "weight": 7.321974277496338, 
+      "score": 7.321974277496338, 
       "level": 3, 
       "title": "Die H\u00f6hle des gelben Hundes", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/ekAYwaxY9OAZUhe3Ej9RHJk1CTB.jpg", 
@@ -2499,7 +2499,7 @@
         464, 
         82
       ], 
-      "weight": 7.227888107299805, 
+      "score": 7.227888107299805, 
       "level": 2, 
       "title": "Outbreak", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/xFVRSwvyOtczJ5OrijcUSNFx0bn.jpg", 
@@ -2521,7 +2521,7 @@
         77, 
         287
       ], 
-      "weight": 7.3249311447143555, 
+      "score": 7.3249311447143555, 
       "level": 2, 
       "title": "Blade II", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/uS1mHdLtNNEeLFQpxpxZ1uJSNDC.jpg", 
@@ -2546,7 +2546,7 @@
         210, 
         149
       ], 
-      "weight": 7.658870220184326, 
+      "score": 7.658870220184326, 
       "level": 3, 
       "title": "Trainspotting", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/p1O3eFsdb0GEIYu87xlwV7P4jM1.jpg", 
@@ -2567,7 +2567,7 @@
         117, 
         293
       ], 
-      "weight": 7.426459312438965, 
+      "score": 7.426459312438965, 
       "level": 2, 
       "title": "Oci ciornie", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/iBGgoZgZpfq6Iefw0oaBPZya8jd.jpg", 
@@ -2602,7 +2602,7 @@
         3, 
         90
       ], 
-      "weight": 7.213498592376709, 
+      "score": 7.213498592376709, 
       "level": 2, 
       "title": "Charlie and the Chocolate Factory", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/fdXNl6bSEn3H4ulfrA07v4nSNmt.jpg", 
@@ -2619,7 +2619,7 @@
       "links": [
         263
       ], 
-      "weight": 7.210875511169434, 
+      "score": 7.210875511169434, 
       "level": 3, 
       "title": "The Butterfly Effect 2", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/lxaTAW06e79Ewh8mbhwHcizjBQr.jpg", 
@@ -2641,7 +2641,7 @@
         146, 
         28
       ], 
-      "weight": 7.367315292358398, 
+      "score": 7.367315292358398, 
       "level": 2, 
       "title": "The Seventh Sign", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/69yRjh8bPlBAiXMwD7jXi9O96EB.jpg", 
@@ -2659,7 +2659,7 @@
         256, 
         124
       ], 
-      "weight": 7.542500972747803, 
+      "score": 7.542500972747803, 
       "level": 3, 
       "title": "Baby Boy", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/m7p3qFZsULnvOM5GkFCGCAueeSX.jpg", 
@@ -2681,7 +2681,7 @@
         329, 
         287
       ], 
-      "weight": 7.500803470611572, 
+      "score": 7.500803470611572, 
       "level": 2, 
       "title": "Rush Hour", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/vTMh3UHxPpnIkh0nbnGt7hVuqwt.jpg", 
@@ -2701,7 +2701,7 @@
         329, 
         155
       ], 
-      "weight": 7.3064799308776855, 
+      "score": 7.3064799308776855, 
       "level": 3, 
       "title": "Rush Hour 3", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/qgaDWYLrnEPJpc5Lp35WbgX7GfS.jpg", 
@@ -2722,7 +2722,7 @@
         122, 
         329
       ], 
-      "weight": 7.319962501525879, 
+      "score": 7.319962501525879, 
       "level": 3, 
       "title": "Rush Hour 2", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/xG43wsvHpOp2QIj2JGQEvmK8dgC.jpg", 
@@ -2745,7 +2745,7 @@
         324, 
         424
       ], 
-      "weight": 5.971921920776367, 
+      "score": 5.971921920776367, 
       "level": 3, 
       "title": "Prometheus", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/idXq7NctkwoH59DRAIQlHEPtn95.jpg", 
@@ -2767,7 +2767,7 @@
         407, 
         96
       ], 
-      "weight": 7.119979381561279, 
+      "score": 7.119979381561279, 
       "level": 2, 
       "title": "Me, Myself & Irene", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/zbPNk5nR6kgG4hvW8j1pwyjiYPY.jpg", 
@@ -2792,7 +2792,7 @@
         38, 
         384
       ], 
-      "weight": 7.52656364440918, 
+      "score": 7.52656364440918, 
       "level": 2, 
       "title": "Catch Me If You Can", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/gq68WGfnl7Kv8v29L8PJQRxtheE.jpg", 
@@ -2820,7 +2820,7 @@
         178, 
         384
       ], 
-      "weight": 7.927340030670166, 
+      "score": 7.927340030670166, 
       "level": 1, 
       "title": "The Party", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/ryZZAUnkox07Gpw3F3WuPHU8Eo2.jpg", 
@@ -2843,7 +2843,7 @@
         362, 
         17
       ], 
-      "weight": 7.657115459442139, 
+      "score": 7.657115459442139, 
       "level": 2, 
       "title": "Le fabuleux destin d'Am\u00e9lie Poulain", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/2AbFdmpvi6Z8AGrBY79JmnSGSOy.jpg", 
@@ -2869,7 +2869,7 @@
         14, 
         183
       ], 
-      "weight": 7.934500694274902, 
+      "score": 7.934500694274902, 
       "level": 1, 
       "title": "Utomlyonnye solntsem / \u0423\u0442\u043e\u043c\u043b\u0451\u043d\u043d\u044b\u0435 \u0441\u043e\u043b\u043d\u0446\u0435\u043c", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/ruqOX8dJBL00fC7LtewXfrXHqYy.jpg", 
@@ -2891,7 +2891,7 @@
         156, 
         372
       ], 
-      "weight": 7.4270243644714355, 
+      "score": 7.4270243644714355, 
       "level": 2, 
       "title": "The Player", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/vQHuXjXoud28Q56Sr0fyQNnqSru.jpg", 
@@ -2913,7 +2913,7 @@
         81, 
         330
       ], 
-      "weight": 7.085114002227783, 
+      "score": 7.085114002227783, 
       "level": 2, 
       "title": "J\u00fbsan-nin no shikaku", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/8k7KhDMTOORtdd9AzBt746rjN8Q.jpg", 
@@ -2935,7 +2935,7 @@
         274, 
         270
       ], 
-      "weight": 7.057814121246338, 
+      "score": 7.057814121246338, 
       "level": 3, 
       "title": "Planet Terror", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/7Yjzttt0VfPphSsUg8vFUO9WaEt.jpg", 
@@ -2957,7 +2957,7 @@
         185, 
         28
       ], 
-      "weight": 7.0518951416015625, 
+      "score": 7.0518951416015625, 
       "level": 2, 
       "title": "Hudson Hawk", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/axASxILgWh0FQlndSHtq6714FLF.jpg", 
@@ -2983,7 +2983,7 @@
         382, 
         133
       ], 
-      "weight": 7.223438739776611, 
+      "score": 7.223438739776611, 
       "level": 2, 
       "title": "Men in Black II", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/gnUTg5odGkvmKogtrqjcFs89kRa.jpg", 
@@ -3004,7 +3004,7 @@
         382, 
         287
       ], 
-      "weight": 7.1711602210998535, 
+      "score": 7.1711602210998535, 
       "level": 3, 
       "title": "Men in Black 3", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/vQ1E2A5qt0PbRG2SIsIfXWcUHrw.jpg", 
@@ -3027,7 +3027,7 @@
         178, 
         257
       ], 
-      "weight": 7.023125171661377, 
+      "score": 7.023125171661377, 
       "level": 2, 
       "title": "Hellraiser", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/9aQkWdP22BQv8KO2Ke1HNUpQzFd.jpg", 
@@ -3049,7 +3049,7 @@
         384, 
         287
       ], 
-      "weight": 7.850135803222656, 
+      "score": 7.850135803222656, 
       "level": 3, 
       "title": "Avatar", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/8Ic8rRVoVrDJJlXzVzGxAesufUV.jpg", 
@@ -3076,7 +3076,7 @@
         452, 
         448
       ], 
-      "weight": 6.917037487030029, 
+      "score": 6.917037487030029, 
       "level": 3, 
       "title": "Independence Day", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/qKSerOMikhd1iUfx9rnZIXbhy5z.jpg", 
@@ -3102,7 +3102,7 @@
         69, 
         214
       ], 
-      "weight": 7.950500011444092, 
+      "score": 7.950500011444092, 
       "level": 1, 
       "title": "Never Back Down", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/1eHx7dZ0r2ArMiKFjg49lx92pqS.jpg", 
@@ -3122,7 +3122,7 @@
         180, 
         416
       ], 
-      "weight": 7.364864349365234, 
+      "score": 7.364864349365234, 
       "level": 3, 
       "title": "Rise of the Guardians", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/sIZr3pWcnLTjMkOaTkBrV967lTK.jpg", 
@@ -3149,7 +3149,7 @@
         96, 
         3
       ], 
-      "weight": 7.3935065269470215, 
+      "score": 7.3935065269470215, 
       "level": 3, 
       "title": "Bruce Almighty", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/oHA5eAeJh7ChPsHnSsppNx4ta6L.jpg", 
@@ -3182,7 +3182,7 @@
         216, 
         425
       ], 
-      "weight": 8.008194923400879, 
+      "score": 8.008194923400879, 
       "level": 1, 
       "title": "The Shawshank Redemption", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/adAqmzscm4xSYDHw81xiwiLwbhU.jpg", 
@@ -3207,7 +3207,7 @@
         451, 
         303
       ], 
-      "weight": 7.464399337768555, 
+      "score": 7.464399337768555, 
       "level": 2, 
       "title": "Predator", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/eS1eC3OW95ZMrqVL5nTWwjHTbvZ.jpg", 
@@ -3234,7 +3234,7 @@
         27, 
         424
       ], 
-      "weight": 7.641996383666992, 
+      "score": 7.641996383666992, 
       "level": 3, 
       "title": "The Avengers", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/cezWGskPY5x7GaglTTRN4Fugfb8.jpg", 
@@ -3260,7 +3260,7 @@
         351, 
         113
       ], 
-      "weight": 7.929014205932617, 
+      "score": 7.929014205932617, 
       "level": 1, 
       "title": "Not Another Teen Movie", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/xwgUQFJAfjLLp2vqyengwZiVHYA.jpg", 
@@ -3282,7 +3282,7 @@
         210, 
         324
       ], 
-      "weight": 7.554454326629639, 
+      "score": 7.554454326629639, 
       "level": 2, 
       "title": "The Prestige", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/5MXyQfz8xUP3dIFPTubhTsbFY6N.jpg", 
@@ -3304,7 +3304,7 @@
         262, 
         28
       ], 
-      "weight": 7.473625183105469, 
+      "score": 7.473625183105469, 
       "level": 2, 
       "title": "C'era una volta il West", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/l0CONnvPF183oja3fri6KGJOYAo.jpg", 
@@ -3335,7 +3335,7 @@
         65, 
         177
       ], 
-      "weight": 7.419226169586182, 
+      "score": 7.419226169586182, 
       "level": 2, 
       "title": "Celda 211", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/2DnRJrlBMqCVVRjECaBMCq4M2bI.jpg", 
@@ -3357,7 +3357,7 @@
         304, 
         320
       ], 
-      "weight": 7.394631385803223, 
+      "score": 7.394631385803223, 
       "level": 2, 
       "title": "The Fighter", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/ei3MqA0gezQ6e8IavFGCGSgTL8P.jpg", 
@@ -3379,7 +3379,7 @@
         307, 
         342
       ], 
-      "weight": 7.274319171905518, 
+      "score": 7.274319171905518, 
       "level": 2, 
       "title": "Jay and Silent Bob Get Old: Tea Bagging in the UK", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/qW9ylLJ6rubUd3gl1ipCdlRXia3.jpg", 
@@ -3400,7 +3400,7 @@
         221, 
         263
       ], 
-      "weight": 6.7089152336120605, 
+      "score": 6.7089152336120605, 
       "level": 3, 
       "title": "Volver", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/3FCPHBd0F5Hva2SaUZMVj7Qj8XZ.jpg", 
@@ -3427,7 +3427,7 @@
         157, 
         383
       ], 
-      "weight": 7.88651704788208, 
+      "score": 7.88651704788208, 
       "level": 1, 
       "title": "Breakfast at Tiffany's", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/dHVP4Puf2jMfe0gzRLndEUxl4bL.jpg", 
@@ -3452,7 +3452,7 @@
         71, 
         283
       ], 
-      "weight": 7.6425347328186035, 
+      "score": 7.6425347328186035, 
       "level": 3, 
       "title": "Vertigo", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/rQQFsOeXSdTpplWtqoNXMWNG4k9.jpg", 
@@ -3473,7 +3473,7 @@
         317, 
         205
       ], 
-      "weight": 7.8545637130737305, 
+      "score": 7.8545637130737305, 
       "level": 3, 
       "title": "The Apartment", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/6J5rwcWYCRUz2gNH3nrq4whSvmp.jpg", 
@@ -3495,7 +3495,7 @@
         257, 
         178
       ], 
-      "weight": 7.409566879272461, 
+      "score": 7.409566879272461, 
       "level": 2, 
       "title": "WarGames", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/hVooHzAERe8lEnS4rCgNlgGmcDF.jpg", 
@@ -3517,7 +3517,7 @@
         96, 
         384
       ], 
-      "weight": 7.638472080230713, 
+      "score": 7.638472080230713, 
       "level": 3, 
       "title": "Little Nicky", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/tU3qrdwzANFWHrSKiNWVHeXDfQQ.jpg", 
@@ -3540,7 +3540,7 @@
         14, 
         53
       ], 
-      "weight": 7.297277927398682, 
+      "score": 7.297277927398682, 
       "level": 3, 
       "title": "2001: A Space Odyssey", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/eDiexVN4nO3ZdDZCDMiJOX5fQ5r.jpg", 
@@ -3562,7 +3562,7 @@
         235, 
         185
       ], 
-      "weight": 7.65036678314209, 
+      "score": 7.65036678314209, 
       "level": 3, 
       "title": "Highlander", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/llR4qqL5dptoV7yP9TstZgprLEV.jpg", 
@@ -3589,7 +3589,7 @@
         176, 
         53
       ], 
-      "weight": 6.809391021728516, 
+      "score": 6.809391021728516, 
       "level": 2, 
       "title": "Mujeres al borde de un ataque de nervios", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/xUXr8YJbVFQxozi0sCCQlhgxnQI.jpg", 
@@ -3612,7 +3612,7 @@
         141, 
         147
       ], 
-      "weight": 7.5421552658081055, 
+      "score": 7.5421552658081055, 
       "level": 2, 
       "title": "Rebecca", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/DYIabC5IxoeRy06wGH9pSjEgAC.jpg", 
@@ -3666,7 +3666,7 @@
         345, 
         103
       ], 
-      "weight": 7.656503200531006, 
+      "score": 7.656503200531006, 
       "level": 2, 
       "title": "American History X", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/fXepRAYOx1qC3wju7XdDGx60775.jpg", 
@@ -3687,7 +3687,7 @@
         398, 
         210
       ], 
-      "weight": 7.346241474151611, 
+      "score": 7.346241474151611, 
       "level": 3, 
       "title": "The Others", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/iHpfar70T56gP3M0Zrj8QXKY07A.jpg", 
@@ -3709,7 +3709,7 @@
         271, 
         98
       ], 
-      "weight": 7.703014850616455, 
+      "score": 7.703014850616455, 
       "level": 2, 
       "title": "50 First Dates", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/ztMUIJV2nDN0tJ24aW7pjMvTxVV.jpg", 
@@ -3732,7 +3732,7 @@
         394, 
         42
       ], 
-      "weight": 6.916265487670898, 
+      "score": 6.916265487670898, 
       "level": 2, 
       "title": "Intolerable Cruelty", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/7oWPCwJkgOw0ZfrU2TC7mqLm0ex.jpg", 
@@ -3756,7 +3756,7 @@
         210, 
         118
       ], 
-      "weight": 7.695611000061035, 
+      "score": 7.695611000061035, 
       "level": 3, 
       "title": "Dracula", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/q663G2kdzMYM2gIm1hy8QUdgAPC.jpg", 
@@ -3778,7 +3778,7 @@
         210, 
         320
       ], 
-      "weight": 7.2975873947143555, 
+      "score": 7.2975873947143555, 
       "level": 3, 
       "title": "Public Enemies", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/ApUwRfhK9j6br6BdTj30Y6LwOSu.jpg", 
@@ -3808,7 +3808,7 @@
         448, 
         125
       ], 
-      "weight": 7.674380302429199, 
+      "score": 7.674380302429199, 
       "level": 2, 
       "title": "I Am Legend", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/j7tbOFiVF5F9pfaGaMJx1YjJ4KF.jpg", 
@@ -3834,7 +3834,7 @@
         332, 
         118
       ], 
-      "weight": 8.023195266723633, 
+      "score": 8.023195266723633, 
       "level": 1, 
       "title": "El grito en el cielo", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/fmzHD77vDUfUeIbId0U3DnFBvHM.jpg", 
@@ -3862,7 +3862,7 @@
         140, 
         384
       ], 
-      "weight": 7.952755451202393, 
+      "score": 7.952755451202393, 
       "level": 1, 
       "title": "Love Actually", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/u31LfJTP8FZGnTE3kEDUATYEX00.jpg", 
@@ -3886,7 +3886,7 @@
         382, 
         384
       ], 
-      "weight": 7.130857467651367, 
+      "score": 7.130857467651367, 
       "level": 3, 
       "title": "The Da Vinci Code", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/e5Tlc0mNhb9TvgCZknmnd3XaaKU.jpg", 
@@ -3908,7 +3908,7 @@
         3, 
         382
       ], 
-      "weight": 7.223376274108887, 
+      "score": 7.223376274108887, 
       "level": 2, 
       "title": "The Karate Kid", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/l13emtM0cz0HyJeWSxb6ml5RvzT.jpg", 
@@ -3930,7 +3930,7 @@
         3, 
         4
       ], 
-      "weight": 7.550052165985107, 
+      "score": 7.550052165985107, 
       "level": 2, 
       "title": "Pearl Harbor", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/hH8SQp9seW0jlL95m0xZz17iNMd.jpg", 
@@ -3952,7 +3952,7 @@
         173, 
         28
       ], 
-      "weight": 7.2456135749816895, 
+      "score": 7.2456135749816895, 
       "level": 2, 
       "title": "The General's Daughter", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/b2wRlY5ouP1eDzAE9aMppTOXcWN.jpg", 
@@ -3977,7 +3977,7 @@
         145, 
         58
       ], 
-      "weight": 7.6623616218566895, 
+      "score": 7.6623616218566895, 
       "level": 2, 
       "title": "Kill Bill: Vol. 1", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/9O50TVszkz0dcP5g6Ej33UhR7vw.jpg", 
@@ -4002,7 +4002,7 @@
         149, 
         403
       ], 
-      "weight": 7.70278787612915, 
+      "score": 7.70278787612915, 
       "level": 3, 
       "title": "The Rock", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/2Cp6oObnlafLEx3Nkiu8RSWBvGL.jpg", 
@@ -4024,7 +4024,7 @@
         245, 
         287
       ], 
-      "weight": 7.705922603607178, 
+      "score": 7.705922603607178, 
       "level": 2, 
       "title": "Gone In Sixty Seconds", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/nb2TRrlSdgi8wZAxTHdhsN0yMJw.jpg", 
@@ -4053,7 +4053,7 @@
         228, 
         383
       ], 
-      "weight": 7.887237548828125, 
+      "score": 7.887237548828125, 
       "level": 1, 
       "title": "The Goonies", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/bZUbpjwnarSHJK40W9sGpyedWhx.jpg", 
@@ -4076,7 +4076,7 @@
         426, 
         330
       ], 
-      "weight": 7.293299198150635, 
+      "score": 7.293299198150635, 
       "level": 2, 
       "title": "Lo imposible", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/ybphGzic2I2SQtKG7sMxhs5N66o.jpg", 
@@ -4095,7 +4095,7 @@
         63, 
         460
       ], 
-      "weight": 7.756710052490234, 
+      "score": 7.756710052490234, 
       "level": 3, 
       "title": "Aliens", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/qet8RDq99dRteBfSRfGeZeqY9xe.jpg", 
@@ -4125,7 +4125,7 @@
         208, 
         257
       ], 
-      "weight": 7.752098083496094, 
+      "score": 7.752098083496094, 
       "level": 2, 
       "title": "Alien", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/cLuNLjVGHXKIkM7yFEI4I0BbdcL.jpg", 
@@ -4148,7 +4148,7 @@
         384, 
         396
       ], 
-      "weight": 7.287548542022705, 
+      "score": 7.287548542022705, 
       "level": 3, 
       "title": "The Social Network", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/hKTwHT6WtYhtG8U2PJQSQH2y4oD.jpg", 
@@ -4171,7 +4171,7 @@
         52, 
         53
       ], 
-      "weight": 7.486823558807373, 
+      "score": 7.486823558807373, 
       "level": 2, 
       "title": "A Clockwork Orange", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/2Jr2ZW0BCIvsiAXOtrypdqGpkxb.jpg", 
@@ -4199,7 +4199,7 @@
         346, 
         347
       ], 
-      "weight": 7.880843162536621, 
+      "score": 7.880843162536621, 
       "level": 1, 
       "title": "Airplane!", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/b4sAWNIbfXw4WTdc1wiVRBk2Vko.jpg", 
@@ -4221,7 +4221,7 @@
         81, 
         262
       ], 
-      "weight": 7.652258396148682, 
+      "score": 7.652258396148682, 
       "level": 3, 
       "title": "Heartbreak Ridge", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/yOiSIr46E1DCClLZ6gC90ZUiOoo.jpg", 
@@ -4245,7 +4245,7 @@
         282, 
         368
       ], 
-      "weight": 7.3875322341918945, 
+      "score": 7.3875322341918945, 
       "level": 3, 
       "title": "The Devil's Advocate", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/uG7JARMJSwPzA861zfSogAZticR.jpg", 
@@ -4264,7 +4264,7 @@
         138, 
         186
       ], 
-      "weight": 6.908186435699463, 
+      "score": 6.908186435699463, 
       "level": 3, 
       "title": "Timeline", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/A6tzqXzlUjCOZT035zYOLqfYFSr.jpg", 
@@ -4285,7 +4285,7 @@
         353, 
         188
       ], 
-      "weight": 7.5217509269714355, 
+      "score": 7.5217509269714355, 
       "level": 2, 
       "title": "Fanfan la tulipe", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/qx1Jnp8BnKyfafPjF1T5xEbbZlp.jpg", 
@@ -4304,7 +4304,7 @@
         147, 
         139
       ], 
-      "weight": 7.527237415313721, 
+      "score": 7.527237415313721, 
       "level": 3, 
       "title": "Entre tinieblas", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/fcv3neVtagJNOeZTxHso3GqN4jt.jpg", 
@@ -4323,7 +4323,7 @@
         49, 
         136
       ], 
-      "weight": 7.263618469238281, 
+      "score": 7.263618469238281, 
       "level": 3, 
       "title": "Chico & Rita", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/1OAXB81F0iOoPVTrarQbStVarwP.jpg", 
@@ -4352,7 +4352,7 @@
         423, 
         267
       ], 
-      "weight": 7.546545505523682, 
+      "score": 7.546545505523682, 
       "level": 2, 
       "title": "The Name of the Rose", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/5JTQThLCnAcNwAlrO2D9nvjn44U.jpg", 
@@ -4374,7 +4374,7 @@
         198, 
         383
       ], 
-      "weight": 7.41617488861084, 
+      "score": 7.41617488861084, 
       "level": 3, 
       "title": "The Color of Money", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/doU9OaWz2If1WV8S8iaBKt9vckC.jpg", 
@@ -4402,7 +4402,7 @@
         86, 
         376
       ], 
-      "weight": 7.479943752288818, 
+      "score": 7.479943752288818, 
       "level": 2, 
       "title": "The Hobbit: An Unexpected Journey", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/h1XjBJoWdOh8aegBoVYKgABQZSL.jpg", 
@@ -4424,7 +4424,7 @@
         210, 
         418
       ], 
-      "weight": 7.332101821899414, 
+      "score": 7.332101821899414, 
       "level": 2, 
       "title": "The Godfather: Part III", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/uzaP0L7BEprcJHCuwbaHiYT0UYX.jpg", 
@@ -4447,7 +4447,7 @@
         210, 
         257
       ], 
-      "weight": 7.606306076049805, 
+      "score": 7.606306076049805, 
       "level": 2, 
       "title": "El d\u00eda de la bestia", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/9EvLGmkFivR5SfLGAYRHAiz8EVs.jpg", 
@@ -4470,7 +4470,7 @@
         66, 
         104
       ], 
-      "weight": 7.032350063323975, 
+      "score": 7.032350063323975, 
       "level": 2, 
       "title": "Das wei\u00dfe Band - Eine deutsche Kindergeschichte", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/lnAIxtOm1L4sbS5XTqgPI2x7nfG.jpg", 
@@ -4496,7 +4496,7 @@
         446, 
         389
       ], 
-      "weight": 7.888611316680908, 
+      "score": 7.888611316680908, 
       "level": 1, 
       "title": "The Rocky Horror Picture Show", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/gFjY6V6Rdmcx8f3lxhczvREo7Sy.jpg", 
@@ -4526,7 +4526,7 @@
         187, 
         346
       ], 
-      "weight": 7.36652946472168, 
+      "score": 7.36652946472168, 
       "level": 3, 
       "title": "Die Hard", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/fiXHtnQpQiGVkMtyYnEfQ6Gtfx8.jpg", 
@@ -4549,7 +4549,7 @@
         174, 
         287
       ], 
-      "weight": 7.364378452301025, 
+      "score": 7.364378452301025, 
       "level": 3, 
       "title": "Live Free or Die Hard", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/pHWgbaXiQD2nmex7u8Xv6XmhaZS.jpg", 
@@ -4574,7 +4574,7 @@
         186, 
         338
       ], 
-      "weight": 7.262783527374268, 
+      "score": 7.262783527374268, 
       "level": 3, 
       "title": "Die Hard 2", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/ernEWShJozUo81zZn1oVGe7MiOf.jpg", 
@@ -4592,7 +4592,7 @@
         300, 
         175
       ], 
-      "weight": 7.100795745849609, 
+      "score": 7.100795745849609, 
       "level": 3, 
       "title": "The Lawnmower Man", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/6DuJ5rQazbq9CjPqdISzCy1KpzX.jpg", 
@@ -4614,7 +4614,7 @@
         383, 
         64
       ], 
-      "weight": 7.041275501251221, 
+      "score": 7.041275501251221, 
       "level": 2, 
       "title": "Rise of the Planet of the Apes", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/ddWSWgAjAhksNhMeeBTSqY6otIA.jpg", 
@@ -4635,7 +4635,7 @@
         331, 
         458
       ], 
-      "weight": 7.500734329223633, 
+      "score": 7.500734329223633, 
       "level": 3, 
       "title": "Romeo + Juliet", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/sJy8UQ8lJKQiGrzui7QlELZyKQz.jpg", 
@@ -4657,7 +4657,7 @@
         210, 
         81
       ], 
-      "weight": 7.390496730804443, 
+      "score": 7.390496730804443, 
       "level": 3, 
       "title": "Sleepers", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/80LV2GvhvMEuOutxgQwbRYpo0Vv.jpg", 
@@ -4678,7 +4678,7 @@
         266, 
         460
       ], 
-      "weight": 7.447829246520996, 
+      "score": 7.447829246520996, 
       "level": 3, 
       "title": "Christine", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/bt4mZl9H1EEtPBJ4NYdUv7dpUvV.jpg", 
@@ -4697,7 +4697,7 @@
         302, 
         420
       ], 
-      "weight": 6.8417558670043945, 
+      "score": 6.8417558670043945, 
       "level": 3, 
       "title": "Mama", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/1crfErjBUa5iiMwUpCNU5xR1NaD.jpg", 
@@ -4719,7 +4719,7 @@
         210, 
         53
       ], 
-      "weight": 7.625553131103516, 
+      "score": 7.625553131103516, 
       "level": 2, 
       "title": "A Fish Called Wanda", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/9gZZyQ8XStpUJBFU1ceU4xx1crv.jpg", 
@@ -4743,7 +4743,7 @@
         38, 
         320
       ], 
-      "weight": 7.439550399780273, 
+      "score": 7.439550399780273, 
       "level": 3, 
       "title": "Road to Perdition", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/sLnkz3yB4OiVAtdTL5PIGB8brlq.jpg", 
@@ -4770,7 +4770,7 @@
         230, 
         319
       ], 
-      "weight": 7.849131107330322, 
+      "score": 7.849131107330322, 
       "level": 2, 
       "title": "300", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/4AmPMxTs1zSdCK0eCacj0kBgOMV.jpg", 
@@ -4794,7 +4794,7 @@
         384, 
         368
       ], 
-      "weight": 7.528689384460449, 
+      "score": 7.528689384460449, 
       "level": 3, 
       "title": "Good Will Hunting", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/3yHtbRfp32AouPSwYESoJM3cOeQ.jpg", 
@@ -4831,7 +4831,7 @@
         333, 
         310
       ], 
-      "weight": 7.705840110778809, 
+      "score": 7.705840110778809, 
       "level": 2, 
       "title": "Reservoir Dogs", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/s6YVEP7vhGRz34kMyZOIs4gKNja.jpg", 
@@ -4853,7 +4853,7 @@
         208, 
         287
       ], 
-      "weight": 7.515199184417725, 
+      "score": 7.515199184417725, 
       "level": 3, 
       "title": "Stargate", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/jUGjRAsrydkNuoHNylc6mFwLOpX.jpg", 
@@ -4875,7 +4875,7 @@
         464, 
         257
       ], 
-      "weight": 7.451712608337402, 
+      "score": 7.451712608337402, 
       "level": 2, 
       "title": "Starship Troopers", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/40t8IKtmGilhnoL7Ppw4syZxvtN.jpg", 
@@ -4897,7 +4897,7 @@
         65, 
         221
       ], 
-      "weight": 7.265221118927002, 
+      "score": 7.265221118927002, 
       "level": 2, 
       "title": "El abuelo", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/u3skCiuJxbAZzHW92WnPBKheaJG.jpg", 
@@ -4917,7 +4917,7 @@
         53, 
         35
       ], 
-      "weight": 7.382867813110352, 
+      "score": 7.382867813110352, 
       "level": 3, 
       "title": "Ringu", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/y7aNZdrzi0T0JvVus9lfEo7hyOi.jpg", 
@@ -4939,7 +4939,7 @@
         382, 
         287
       ], 
-      "weight": 7.386008262634277, 
+      "score": 7.386008262634277, 
       "level": 3, 
       "title": "The Mummy", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/cftmDzVCWKynKMfY9oyFj7igFqJ.jpg", 
@@ -4961,7 +4961,7 @@
         149, 
         81
       ], 
-      "weight": 7.66212797164917, 
+      "score": 7.66212797164917, 
       "level": 3, 
       "title": "Coach Carter", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/1PEChgnHY3lg6vWWfCIt6fR4WMy.jpg", 
@@ -4983,7 +4983,7 @@
         118, 
         142
       ], 
-      "weight": 7.83638334274292, 
+      "score": 7.83638334274292, 
       "level": 3, 
       "title": "Some Like It Hot", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/s4JlTIOZqnFSQmwq7KPMo3sPG6l.jpg", 
@@ -5006,7 +5006,7 @@
         283, 
         142
       ], 
-      "weight": 7.562031269073486, 
+      "score": 7.562031269073486, 
       "level": 2, 
       "title": "North by Northwest", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/rEHP8ylmL3pcsDUEA6Z5qhajYui.jpg", 
@@ -5028,7 +5028,7 @@
         198, 
         252
       ], 
-      "weight": 7.852278709411621, 
+      "score": 7.852278709411621, 
       "level": 2, 
       "title": "Monty Python and the Holy Grail", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/p1RvyuNbMbvNijjFuzfw11xNtyt.jpg", 
@@ -5050,7 +5050,7 @@
         40, 
         168
       ], 
-      "weight": 7.755081653594971, 
+      "score": 7.755081653594971, 
       "level": 2, 
       "title": "Big Trouble in Little China", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/wcI3VMHw2TqtPVIkS4wpmxBJzWB.jpg", 
@@ -5074,7 +5074,7 @@
         149, 
         320
       ], 
-      "weight": 7.35923957824707, 
+      "score": 7.35923957824707, 
       "level": 2, 
       "title": "Blood Diamond", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/wRamTzV6udKaMXrspxqOuo02zk0.jpg", 
@@ -5206,7 +5206,7 @@
         52, 
         53
       ], 
-      "weight": 7.626762866973877, 
+      "score": 7.626762866973877, 
       "level": 2, 
       "title": "Se7en", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/mhFXxB76LVgJBIfJM1sAuVBtVKv.jpg", 
@@ -5230,7 +5230,7 @@
         253, 
         142
       ], 
-      "weight": 7.812180042266846, 
+      "score": 7.812180042266846, 
       "level": 2, 
       "title": "Casablanca", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/sm1QVZu5RKe1vXVHZooo4SZyHMx.jpg", 
@@ -5253,7 +5253,7 @@
         383, 
         382
       ], 
-      "weight": 7.442391872406006, 
+      "score": 7.442391872406006, 
       "level": 3, 
       "title": "Jumanji", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/vzmL6fP7aPKNKPRTFnZmiUfciyV.jpg", 
@@ -5270,7 +5270,7 @@
         4, 
         392
       ], 
-      "weight": 7.258140563964844, 
+      "score": 7.258140563964844, 
       "level": 3, 
       "title": "Spirit: Stallion of the Cimarron", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/tUNT5bObAYd2t5kZxbLGGBUBLOz.jpg", 
@@ -5292,7 +5292,7 @@
         149, 
         64
       ], 
-      "weight": 7.585334300994873, 
+      "score": 7.585334300994873, 
       "level": 2, 
       "title": "21", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/4zKAgycQDJD2zIkmPYV3aMR8tEy.jpg", 
@@ -5318,7 +5318,7 @@
         87, 
         247
       ], 
-      "weight": 7.90906286239624, 
+      "score": 7.90906286239624, 
       "level": 1, 
       "title": "Up in Smoke", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/m91UKb9wdv6lJ1TmddxlxpBMdFl.jpg", 
@@ -5344,7 +5344,7 @@
         130, 
         310
       ], 
-      "weight": 8.061498641967773, 
+      "score": 8.061498641967773, 
       "level": 1, 
       "title": "Nuovo Cinema Paradiso", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/omg676j1avsJZrDqpzR4ZaP3XYK.jpg", 
@@ -5366,7 +5366,7 @@
         86, 
         424
       ], 
-      "weight": 6.8760881423950195, 
+      "score": 6.8760881423950195, 
       "level": 2, 
       "title": "Iron Sky", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/cHbKiMtqJLHOJwgJHoKglir6rNi.jpg", 
@@ -5388,7 +5388,7 @@
         4, 
         287
       ], 
-      "weight": 7.126781940460205, 
+      "score": 7.126781940460205, 
       "level": 2, 
       "title": "Shark Tale", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/8hgmA0U2WgMA8EOSKgTH5tJNUfd.jpg", 
@@ -5410,7 +5410,7 @@
         4, 
         44
       ], 
-      "weight": 7.072473049163818, 
+      "score": 7.072473049163818, 
       "level": 2, 
       "title": "Harold & Kumar Go to White Castle", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/u22UFqbrj4tF8JucR2fX0Ts8qDh.jpg", 
@@ -5429,7 +5429,7 @@
         320, 
         287
       ], 
-      "weight": 7.418579578399658, 
+      "score": 7.418579578399658, 
       "level": 3, 
       "title": "Pride and Glory", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/uHMPqBVR0lP6kGgF6TPcK7uD3eX.jpg", 
@@ -5450,7 +5450,7 @@
         201, 
         139
       ], 
-      "weight": 6.965138912200928, 
+      "score": 6.965138912200928, 
       "level": 3, 
       "title": "\u00c1tame!", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/7MFamMT60yRShOB08hzQyf2UVVw.jpg", 
@@ -5472,7 +5472,7 @@
         276, 
         287
       ], 
-      "weight": 7.672713756561279, 
+      "score": 7.672713756561279, 
       "level": 3, 
       "title": "Seven Pounds", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/mX8SsTw2uApc02W8SBIKeprcWr1.jpg", 
@@ -5494,7 +5494,7 @@
         42, 
         53
       ], 
-      "weight": 7.615694999694824, 
+      "score": 7.615694999694824, 
       "level": 2, 
       "title": "One Flew Over the Cuckoo's Nest", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/hEOu8VrOmrmdxHjMrdqyu5EaQxI.jpg", 
@@ -5516,7 +5516,7 @@
         165, 
         303
       ], 
-      "weight": 7.8753437995910645, 
+      "score": 7.8753437995910645, 
       "level": 2, 
       "title": "The Princess Bride", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/elDCZNBSZFHncpYThVdNM73c0P.jpg", 
@@ -5545,7 +5545,7 @@
         248, 
         383
       ], 
-      "weight": 7.709866046905518, 
+      "score": 7.709866046905518, 
       "level": 2, 
       "title": "Raiders of the Lost Ark", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/tjGpsV0vKKHECtdsQoVwIXsDj3.jpg", 
@@ -5588,7 +5588,7 @@
         376, 
         320
       ], 
-      "weight": 7.821805477142334, 
+      "score": 7.821805477142334, 
       "level": 2, 
       "title": "The Dark Knight", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/1hRoyzDtpgMU7Dz4JF22RANzQO7.jpg", 
@@ -5610,7 +5610,7 @@
         63, 
         383
       ], 
-      "weight": 7.349722385406494, 
+      "score": 7.349722385406494, 
       "level": 3, 
       "title": "Ghostbusters II", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/4nN0EYNbOWHJ9UO39maO5Kvcdfa.jpg", 
@@ -5649,7 +5649,7 @@
         246, 
         53
       ], 
-      "weight": 7.697786331176758, 
+      "score": 7.697786331176758, 
       "level": 2, 
       "title": "The Silence of the Lambs", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/xDRBmwNpZzhhxZCMr81LbJqBKAa.jpg", 
@@ -5671,7 +5671,7 @@
         4, 
         287
       ], 
-      "weight": 7.324917793273926, 
+      "score": 7.324917793273926, 
       "level": 2, 
       "title": "The A-Team", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/eMwotYpkcE42lGlaoCpPFaolvst.jpg", 
@@ -5694,7 +5694,7 @@
         196, 
         287
       ], 
-      "weight": 7.537060260772705, 
+      "score": 7.537060260772705, 
       "level": 3, 
       "title": "The Last Samurai", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/cRz4FRx731ulws6zHuQVaDXpx73.jpg", 
@@ -5716,7 +5716,7 @@
         453, 
         395
       ], 
-      "weight": 6.665312767028809, 
+      "score": 6.665312767028809, 
       "level": 2, 
       "title": "Reinas", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/dw6gjKKly3KB3fwAQj3vhh6ECtd.jpg", 
@@ -5744,7 +5744,7 @@
         200, 
         314
       ], 
-      "weight": 7.73876428604126, 
+      "score": 7.73876428604126, 
       "level": 3, 
       "title": "The Fifth Element", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/bJrOVcThVU2ArKCh2lHu7rcY60E.jpg", 
@@ -5763,7 +5763,7 @@
         443, 
         16
       ], 
-      "weight": 7.501750946044922, 
+      "score": 7.501750946044922, 
       "level": 3, 
       "title": "Earth Girls Are Easy", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/fBkbyR8tt8vFFa6IVzQNc919Eld.jpg", 
@@ -5789,7 +5789,7 @@
         30, 
         262
       ], 
-      "weight": 7.536423683166504, 
+      "score": 7.536423683166504, 
       "level": 2, 
       "title": "Il buono, il brutto, il cattivo", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/wfPHdfofBD5PN96dV96a51B3Ja2.jpg", 
@@ -5817,7 +5817,7 @@
         460, 
         376
       ], 
-      "weight": 7.889649868011475, 
+      "score": 7.889649868011475, 
       "level": 1, 
       "title": "Star Wars: Episode IV - A New Hope", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/jMw3JoZXB6CIkWUNwQdaHrIdkeb.jpg", 
@@ -5838,7 +5838,7 @@
         235, 
         460
       ], 
-      "weight": 7.579156398773193, 
+      "score": 7.579156398773193, 
       "level": 2, 
       "title": "Star Wars: Episode III - Revenge of the Sith", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/tgr5Pdy7ehZYBqBkN2K7Q02xgOb.jpg", 
@@ -5881,7 +5881,7 @@
         125, 
         384
       ], 
-      "weight": 7.414276123046875, 
+      "score": 7.414276123046875, 
       "level": 2, 
       "title": "The Curious Case of Benjamin Button", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/4O4INOPtWTfHq3dd5vYTPV0TCwa.jpg", 
@@ -5902,7 +5902,7 @@
         262, 
         63
       ], 
-      "weight": 7.791250228881836, 
+      "score": 7.791250228881836, 
       "level": 3, 
       "title": "The Blues Brothers", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/wdcoPIqOHk3dJ1s3fQOGgrMDNYu.jpg", 
@@ -5926,7 +5926,7 @@
         272, 
         460
       ], 
-      "weight": 7.707399368286133, 
+      "score": 7.707399368286133, 
       "level": 2, 
       "title": "Star Wars: Episode VI - Return of the Jedi", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/jx5p0aHlbPXqe3AH9G15NvmWaqQ.jpg", 
@@ -5949,7 +5949,7 @@
         239, 
         241
       ], 
-      "weight": 7.2524518966674805, 
+      "score": 7.2524518966674805, 
       "level": 2, 
       "title": "Star Wars: Episode I - The Phantom Menace", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/41gh2paR1acySJ4muyZLhvmgYLw.jpg", 
@@ -5973,7 +5973,7 @@
         460, 
         240
       ], 
-      "weight": 7.347123146057129, 
+      "score": 7.347123146057129, 
       "level": 2, 
       "title": "Star Wars: Episode II - Attack of the Clones", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/2vcNFtrZXNwIcBgH5e2xXCmVR8t.jpg", 
@@ -5995,7 +5995,7 @@
         282, 
         296
       ], 
-      "weight": 7.464260101318359, 
+      "score": 7.464260101318359, 
       "level": 3, 
       "title": "Kingdom of Heaven", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/d9GYuT9aMoDi4MPTKYe4M2PwUm4.jpg", 
@@ -6021,7 +6021,7 @@
         33, 
         303
       ], 
-      "weight": 7.868013858795166, 
+      "score": 7.868013858795166, 
       "level": 2, 
       "title": "Army of Darkness", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/2eZKDIwLNnySbwqQtAaUz0kYDIL.jpg", 
@@ -6044,7 +6044,7 @@
         283, 
         53
       ], 
-      "weight": 7.4640350341796875, 
+      "score": 7.4640350341796875, 
       "level": 3, 
       "title": "Psycho", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/qodLPeeuhzSiiWkuldSrlCQGpkz.jpg", 
@@ -6079,7 +6079,7 @@
         154, 
         328
       ], 
-      "weight": 7.690537452697754, 
+      "score": 7.690537452697754, 
       "level": 2, 
       "title": "Ocean's Eleven", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/o0h76DVXvk5OKjmNez5YY0GODC2.jpg", 
@@ -6107,7 +6107,7 @@
         178, 
         267
       ], 
-      "weight": 7.946097373962402, 
+      "score": 7.946097373962402, 
       "level": 1, 
       "title": "The Sting", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/3htMG8o6se0xumrESfT71RXIGSs.jpg", 
@@ -6129,7 +6129,7 @@
         407, 
         96
       ], 
-      "weight": 7.447687149047852, 
+      "score": 7.447687149047852, 
       "level": 2, 
       "title": "Ace Ventura: When Nature Calls", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/bZATMdcNlZDfsPrRChVm0EwI72b.jpg", 
@@ -6151,7 +6151,7 @@
         383, 
         63
       ], 
-      "weight": 7.392597198486328, 
+      "score": 7.392597198486328, 
       "level": 3, 
       "title": "Superman", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/n2DOECThGG7h7m5AjLi2Nuh23u1.jpg", 
@@ -6174,7 +6174,7 @@
         29, 
         396
       ], 
-      "weight": 7.548281669616699, 
+      "score": 7.548281669616699, 
       "level": 3, 
       "title": "Monsters, Inc.", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/n56VFp3duXXeSsi2lKmsvZczhTG.jpg", 
@@ -6196,7 +6196,7 @@
         98, 
         222
       ], 
-      "weight": 7.40053653717041, 
+      "score": 7.40053653717041, 
       "level": 2, 
       "title": "The Boy in the Striped Pyjamas", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/f40R9to84FGF7T5bp3KGB84Lklb.jpg", 
@@ -6225,7 +6225,7 @@
         257, 
         53
       ], 
-      "weight": 8.037997245788574, 
+      "score": 8.037997245788574, 
       "level": 1, 
       "title": "Braindead", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/zzgn2fBeKmIMDEuX7FqS2l1WGfu.jpg", 
@@ -6251,7 +6251,7 @@
         33, 
         425
       ], 
-      "weight": 7.965030670166016, 
+      "score": 7.965030670166016, 
       "level": 1, 
       "title": "Braindead", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/s2Ah1VZFKnZUOevsJop1FibRCP0.jpg", 
@@ -6273,7 +6273,7 @@
         320, 
         63
       ], 
-      "weight": 7.404252529144287, 
+      "score": 7.404252529144287, 
       "level": 3, 
       "title": "Apocalypse Now", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/l8dn7rKbjP36PtHsViHGpzf5ey7.jpg", 
@@ -6292,7 +6292,7 @@
         308, 
         420
       ], 
-      "weight": 7.322019577026367, 
+      "score": 7.322019577026367, 
       "level": 3, 
       "title": "Before Midnight", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/dr4d6qy36ryxV1ZJdyALgFdyp4q.jpg", 
@@ -6318,7 +6318,7 @@
         245, 
         149
       ], 
-      "weight": 7.892301082611084, 
+      "score": 7.892301082611084, 
       "level": 1, 
       "title": "Primos", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/lVOoqqGIblo7TPAlXpfwuofDqb6.jpg", 
@@ -6340,7 +6340,7 @@
         435, 
         204
       ], 
-      "weight": 7.168612003326416, 
+      "score": 7.168612003326416, 
       "level": 2, 
       "title": "Pulse: A Stomp Odyssey", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/As26gig6ao8fgXU2YCmnpN8jiXr.jpg", 
@@ -6366,7 +6366,7 @@
         182, 
         381
       ], 
-      "weight": 7.901631832122803, 
+      "score": 7.901631832122803, 
       "level": 1, 
       "title": "Bad Taste", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/cU4oSC1aVPLNGM8VAiU6LJojAkI.jpg", 
@@ -6392,7 +6392,7 @@
         320, 
         310
       ], 
-      "weight": 7.647363662719727, 
+      "score": 7.647363662719727, 
       "level": 2, 
       "title": "High Fidelity", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/tCcvHw69EKZIvg861iLQ5ImjkCF.jpg", 
@@ -6413,7 +6413,7 @@
         33, 
         302
       ], 
-      "weight": 7.6064043045043945, 
+      "score": 7.6064043045043945, 
       "level": 3, 
       "title": "Evil Dead II", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/dxbIRmIo0rN5R6WGvxnJuUJPh3t.jpg", 
@@ -6449,7 +6449,7 @@
         383, 
         385
       ], 
-      "weight": 7.577990531921387, 
+      "score": 7.577990531921387, 
       "level": 2, 
       "title": "Ghostbusters", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/3FS3oBdorgczgfCkFi2u8ZTFfpS.jpg", 
@@ -6472,7 +6472,7 @@
         51, 
         445
       ], 
-      "weight": 7.167639255523682, 
+      "score": 7.167639255523682, 
       "level": 2, 
       "title": "Lonely Hearts", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/wxsyl5wjobtYhll3rf5nGuC4kBN.jpg", 
@@ -6504,7 +6504,7 @@
         83, 
         368
       ], 
-      "weight": 7.624846935272217, 
+      "score": 7.624846935272217, 
       "level": 2, 
       "title": "Unforgiven", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/9oPodyvCWyPMZJDjg29tBfFRwtG.jpg", 
@@ -6525,7 +6525,7 @@
         466, 
         139
       ], 
-      "weight": 7.412794589996338, 
+      "score": 7.412794589996338, 
       "level": 2, 
       "title": "El viento se llev\u00f3 lo qu\u00e9", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/jpSp2wmTWQygDbmdWaGJJH3O419.jpg", 
@@ -6546,7 +6546,7 @@
         384, 
         245
       ], 
-      "weight": 7.654053688049316, 
+      "score": 7.654053688049316, 
       "level": 2, 
       "title": "Notting Hill", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/ktYLYmTIgdVpNQpjV4m3nwWPwQY.jpg", 
@@ -6568,7 +6568,7 @@
         324, 
         366
       ], 
-      "weight": 7.166189193725586, 
+      "score": 7.166189193725586, 
       "level": 3, 
       "title": "Akira", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/8Pt7hlu7fkc5IIR0VZ2kNGY8sT4.jpg", 
@@ -6590,7 +6590,7 @@
         28, 
         192
       ], 
-      "weight": 7.111339569091797, 
+      "score": 7.111339569091797, 
       "level": 2, 
       "title": "Dressed to Kill", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/b9RHUexTE6MT5x6iZ2Wmq56H1cJ.jpg", 
@@ -6609,7 +6609,7 @@
         246, 
         178
       ], 
-      "weight": 7.260123252868652, 
+      "score": 7.260123252868652, 
       "level": 3, 
       "title": "Cool Hand Luke", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/3rg6PsJfQgI1kMJRK4N7Yc6OH2P.jpg", 
@@ -6631,7 +6631,7 @@
         15, 
         144
       ], 
-      "weight": 7.46288537979126, 
+      "score": 7.46288537979126, 
       "level": 2, 
       "title": "Don't Be a Menace to South Central While Drinking Your Juice in the Hood", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/l6D9f9WbxdI4tyCmJGs56y8tQla.jpg", 
@@ -6653,7 +6653,7 @@
         210, 
         63
       ], 
-      "weight": 7.839436054229736, 
+      "score": 7.839436054229736, 
       "level": 2, 
       "title": "Young Frankenstein", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/iwq1iEV7ExoW2XdJ7KwizxJsaFg.jpg", 
@@ -6682,7 +6682,7 @@
         20, 
         65
       ], 
-      "weight": 7.447886943817139, 
+      "score": 7.447886943817139, 
       "level": 2, 
       "title": "Kill Bill: Vol. 2", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/mdAZtDNax1fXZkNzWOdnYfGozO.jpg", 
@@ -6703,7 +6703,7 @@
         4, 
         151
       ], 
-      "weight": 7.433027744293213, 
+      "score": 7.433027744293213, 
       "level": 3, 
       "title": "Click", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/4eL0QXIoet836STvhAEDtt0wyPs.jpg", 
@@ -6740,7 +6740,7 @@
         403, 
         225
       ], 
-      "weight": 7.804993629455566, 
+      "score": 7.804993629455566, 
       "level": 2, 
       "title": "Indiana Jones and the Last Crusade", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/1xlQmxqKbkCb2THC9rwgr75p25B.jpg", 
@@ -6764,7 +6764,7 @@
         186, 
         187
       ], 
-      "weight": 7.486936569213867, 
+      "score": 7.486936569213867, 
       "level": 3, 
       "title": "The Last Boy Scout", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/dozUmI5pKcTsNoSpD786zM0X0rm.jpg", 
@@ -6802,7 +6802,7 @@
         198, 
         75
       ], 
-      "weight": 7.652547836303711, 
+      "score": 7.652547836303711, 
       "level": 2, 
       "title": "From Dusk Till Dawn", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/ce0d4kM5KxT4x1Oq8JkSuNYevri.jpg", 
@@ -6825,7 +6825,7 @@
         210, 
         166
       ], 
-      "weight": 7.809310436248779, 
+      "score": 7.809310436248779, 
       "level": 2, 
       "title": "Intouchables", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/4mFsNQwbD0F237Tx7gAPotd0nbJ.jpg", 
@@ -6849,7 +6849,7 @@
         287, 
         155
       ], 
-      "weight": 7.798783779144287, 
+      "score": 7.798783779144287, 
       "level": 2, 
       "title": "The Pursuit of Happyness", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/qTyZ6bRb36FjoDPszbWa6zVYzJZ.jpg", 
@@ -6870,7 +6870,7 @@
         246, 
         262
       ], 
-      "weight": 7.499122619628906, 
+      "score": 7.499122619628906, 
       "level": 2, 
       "title": "Butch Cassidy and the Sundance Kid", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/cwHsd3f41onA6hGLjUiprhOZvjc.jpg", 
@@ -6891,7 +6891,7 @@
         210, 
         245
       ], 
-      "weight": 7.414765357971191, 
+      "score": 7.414765357971191, 
       "level": 3, 
       "title": "Sherlock Holmes: A Game of Shadows", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/7OFqsVuS6DlVM10GUD72vCGpQm9.jpg", 
@@ -6911,7 +6911,7 @@
         320, 
         201
       ], 
-      "weight": 6.836055755615234, 
+      "score": 6.836055755615234, 
       "level": 3, 
       "title": "Eyes Wide Shut", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/1rre3m7WsI2QavNZD4aUa8LzzcK.jpg", 
@@ -6931,7 +6931,7 @@
         329, 
         26
       ], 
-      "weight": 7.196615219116211, 
+      "score": 7.196615219116211, 
       "level": 3, 
       "title": "Fast And Furious", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/ft8IqAGFs3V7i87z0t0EVRUjK1p.jpg", 
@@ -6953,7 +6953,7 @@
         25, 
         302
       ], 
-      "weight": 7.500711441040039, 
+      "score": 7.500711441040039, 
       "level": 3, 
       "title": "Iron Man 3", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/kC4NM99bJ5Xq03O6XQ6602GKRsi.jpg", 
@@ -6975,7 +6975,7 @@
         300, 
         173
       ], 
-      "weight": 6.936958312988281, 
+      "score": 6.936958312988281, 
       "level": 2, 
       "title": "Le Pacte des Loups", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/1OyUsDSFayOH9LACASkuXOZqkPy.jpg", 
@@ -6997,7 +6997,7 @@
         53, 
         71
       ], 
-      "weight": 7.405880928039551, 
+      "score": 7.405880928039551, 
       "level": 3, 
       "title": "The Birds", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/idm9MYIyZHcjdPsaGfiqE9z2Z99.jpg", 
@@ -7026,7 +7026,7 @@
         384, 
         427
       ], 
-      "weight": 7.5055413246154785, 
+      "score": 7.5055413246154785, 
       "level": 2, 
       "title": "Sherlock Holmes", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/22ngurXbLqab7Sko6aTSdwOCe5W.jpg", 
@@ -7048,7 +7048,7 @@
         3, 
         382
       ], 
-      "weight": 7.0768561363220215, 
+      "score": 7.0768561363220215, 
       "level": 2, 
       "title": "The Fast and the Furious", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/3cucyEuLOOjjJ8nem5facsTEy68.jpg", 
@@ -7068,7 +7068,7 @@
         26, 
         3
       ], 
-      "weight": 7.603180408477783, 
+      "score": 7.603180408477783, 
       "level": 3, 
       "title": "2 Fast 2 Furious", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/3CrNPUulPGbsJIH2ZnLYomGIVrk.jpg", 
@@ -7122,7 +7122,7 @@
         76, 
         77
       ], 
-      "weight": 7.432071208953857, 
+      "score": 7.432071208953857, 
       "level": 2, 
       "title": "I, Robot", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/2mkFzf168xJrV6Leqq0bjqOlJCK.jpg", 
@@ -7147,7 +7147,7 @@
         177, 
         384
       ], 
-      "weight": 7.367499828338623, 
+      "score": 7.367499828338623, 
       "level": 2, 
       "title": "Slumdog Millionaire", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/ojgf8iJpS4VX6jJfWGLpuEx0wm.jpg", 
@@ -7170,7 +7170,7 @@
         319, 
         245
       ], 
-      "weight": 7.325244426727295, 
+      "score": 7.325244426727295, 
       "level": 2, 
       "title": "Ocean's Twelve", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/4irBEiDC7SpYBuw5z1c7oLfF0EI.jpg", 
@@ -7198,7 +7198,7 @@
         252, 
         384
       ], 
-      "weight": 8.112346649169922, 
+      "score": 8.112346649169922, 
       "level": 1, 
       "title": "Cast Away", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/w515BrZvczKIxbHurG6HIiYYrba.jpg", 
@@ -7228,7 +7228,7 @@
         384, 
         297
       ], 
-      "weight": 7.941575050354004, 
+      "score": 7.941575050354004, 
       "level": 1, 
       "title": "The Hangover", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/hhiZjyD29t31xyNjREGJlalFKPy.jpg", 
@@ -7248,7 +7248,7 @@
         391, 
         270
       ], 
-      "weight": 7.620726108551025, 
+      "score": 7.620726108551025, 
       "level": 2, 
       "title": "Machete", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/ozLzXiC2QdFSoi42vPyOhoY72Me.jpg", 
@@ -7272,7 +7272,7 @@
         141, 
         83
       ], 
-      "weight": 7.573189735412598, 
+      "score": 7.573189735412598, 
       "level": 2, 
       "title": "Spartacus", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/7t2EPfUtou6kl64sj6QSBd0qr6o.jpg", 
@@ -7293,7 +7293,7 @@
         81, 
         391
       ], 
-      "weight": 7.469987392425537, 
+      "score": 7.469987392425537, 
       "level": 3, 
       "title": "Letters from Iwo Jima", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/nWJJqOryTQOmVXvKUkLcEETUHgT.jpg", 
@@ -7315,7 +7315,7 @@
         249, 
         41
       ], 
-      "weight": 7.561763286590576, 
+      "score": 7.561763286590576, 
       "level": 3, 
       "title": "How to Train Your Dragon", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/zMAm3WYmvD40FaWFsOmpicQFabz.jpg", 
@@ -7357,7 +7357,7 @@
         27, 
         200
       ], 
-      "weight": 7.477390289306641, 
+      "score": 7.477390289306641, 
       "level": 3, 
       "title": "Iron Man", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/s2IG9qXfhJYxIttKyroYFBsHwzQ.jpg", 
@@ -7401,7 +7401,7 @@
         77, 
         381
       ], 
-      "weight": 7.31836462020874, 
+      "score": 7.31836462020874, 
       "level": 2, 
       "title": "Hancock", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/dsCxSr4w3g2ylhlZg3v5CB5Pid7.jpg", 
@@ -7423,7 +7423,7 @@
         200, 
         44
       ], 
-      "weight": 7.088818550109863, 
+      "score": 7.088818550109863, 
       "level": 3, 
       "title": "Hellboy", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/3fAWzI9MUosggdGMu7EaDhn44m6.jpg", 
@@ -7454,7 +7454,7 @@
         276, 
         384
       ], 
-      "weight": 7.9308295249938965, 
+      "score": 7.9308295249938965, 
       "level": 1, 
       "title": "The Notebook", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/gMfstesBXKdsHToAUXVPHujUDfb.jpg", 
@@ -7478,7 +7478,7 @@
         282, 
         188
       ], 
-      "weight": 7.040802478790283, 
+      "score": 7.040802478790283, 
       "level": 3, 
       "title": "The League of Extraordinary Gentlemen", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/AliSeCLFB6ZAkQIxosr8RAkFf6R.jpg", 
@@ -7500,7 +7500,7 @@
         210, 
         53
       ], 
-      "weight": 7.559687614440918, 
+      "score": 7.559687614440918, 
       "level": 2, 
       "title": "The Mission", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/vwCrxKBQCajZ3g67c28cXoSN91z.jpg", 
@@ -7523,7 +7523,7 @@
         304, 
         25
       ], 
-      "weight": 7.3762688636779785, 
+      "score": 7.3762688636779785, 
       "level": 2, 
       "title": "Evil Dead", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/1fmSACmawidUVs33JnzdBb5twEN.jpg", 
@@ -7549,7 +7549,7 @@
         131, 
         198
       ], 
-      "weight": 8.146673202514648, 
+      "score": 8.146673202514648, 
       "level": 1, 
       "title": "The Adventures of Ford Fairlane", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/2MzZtmbazP5dUXrJHffKMn1lsrr.jpg", 
@@ -7575,7 +7575,7 @@
         282, 
         208
       ], 
-      "weight": 7.885875225067139, 
+      "score": 7.885875225067139, 
       "level": 1, 
       "title": "Lesbian Vampire Killers", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/1kYRgqGIwBr7lVx8xmOn6chmGpL.jpg", 
@@ -7597,7 +7597,7 @@
         365, 
         78
       ], 
-      "weight": 7.8647141456604, 
+      "score": 7.8647141456604, 
       "level": 3, 
       "title": "Zombieland", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/g0lseFxmRcYXZjEh07Qr01J0LVg.jpg", 
@@ -7619,7 +7619,7 @@
         53, 
         64
       ], 
-      "weight": 7.258269309997559, 
+      "score": 7.258269309997559, 
       "level": 2, 
       "title": "Zodiac", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/nkUbb208RW6LTpj1A4GrbE4Oub5.jpg", 
@@ -7640,7 +7640,7 @@
         382, 
         342
       ], 
-      "weight": 6.659849643707275, 
+      "score": 6.659849643707275, 
       "level": 3, 
       "title": "Zack and Miri Make a Porno", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/zxwEJBhSSu5AuKTTd4ugWaCqmg.jpg", 
@@ -7660,7 +7660,7 @@
         334, 
         254
       ], 
-      "weight": 7.376439571380615, 
+      "score": 7.376439571380615, 
       "level": 3, 
       "title": "Before Sunrise", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/9NBjDNPHA6SkThIweOs8iCfsA8a.jpg", 
@@ -7689,7 +7689,7 @@
         226, 
         320
       ], 
-      "weight": 7.945910930633545, 
+      "score": 7.945910930633545, 
       "level": 1, 
       "title": "Inception", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/tAXARVreJnWfoANIHASmgYk4SB0.jpg", 
@@ -7744,7 +7744,7 @@
         384, 
         226
       ], 
-      "weight": 7.947475433349609, 
+      "score": 7.947475433349609, 
       "level": 1, 
       "title": "Pulp Fiction", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/dM2w364MScsjFf8pfMbaWUcWrR.jpg", 
@@ -7773,7 +7773,7 @@
         384, 
         45
       ], 
-      "weight": 7.900487899780273, 
+      "score": 7.900487899780273, 
       "level": 1, 
       "title": "Grease", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/iMHdFTrCYhue74sBnXkdO39AJ3R.jpg", 
@@ -7794,7 +7794,7 @@
         210, 
         237
       ], 
-      "weight": 7.051827907562256, 
+      "score": 7.051827907562256, 
       "level": 3, 
       "title": "Seven Years in Tibet", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/50kwpLi4Zg3oUPF5xTe0CWE1tC2.jpg", 
@@ -7814,7 +7814,7 @@
         4, 
         3
       ], 
-      "weight": 7.139806270599365, 
+      "score": 7.139806270599365, 
       "level": 3, 
       "title": "Night at the Museum", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/NUbCSwy2EQ9Z6psUjPqr3WdVI2.jpg", 
@@ -7836,7 +7836,7 @@
         429, 
         232
       ], 
-      "weight": 7.161710739135742, 
+      "score": 7.161710739135742, 
       "level": 2, 
       "title": "Ong Bak", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/t4TIJWdnxcKXcsLYqKUoNzDkeU8.jpg", 
@@ -7855,7 +7855,7 @@
         76, 
         314
       ], 
-      "weight": 7.247422218322754, 
+      "score": 7.247422218322754, 
       "level": 3, 
       "title": "Ong Bak 2", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/ezNF5WT3eRbEXUwtPa5Z8RVBUxi.jpg", 
@@ -7882,7 +7882,7 @@
         130, 
         196
       ], 
-      "weight": 8.036693572998047, 
+      "score": 8.036693572998047, 
       "level": 1, 
       "title": "Ali G Indahouse", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/kPY6r5v5i1opL4ph5sntP7ZMxVI.jpg", 
@@ -7923,7 +7923,7 @@
         53, 
         142
       ], 
-      "weight": 7.582630157470703, 
+      "score": 7.582630157470703, 
       "level": 2, 
       "title": "Taxi Driver", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/xOTWOA19jtYnXoC2yfsvNs9R5yP.jpg", 
@@ -7943,7 +7943,7 @@
         104, 
         50
       ], 
-      "weight": 7.318821430206299, 
+      "score": 7.318821430206299, 
       "level": 3, 
       "title": "Persepolis", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/dYvyF1RlNokAd1N7Nek0vDpYsV6.jpg", 
@@ -7969,7 +7969,7 @@
         312, 
         230
       ], 
-      "weight": 7.264850616455078, 
+      "score": 7.264850616455078, 
       "level": 3, 
       "title": "Troy", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/edMlij7nw2NMla32xskDnzMCFBM.jpg", 
@@ -8015,7 +8015,7 @@
         226, 
         14
       ], 
-      "weight": 7.575998783111572, 
+      "score": 7.575998783111572, 
       "level": 2, 
       "title": "The Departed", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/tGLO9zw5ZtCeyyEWgbYGgsFxC6i.jpg", 
@@ -8037,7 +8037,7 @@
         210, 
         154
       ], 
-      "weight": 7.805596828460693, 
+      "score": 7.805596828460693, 
       "level": 2, 
       "title": "Blow", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/l6cAS4Nk9PWAjxirXKOLgQsNt8E.jpg", 
@@ -8059,7 +8059,7 @@
         210, 
         245
       ], 
-      "weight": 7.411498069763184, 
+      "score": 7.411498069763184, 
       "level": 2, 
       "title": "Ocean's Thirteen", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/pPF8j2CUb0Wg89KJRbU78L1Vycd.jpg", 
@@ -8078,7 +8078,7 @@
         9, 
         282
       ], 
-      "weight": 6.5054473876953125, 
+      "score": 6.5054473876953125, 
       "level": 3, 
       "title": "Hulk", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/ogCQV6mnLtCJuiiHtMB83jvSRfY.jpg", 
@@ -8105,7 +8105,7 @@
         265, 
         132
       ], 
-      "weight": 7.5254340171813965, 
+      "score": 7.5254340171813965, 
       "level": 2, 
       "title": "The Dark Knight Rises", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/d8q1hpmR8l5JBv6adBqGt94ePhk.jpg", 
@@ -8124,7 +8124,7 @@
         104, 
         293
       ], 
-      "weight": 7.450875282287598, 
+      "score": 7.450875282287598, 
       "level": 3, 
       "title": "Autoreiji", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/toO1Yo1CddybhXrDqLBsgdj3OPQ.jpg", 
@@ -8146,7 +8146,7 @@
         266, 
         53
       ], 
-      "weight": 7.158459186553955, 
+      "score": 7.158459186553955, 
       "level": 3, 
       "title": "Carrie", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/oNx798c8NLLNqtEAMSELPuYGupN.jpg", 
@@ -8166,7 +8166,7 @@
         297, 
         287
       ], 
-      "weight": 7.1547136306762695, 
+      "score": 7.1547136306762695, 
       "level": 3, 
       "title": "The Chronicles of Riddick", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/tGNj5xxw5td0SBih1UmuqkHZ8ga.jpg", 
@@ -8190,7 +8190,7 @@
         51, 
         384
       ], 
-      "weight": 7.189519882202148, 
+      "score": 7.189519882202148, 
       "level": 3, 
       "title": "What Women Want", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/d8Uus0exUrJBzMcfLW9UvKK2sQX.jpg", 
@@ -8214,7 +8214,7 @@
         280, 
         287
       ], 
-      "weight": 7.414957046508789, 
+      "score": 7.414957046508789, 
       "level": 3, 
       "title": "Bad Boys", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/4MM2cf53Nzjw7DqKOzD3xjlYedr.jpg", 
@@ -8237,7 +8237,7 @@
         426, 
         310
       ], 
-      "weight": 7.256967067718506, 
+      "score": 7.256967067718506, 
       "level": 3, 
       "title": "Argo", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/vBBAvlBPIaN1VSCFYrMsUqK6umx.jpg", 
@@ -8259,7 +8259,7 @@
         320, 
         64
       ], 
-      "weight": 7.327184677124023, 
+      "score": 7.327184677124023, 
       "level": 2, 
       "title": "The Basketball Diaries", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/f8QqegQZZO4nSmJBrec5YK47dmY.jpg", 
@@ -8281,7 +8281,7 @@
         254, 
         308
       ], 
-      "weight": 7.060489654541016, 
+      "score": 7.060489654541016, 
       "level": 2, 
       "title": "Before Sunset", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/cIj6yWJKUjdCCO7vuZQKl0NqCQe.jpg", 
@@ -8303,7 +8303,7 @@
         53, 
         396
       ], 
-      "weight": 7.392825126647949, 
+      "score": 7.392825126647949, 
       "level": 2, 
       "title": "Metropolis", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/78uQvloMgmp46uuzTydduMkS2DA.jpg", 
@@ -8337,7 +8337,7 @@
         216, 
         308
       ], 
-      "weight": 7.521239280700684, 
+      "score": 7.521239280700684, 
       "level": 2, 
       "title": "American Beauty", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/3UBQGKS8c1dxRnDiu5kUK6ej3pP.jpg", 
@@ -8358,7 +8358,7 @@
         82, 
         262
       ], 
-      "weight": 7.569209098815918, 
+      "score": 7.569209098815918, 
       "level": 3, 
       "title": "Crimson Tide", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/oDJyDX11HW4j565vUjmFagKxDTQ.jpg", 
@@ -8380,7 +8380,7 @@
         274, 
         270
       ], 
-      "weight": 7.401753902435303, 
+      "score": 7.401753902435303, 
       "level": 3, 
       "title": "Desperado", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/7eVo5DbP7gcsDzHcpRCTA6JAuF2.jpg", 
@@ -8402,7 +8402,7 @@
         168, 
         257
       ], 
-      "weight": 7.454489231109619, 
+      "score": 7.454489231109619, 
       "level": 2, 
       "title": "Dune", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/wuiUqivUWiUySwhEvtdOqrlrLPn.jpg", 
@@ -8425,7 +8425,7 @@
         186, 
         187
       ], 
-      "weight": 7.560085296630859, 
+      "score": 7.560085296630859, 
       "level": 2, 
       "title": "Die Hard: With a Vengeance", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/uzdyOFtoec9dBIvRqNwQVxysKsL.jpg", 
@@ -8448,7 +8448,7 @@
         63, 
         368
       ], 
-      "weight": 7.465902805328369, 
+      "score": 7.465902805328369, 
       "level": 3, 
       "title": "Falling Down", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/jBHJWSUvvOIZkXG067vwVRWvohB.jpg", 
@@ -8470,7 +8470,7 @@
         112, 
         217
       ], 
-      "weight": 7.319321155548096, 
+      "score": 7.319321155548096, 
       "level": 3, 
       "title": "Dredd", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/71fkYuMVMtdbREh9Mp3gTFmI8Bv.jpg", 
@@ -8487,7 +8487,7 @@
       "links": [
         421
       ], 
-      "weight": 7.290721416473389, 
+      "score": 7.290721416473389, 
       "level": 3, 
       "title": "Lady and the Tramp", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/mgAuk3KRqUZ2vToBXUSKOXXrxMa.jpg", 
@@ -8509,7 +8509,7 @@
         360, 
         379
       ], 
-      "weight": 7.791676998138428, 
+      "score": 7.791676998138428, 
       "level": 3, 
       "title": "Mallrats", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/fiYewaplpR3D5uvwIOFhwNGTBmZ.jpg", 
@@ -8533,7 +8533,7 @@
         30, 
         53
       ], 
-      "weight": 7.369145393371582, 
+      "score": 7.369145393371582, 
       "level": 3, 
       "title": "Cape Fear", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/4KvrvcqckdupXXO2YnANtyG7QLK.jpg", 
@@ -8550,7 +8550,7 @@
       "links": [
         261
       ], 
-      "weight": 7.200437545776367, 
+      "score": 7.200437545776367, 
       "level": 3, 
       "title": "The Net", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/e0DfH6szDq1TwQRSsEE7CULyvSc.jpg", 
@@ -8571,7 +8571,7 @@
         149, 
         346
       ], 
-      "weight": 7.4565815925598145, 
+      "score": 7.4565815925598145, 
       "level": 2, 
       "title": "The Naked Gun: From the Files of Police Squad!", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/m12Yz5uRK2DL5UCAZMbeB3ArNNg.jpg", 
@@ -8591,7 +8591,7 @@
         171, 
         347
       ], 
-      "weight": 7.374419689178467, 
+      "score": 7.374419689178467, 
       "level": 3, 
       "title": "The Naked Gun 2\u00bd: The Smell of Fear", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/n19yZJQJIyukjOKJCJsTdsKPx1m.jpg", 
@@ -8612,7 +8612,7 @@
         171, 
         346
       ], 
-      "weight": 7.374917507171631, 
+      "score": 7.374917507171631, 
       "level": 3, 
       "title": "The Naked Gun 33\u2153: The Final Insult", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/i8bC0QVqEj6SFxNvZG1DZHJTPr8.jpg", 
@@ -8635,7 +8635,7 @@
         98, 
         364
       ], 
-      "weight": 7.546448230743408, 
+      "score": 7.546448230743408, 
       "level": 2, 
       "title": "The Vow", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/uh8t52yMz0WWsZkuk1c6i9JgEwE.jpg", 
@@ -8659,7 +8659,7 @@
         185, 
         61
       ], 
-      "weight": 7.545528411865234, 
+      "score": 7.545528411865234, 
       "level": 3, 
       "title": "Total Recall", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/ikYpJ0AjGBNnAYFnPJDUVIOcduR.jpg", 
@@ -8683,7 +8683,7 @@
         217, 
         132
       ], 
-      "weight": 7.1399006843566895, 
+      "score": 7.1399006843566895, 
       "level": 2, 
       "title": "Total Recall", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/tWBo7aZk3I1dLxmMj7ZJcN8uke5.jpg", 
@@ -8707,7 +8707,7 @@
         4, 
         102
       ], 
-      "weight": 7.005016326904297, 
+      "score": 7.005016326904297, 
       "level": 2, 
       "title": "Van Helsing", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/x7w4dx2YIPA9o5fCCQ4YNhuXuUP.jpg", 
@@ -8725,7 +8725,7 @@
         15, 
         78
       ], 
-      "weight": 6.900875568389893, 
+      "score": 6.900875568389893, 
       "level": 3, 
       "title": "Semi-Pro", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/idFmbYkCmBqZ1YbzLEqeplmbBrc.jpg", 
@@ -8743,7 +8743,7 @@
         175, 
         445
       ], 
-      "weight": 7.28406286239624, 
+      "score": 7.28406286239624, 
       "level": 3, 
       "title": "Hairspray", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/7nu2R3qxYv2qqgI3zv9a7eFWIxw.jpg", 
@@ -8765,7 +8765,7 @@
         274, 
         260
       ], 
-      "weight": 7.481544017791748, 
+      "score": 7.481544017791748, 
       "level": 2, 
       "title": "Young Sherlock Holmes", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/AmVZkaeMs8yWAI3yosBTMO473Tm.jpg", 
@@ -8787,7 +8787,7 @@
         348, 
         98
       ], 
-      "weight": 7.829016208648682, 
+      "score": 7.829016208648682, 
       "level": 2, 
       "title": "P. S. I Love You", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/esfuYEvv7WrLvXNkCg7MCufEEdH.jpg", 
@@ -8810,7 +8810,7 @@
         96, 
         287
       ], 
-      "weight": 7.282284736633301, 
+      "score": 7.282284736633301, 
       "level": 3, 
       "title": "Liar Liar", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/55kBMvGgb6YLkqOdQescIPFhZyB.jpg", 
@@ -8836,7 +8836,7 @@
         217, 
         314
       ], 
-      "weight": 7.885608196258545, 
+      "score": 7.885608196258545, 
       "level": 1, 
       "title": "Siu lam juk kau", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/uoF0fIGAq52kguYFC0Iu5aBv1Ov.jpg", 
@@ -8860,7 +8860,7 @@
         332, 
         334
       ], 
-      "weight": 7.322100639343262, 
+      "score": 7.322100639343262, 
       "level": 3, 
       "title": "Lost in Translation", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/5T8VvuFTdaawKLJk34i69Utaw7o.jpg", 
@@ -8882,7 +8882,7 @@
         215, 
         405
       ], 
-      "weight": 7.641499996185303, 
+      "score": 7.641499996185303, 
       "level": 2, 
       "title": "The Best of the Blues Brothers", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/7RZlu6guk0aYQwKwWzai42KSA3d.jpg", 
@@ -8903,7 +8903,7 @@
         379, 
         446
       ], 
-      "weight": 7.832483768463135, 
+      "score": 7.832483768463135, 
       "level": 3, 
       "title": "Clerks", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/dmNytzvQTjylI83qrgDoS1KQ0ev.jpg", 
@@ -8926,7 +8926,7 @@
         30, 
         262
       ], 
-      "weight": 7.37167501449585, 
+      "score": 7.37167501449585, 
       "level": 3, 
       "title": "Per un pugno di dollari", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/fFilyOUZjQ5nBhVGbKB8R99QiXX.jpg", 
@@ -8952,7 +8952,7 @@
         216, 
         402
       ], 
-      "weight": 7.836940288543701, 
+      "score": 7.836940288543701, 
       "level": 2, 
       "title": "Big Fish", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/6DRFdlNZpAaEt7eejsbAlJGgaM7.jpg", 
@@ -8974,7 +8974,7 @@
         299, 
         39
       ], 
-      "weight": 7.852258205413818, 
+      "score": 7.852258205413818, 
       "level": 2, 
       "title": "Dirty Dancing", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/6spJh3MSQg64Nh5CQbmUBAOLrkY.jpg", 
@@ -8992,7 +8992,7 @@
         348, 
         70
       ], 
-      "weight": 7.253951549530029, 
+      "score": 7.253951549530029, 
       "level": 3, 
       "title": "Step Up", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/sZozboEBmf9SV3XVpF6Y7z88q03.jpg", 
@@ -9058,7 +9058,7 @@
         154, 
         53
       ], 
-      "weight": 7.826157093048096, 
+      "score": 7.826157093048096, 
       "level": 2, 
       "title": "Fight Club", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/m9SPY8zxdtYJIrpeVYb8b2hcGzV.jpg", 
@@ -9080,7 +9080,7 @@
         265, 
         112
       ], 
-      "weight": 7.734500885009766, 
+      "score": 7.734500885009766, 
       "level": 2, 
       "title": "The Last Supper", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/r76NiLoxMSnNIT9SOn31loxziWM.jpg", 
@@ -9102,7 +9102,7 @@
         28, 
         335
       ], 
-      "weight": 6.904352188110352, 
+      "score": 6.904352188110352, 
       "level": 2, 
       "title": "Just Cause", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/8wYVdgoVezCqnhZgmZQytdORLeu.jpg", 
@@ -9124,7 +9124,7 @@
         173, 
         262
       ], 
-      "weight": 7.410350322723389, 
+      "score": 7.410350322723389, 
       "level": 3, 
       "title": "The Insider", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/sYQsmMl4oG56NtFaNkDxuJhhODa.jpg", 
@@ -9146,7 +9146,7 @@
         38, 
         210
       ], 
-      "weight": 7.222559928894043, 
+      "score": 7.222559928894043, 
       "level": 3, 
       "title": "Con Air", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/yhaOQ7xXw0PLHLvg1w0M9zlPdg6.jpg", 
@@ -9167,7 +9167,7 @@
         399, 
         61
       ], 
-      "weight": 7.548375606536865, 
+      "score": 7.548375606536865, 
       "level": 3, 
       "id": 1785477, 
       "label": "Cocaine Cowboys (2006)"
@@ -9179,7 +9179,7 @@
         3, 
         97
       ], 
-      "weight": 6.841162204742432, 
+      "score": 6.841162204742432, 
       "level": 3, 
       "title": "The Twilight Saga: Eclipse", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/fBXJGA6WNran1RL4CPKisaPI6UY.jpg", 
@@ -9201,7 +9201,7 @@
         118, 
         376
       ], 
-      "weight": 6.425182342529297, 
+      "score": 6.425182342529297, 
       "level": 3, 
       "title": "Alatriste", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/b3bxtLjUCgwcnfFrArpz796khCZ.jpg", 
@@ -9222,7 +9222,7 @@
         180, 
         420
       ], 
-      "weight": 7.171267509460449, 
+      "score": 7.171267509460449, 
       "level": 3, 
       "title": "Life of Pi", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/rXhuBgQyRKB7cW5BRImyVkO89K7.jpg", 
@@ -9245,7 +9245,7 @@
         210, 
         36
       ], 
-      "weight": 7.394052028656006, 
+      "score": 7.394052028656006, 
       "level": 3, 
       "title": "Face/Off", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/q1i8QHiHZ1cukG5iOxai8pydmoa.jpg", 
@@ -9265,7 +9265,7 @@
         210, 
         367
       ], 
-      "weight": 7.247690200805664, 
+      "score": 7.247690200805664, 
       "level": 3, 
       "title": "Fallen", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/mu1zfQp3pGeM4mtaAouDOslSvkl.jpg", 
@@ -9293,7 +9293,7 @@
         462, 
         310
       ], 
-      "weight": 7.780333995819092, 
+      "score": 7.780333995819092, 
       "level": 2, 
       "title": "The Lord of the Rings: The Fellowship of the Ring", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/9HG6pINW1KoFTAKY3LdybkoOKAm.jpg", 
@@ -9322,7 +9322,7 @@
         384, 
         43
       ], 
-      "weight": 7.949191570281982, 
+      "score": 7.949191570281982, 
       "level": 1, 
       "title": "The Lord of the Rings: The Return of the King", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/j6NCjU6Zh7SkfIeN5zDaoTmBn4m.jpg", 
@@ -9344,7 +9344,7 @@
         29, 
         396
       ], 
-      "weight": 7.588602542877197, 
+      "score": 7.588602542877197, 
       "level": 3, 
       "title": "Toy Story 3", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/tOwAAVeL1p3ls9dhOBo45ElodU3.jpg", 
@@ -9366,7 +9366,7 @@
         231, 
         342
       ], 
-      "weight": 7.398037910461426, 
+      "score": 7.398037910461426, 
       "level": 3, 
       "title": "Dogma", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/zuJJAEvyiZiddzRx7JRGNDzjP07.jpg", 
@@ -9388,7 +9388,7 @@
         249, 
         396
       ], 
-      "weight": 7.528927326202393, 
+      "score": 7.528927326202393, 
       "level": 3, 
       "title": "The Incredibles", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/9gBnaVySWaXulJNzR796Nd8kdje.jpg", 
@@ -9410,7 +9410,7 @@
         257, 
         287
       ], 
-      "weight": 7.261432647705078, 
+      "score": 7.261432647705078, 
       "level": 2, 
       "title": "Pitch Black", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/befcTOBP3073hlnny84jydpuXTD.jpg", 
@@ -9469,7 +9469,7 @@
         76, 
         77
       ], 
-      "weight": 7.415234088897705, 
+      "score": 7.415234088897705, 
       "level": 2, 
       "title": "Men in Black", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/f24UVKq3UiQWLqGWdqjwkzgB8j8.jpg", 
@@ -9516,7 +9516,7 @@
         384, 
         385
       ], 
-      "weight": 7.655889511108398, 
+      "score": 7.655889511108398, 
       "level": 2, 
       "title": "E.T. the Extra-Terrestrial", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/hrO4FIo4zSyYo9uv6AXenOoZIUf.jpg", 
@@ -9570,7 +9570,7 @@
         157, 
         125
       ], 
-      "weight": 7.931217670440674, 
+      "score": 7.931217670440674, 
       "level": 1, 
       "title": "Forrest Gump", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/pEYI2QILJWMN1ZeEMgMM0jxBVhK.jpg", 
@@ -9591,7 +9591,7 @@
         383, 
         63
       ], 
-      "weight": 7.784684658050537, 
+      "score": 7.784684658050537, 
       "level": 2, 
       "title": "Back to the Future Part II", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/k5dzvCQkXU2CAhLtlj9BHE7xmyK.jpg", 
@@ -9612,7 +9612,7 @@
         63, 
         91
       ], 
-      "weight": 7.534990310668945, 
+      "score": 7.534990310668945, 
       "level": 2, 
       "title": "Back to the Future Part III", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/6DmgPTZYaug7QNDjOhUDWyjOQDl.jpg", 
@@ -9656,7 +9656,7 @@
         384, 
         385
       ], 
-      "weight": 7.974382400512695, 
+      "score": 7.974382400512695, 
       "level": 1, 
       "title": "Back to the Future", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/pTpxQB1N0waaSc3OSn0e9oc8kx9.jpg", 
@@ -9684,7 +9684,7 @@
         27, 
         78
       ], 
-      "weight": 7.466610431671143, 
+      "score": 7.466610431671143, 
       "level": 2, 
       "title": "Iron Man 2", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/zJ2eK7fehqFSQ2w5JlQIF0OJP9q.jpg", 
@@ -9712,7 +9712,7 @@
         184, 
         383
       ], 
-      "weight": 7.634378910064697, 
+      "score": 7.634378910064697, 
       "level": 2, 
       "title": "Toy Story", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/agy8DheVu5zpQFbXfAdvYivF2FU.jpg", 
@@ -9733,7 +9733,7 @@
         389, 
         378
       ], 
-      "weight": 7.435103893280029, 
+      "score": 7.435103893280029, 
       "level": 3, 
       "title": "Toy Story 2", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/kuTPkbQmHxBHsxaKMUL1kUchhdE.jpg", 
@@ -9790,7 +9790,7 @@
         154, 
         53
       ], 
-      "weight": 7.526015758514404, 
+      "score": 7.526015758514404, 
       "level": 2, 
       "title": "Inglourious Basterds", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/vDwqPyhkzFPRDmwz9KbzN2ouEPe.jpg", 
@@ -9816,7 +9816,7 @@
         213, 
         105
       ], 
-      "weight": 7.4702558517456055, 
+      "score": 7.4702558517456055, 
       "level": 3, 
       "title": "Corpse Bride", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/85xJAdwo5aFcfdNba05wXLvdRrb.jpg", 
@@ -9837,7 +9837,7 @@
         272, 
         464
       ], 
-      "weight": 7.452742576599121, 
+      "score": 7.452742576599121, 
       "level": 3, 
       "title": "Robin Hood: Prince of Thieves", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/gJhnXrom5Zh9yDy9E0maTmFZJsA.jpg", 
@@ -9872,7 +9872,7 @@
         17, 
         392
       ], 
-      "weight": 7.392483234405518, 
+      "score": 7.392483234405518, 
       "level": 2, 
       "title": "Sleepy Hollow", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/8J3lbM9C550FS97z0Y8sdr1yOXe.jpg", 
@@ -9893,7 +9893,7 @@
         147, 
         139
       ], 
-      "weight": 5.585827827453613, 
+      "score": 5.585827827453613, 
       "level": 3, 
       "title": "Todo sobre mi madre", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/p6ay2XkXvIWjrNN3aWymCZiNzkM.jpg", 
@@ -9921,7 +9921,7 @@
         378, 
         333
       ], 
-      "weight": 7.505800247192383, 
+      "score": 7.505800247192383, 
       "level": 2, 
       "title": "WALL\u00b7E", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/bAPGGZjkPWaBRWfUVEhxvu2zS4D.jpg", 
@@ -9944,7 +9944,7 @@
         118, 
         53
       ], 
-      "weight": 7.548460483551025, 
+      "score": 7.548460483551025, 
       "level": 3, 
       "title": "Ed Wood", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/9PRT6PzVNYxxfgQdEmn7r14nmcO.jpg", 
@@ -9979,7 +9979,7 @@
         199, 
         384
       ], 
-      "weight": 7.468686103820801, 
+      "score": 7.468686103820801, 
       "level": 2, 
       "title": "The Sixth Sense", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/wW1y9pvMejWjdfz0mpbB3Ag3SJf.jpg", 
@@ -10013,7 +10013,7 @@
         347, 
         370
       ], 
-      "weight": 7.148623943328857, 
+      "score": 7.148623943328857, 
       "level": 2, 
       "title": "The Terminator", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/q8ffBuxQlYOHrvPniLgCbmKK4Lv.jpg", 
@@ -10034,7 +10034,7 @@
         421, 
         382
       ], 
-      "weight": 6.46621561050415, 
+      "score": 6.46621561050415, 
       "level": 3, 
       "title": "Terminator 3: Rise of the Machines", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/odSgVmzucWv2f0e3GIwIr7HPb69.jpg", 
@@ -10056,7 +10056,7 @@
         320, 
         81
       ], 
-      "weight": 7.661295413970947, 
+      "score": 7.661295413970947, 
       "level": 2, 
       "title": "American Gangster", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/rLWNo6B55xEPvoozPmooQGlkbyg.jpg", 
@@ -10078,7 +10078,7 @@
         210, 
         14
       ], 
-      "weight": 7.618866443634033, 
+      "score": 7.618866443634033, 
       "level": 3, 
       "title": "Requiem for a Dream", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/muym4jTjdLx7E6as09d1wlC3sOB.jpg", 
@@ -10100,7 +10100,7 @@
         82, 
         178
       ], 
-      "weight": 7.6093597412109375, 
+      "score": 7.6093597412109375, 
       "level": 3, 
       "title": "The Hunt for Red October", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/bqvlKYlWq2uibsuVzKTWseeccd2.jpg", 
@@ -10134,7 +10134,7 @@
         157, 
         384
       ], 
-      "weight": 8.05406665802002, 
+      "score": 8.05406665802002, 
       "level": 1, 
       "title": "La vita \u00e8 bella", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/f7DImXDebOs148U4uPjI61iDvaK.jpg", 
@@ -10171,7 +10171,7 @@
         207, 
         384
       ], 
-      "weight": 7.95842981338501, 
+      "score": 7.95842981338501, 
       "level": 1, 
       "title": "Monty Python's Life of Brian", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/kWacsiRvV6u0TQdZLf5qO2MEHks.jpg", 
@@ -10190,7 +10190,7 @@
         36, 
         84
       ], 
-      "weight": 7.432840824127197, 
+      "score": 7.432840824127197, 
       "level": 3, 
       "title": "War", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/envBC1uSYRWVj2p3Im8XbPKZ4B5.jpg", 
@@ -10212,7 +10212,7 @@
         247, 
         96
       ], 
-      "weight": 7.452220916748047, 
+      "score": 7.452220916748047, 
       "level": 3, 
       "title": "Ace Ventura: Pet Detective", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/2cPcJVVRBSwbNRMWEyhhFWK5ICt.jpg", 
@@ -10230,7 +10230,7 @@
         261, 
         203
       ], 
-      "weight": 7.309940814971924, 
+      "score": 7.309940814971924, 
       "level": 3, 
       "title": "The Client", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/bCWpxGGcP9DsCLwfNpnfcl1vLk8.jpg", 
@@ -10252,7 +10252,7 @@
         232, 
         287
       ], 
-      "weight": 7.578430652618408, 
+      "score": 7.578430652618408, 
       "level": 3, 
       "title": "Armageddon", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/coINnuCzcw5FMHBty8hcudMOBnO.jpg", 
@@ -10273,7 +10273,7 @@
         342, 
         463
       ], 
-      "weight": 7.334965229034424, 
+      "score": 7.334965229034424, 
       "level": 3, 
       "title": "Chasing Amy", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/pgQARM8AL58mvhRcZlLI3NkJ15e.jpg", 
@@ -10300,7 +10300,7 @@
         57, 
         376
       ], 
-      "weight": 7.89810037612915, 
+      "score": 7.89810037612915, 
       "level": 1, 
       "title": "The Matrix", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/ZPMhHXEhYB33YoTZZNNmezth0V.jpg", 
@@ -10323,7 +10323,7 @@
         314, 
         287
       ], 
-      "weight": 7.230705738067627, 
+      "score": 7.230705738067627, 
       "level": 2, 
       "title": "The Matrix Reloaded", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/ezIurBz2fdUc68d98Fp9dRf5ihv.jpg", 
@@ -10346,7 +10346,7 @@
         241, 
         314
       ], 
-      "weight": 7.2252116203308105, 
+      "score": 7.2252116203308105, 
       "level": 2, 
       "title": "The Matrix Revolutions", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/sKogjhfs5q3azmpW7DFKKAeLEG8.jpg", 
@@ -10368,7 +10368,7 @@
         136, 
         29
       ], 
-      "weight": 7.353762626647949, 
+      "score": 7.353762626647949, 
       "level": 2, 
       "title": "Juno", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/eE64N6PYCSRW2mtQucfK2av5Wk2.jpg", 
@@ -10390,7 +10390,7 @@
         81, 
         383
       ], 
-      "weight": 7.366961479187012, 
+      "score": 7.366961479187012, 
       "level": 2, 
       "title": "Alive", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/egW59XHxkNEdHjuSMHQ8EveOfYB.jpg", 
@@ -10411,7 +10411,7 @@
         127, 
         220
       ], 
-      "weight": 7.431196212768555, 
+      "score": 7.431196212768555, 
       "level": 2, 
       "title": "Never Back Down 2: The Beatdown", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/s4kqaZD6kucrw0aFVy0bLBBqHoH.jpg", 
@@ -10440,7 +10440,7 @@
         216, 
         310
       ], 
-      "weight": 8.040080070495605, 
+      "score": 8.040080070495605, 
       "level": 1, 
       "title": "The Godfather", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/d4KNaTrltq6bpkFS01pYtyXa09m.jpg", 
@@ -10462,7 +10462,7 @@
         181, 
         310
       ], 
-      "weight": 7.819535732269287, 
+      "score": 7.819535732269287, 
       "level": 2, 
       "title": "The Godfather: Part II", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/tHbMIIF51rguMNSastqoQwR0sBs.jpg", 
@@ -10484,7 +10484,7 @@
         383, 
         63
       ], 
-      "weight": 7.182139873504639, 
+      "score": 7.182139873504639, 
       "level": 3, 
       "title": "Poltergeist", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/JVVEiTxErqhfV91XqhlS1izayg.jpg", 
@@ -10516,7 +10516,7 @@
         137, 
         226
       ], 
-      "weight": 7.4980268478393555, 
+      "score": 7.4980268478393555, 
       "level": 3, 
       "title": "Django Unchained", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/hCk3wAojAgUa9Ey2tzutt8rzmgP.jpg", 
@@ -10539,7 +10539,7 @@
         445, 
         400
       ], 
-      "weight": 5.042396068572998, 
+      "score": 5.042396068572998, 
       "level": 2, 
       "title": "Basic Instinct 2", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/bnw8TzxzPZQU5lUA9Bx5DQEr4Dn.jpg", 
@@ -10561,7 +10561,7 @@
         248, 
         63
       ], 
-      "weight": 5.564255714416504, 
+      "score": 5.564255714416504, 
       "level": 3, 
       "title": "Basic Instinct", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/p1DHOfLFZmM567ePKfFNMV4mY92.jpg", 
@@ -10588,7 +10588,7 @@
         149, 
         178
       ], 
-      "weight": 7.706193923950195, 
+      "score": 7.706193923950195, 
       "level": 2, 
       "title": "Schindler's List", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/tvOvW7Qjj63zbQW5TZ8CjPThAUd.jpg", 
@@ -10608,7 +10608,7 @@
         217, 
         132
       ], 
-      "weight": 6.559396266937256, 
+      "score": 6.559396266937256, 
       "level": 3, 
       "title": "Abraham Lincoln: Vampire Hunter", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/lHcaLiPDDrLmJAL2MTlMzgM2s2x.jpg", 
@@ -10632,7 +10632,7 @@
         149, 
         384
       ], 
-      "weight": 7.766526699066162, 
+      "score": 7.766526699066162, 
       "level": 2, 
       "title": "The Green Mile", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/3yJUlOtVa09CYJocwBU8eAryja0.jpg", 
@@ -10661,7 +10661,7 @@
         217, 
         424
       ], 
-      "weight": 7.297611236572266, 
+      "score": 7.297611236572266, 
       "level": 3, 
       "title": "Looper", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/g9FW5mfDN26sNjOcDPB5mIGe8jv.jpg", 
@@ -10683,7 +10683,7 @@
         212, 
         432
       ], 
-      "weight": 7.236273288726807, 
+      "score": 7.236273288726807, 
       "level": 2, 
       "title": "Bicentennial Man", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/wrUgXWR5hKi3pwAIGYLAlUglPz3.jpg", 
@@ -10705,7 +10705,7 @@
         81, 
         294
       ], 
-      "weight": 7.409717559814453, 
+      "score": 7.409717559814453, 
       "level": 2, 
       "title": "Flags of Our Fathers", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/qmOMjEyxrZ91EM469GWPazAoPax.jpg", 
@@ -10728,7 +10728,7 @@
         314, 
         287
       ], 
-      "weight": 7.43462610244751, 
+      "score": 7.43462610244751, 
       "level": 3, 
       "title": "Lord of War", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/nwPUI9WlYtDmE5VO6eEFCfrNXWl.jpg", 
@@ -10752,7 +10752,7 @@
         365, 
         149
       ], 
-      "weight": 7.430909633636475, 
+      "score": 7.430909633636475, 
       "level": 3, 
       "title": "The Illusionist", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/1Hxq6ZQiQctCKDfrQIEzrij1sQm.jpg", 
@@ -10773,7 +10773,7 @@
         302, 
         420
       ], 
-      "weight": 7.055065631866455, 
+      "score": 7.055065631866455, 
       "level": 3, 
       "title": "Oz: The Great and Powerful", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/lqP4wcdLid1mC2ajo9rIR8jwyTe.jpg", 
@@ -10811,7 +10811,7 @@
         247, 
         384
       ], 
-      "weight": 7.607611179351807, 
+      "score": 7.607611179351807, 
       "level": 2, 
       "title": "The Truman Show", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/j7E8pJprHyphmJC1QYy7rKsDGxo.jpg", 
@@ -10833,7 +10833,7 @@
         185, 
         232
       ], 
-      "weight": 7.3555097579956055, 
+      "score": 7.3555097579956055, 
       "level": 3, 
       "title": "The Jackal", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/6Hh2ROGTRKdbUfEXVVv5fNhmXK3.jpg", 
@@ -10855,7 +10855,7 @@
         464, 
         451
       ], 
-      "weight": 7.5191168785095215, 
+      "score": 7.5191168785095215, 
       "level": 3, 
       "title": "True Lies", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/mTAHr5h5i64hTLqo0cW2X2083Cx.jpg", 
@@ -10876,7 +10876,7 @@
         15, 
         237
       ], 
-      "weight": 7.668093204498291, 
+      "score": 7.668093204498291, 
       "level": 3, 
       "title": "When a Man Loves a Woman", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/n3B7MBFwyKj9OaTscDZlfJt8Ayy.jpg", 
@@ -10898,7 +10898,7 @@
         320, 
         81
       ], 
-      "weight": 7.371517181396484, 
+      "score": 7.371517181396484, 
       "level": 3, 
       "title": "The Talented Mr. Ripley", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/73LRLfwrNBfnbXNuXifcRkM3cUI.jpg", 
@@ -10918,7 +10918,7 @@
         204, 
         387
       ], 
-      "weight": 7.155350208282471, 
+      "score": 7.155350208282471, 
       "level": 3, 
       "title": "He Got Game", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/vOsamMWcO7T3RUNWnePHzPWTpVn.jpg", 
@@ -10939,7 +10939,7 @@
         180, 
         451
       ], 
-      "weight": 7.022500514984131, 
+      "score": 7.022500514984131, 
       "level": 2, 
       "title": "Yip Man 2", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/nvPim6BMvGxpTkZs5hnaE2fzwk5.jpg", 
@@ -10966,7 +10966,7 @@
         215, 
         454
       ], 
-      "weight": 7.894295692443848, 
+      "score": 7.894295692443848, 
       "level": 1, 
       "title": "How High", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/AdQDz4LF6BzFfmyIJkMtrj707BZ.jpg", 
@@ -10988,7 +10988,7 @@
         98, 
         287
       ], 
-      "weight": 6.885066986083984, 
+      "score": 6.885066986083984, 
       "level": 2, 
       "title": "Titanic", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/s2Z25JcBWS9tKAysSKuWyon5lwP.jpg", 
@@ -11030,7 +11030,7 @@
         456, 
         195
       ], 
-      "weight": 7.573534965515137, 
+      "score": 7.573534965515137, 
       "level": 2, 
       "title": "Gran Torino", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/2KUXQZ1PX4HeC4qprsH0YmY32cr.jpg", 
@@ -11056,7 +11056,7 @@
         390, 
         29
       ], 
-      "weight": 7.578502178192139, 
+      "score": 7.578502178192139, 
       "level": 2, 
       "title": "Finding Nemo", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/zjqInUwldOBa0q07fOyohYCWxWX.jpg", 
@@ -11075,7 +11075,7 @@
         233, 
         16
       ], 
-      "weight": 7.678750514984131, 
+      "score": 7.678750514984131, 
       "level": 3, 
       "title": "7500", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/74vXiyzSwaMlOIM4XRaE9i5gt4p.jpg", 
@@ -11101,7 +11101,7 @@
         140, 
         423
       ], 
-      "weight": 7.636757850646973, 
+      "score": 7.636757850646973, 
       "level": 2, 
       "title": "The Pianist", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/hfMeo073RxKKjZZV4gSGema1yog.jpg", 
@@ -11121,7 +11121,7 @@
         421, 
         85
       ], 
-      "weight": 7.250336647033691, 
+      "score": 7.250336647033691, 
       "level": 3, 
       "title": "101 Dalmatians", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/ol9o8KgoHJECxuUz2Hqv4FRF1hi.jpg", 
@@ -11147,7 +11147,7 @@
         184, 
         198
       ], 
-      "weight": 7.833806037902832, 
+      "score": 7.833806037902832, 
       "level": 2, 
       "title": "The Big Lebowski", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/aHaVjVoXeNanfwUwQ92SG7tosFM.jpg", 
@@ -11171,7 +11171,7 @@
         41, 
         29
       ], 
-      "weight": 7.495899677276611, 
+      "score": 7.495899677276611, 
       "level": 2, 
       "title": "Ratatouille", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/taAPNsf6G4EXBYSG7Jyvd9HHKnH.jpg", 
@@ -11195,7 +11195,7 @@
         335, 
         287
       ], 
-      "weight": 7.405725002288818, 
+      "score": 7.405725002288818, 
       "level": 3, 
       "title": "Enemy of the State", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/2B0vLBo6gJbnzke4Enc77GCxKrz.jpg", 
@@ -11219,7 +11219,7 @@
         105, 
         203
       ], 
-      "weight": 7.466376781463623, 
+      "score": 7.466376781463623, 
       "level": 3, 
       "title": "Shrek", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/140ewbWv8qHStD3mlBDvvGd0Zvu.jpg", 
@@ -11236,7 +11236,7 @@
       "links": [
         261
       ], 
-      "weight": 7.147747039794922, 
+      "score": 7.147747039794922, 
       "level": 3, 
       "title": "Snow White and the Seven Dwarfs", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/vB1p70FfFMxNB0X6hub662kHj71.jpg", 
@@ -11264,7 +11264,7 @@
         383, 
         61
       ], 
-      "weight": 7.730858325958252, 
+      "score": 7.730858325958252, 
       "level": 3, 
       "title": "Terminator 2: Judgment Day", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/2y4dmgWYRMYXdD1UyJVcn2HSd1D.jpg", 
@@ -11282,7 +11282,7 @@
         268, 
         126
       ], 
-      "weight": 6.893482685089111, 
+      "score": 6.893482685089111, 
       "level": 3, 
       "title": "Wayne's World 2", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/7siPHrw0QBNRXfzuL8lEF5rudh6.jpg", 
@@ -11304,7 +11304,7 @@
         394, 
         53
       ], 
-      "weight": 7.342090129852295, 
+      "score": 7.342090129852295, 
       "level": 3, 
       "title": "Funny Games", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/8nrYmXiLABk7W8gknVJfrhRbG4p.jpg", 
@@ -11327,7 +11327,7 @@
         149, 
         402
       ], 
-      "weight": 7.651668548583984, 
+      "score": 7.651668548583984, 
       "level": 2, 
       "title": "Cidade de Deus", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/mwDnSQR1CkxuDjSKfgiNT0sIOjM.jpg", 
@@ -11349,7 +11349,7 @@
         446, 
         183
       ], 
-      "weight": 7.12297248840332, 
+      "score": 7.12297248840332, 
       "level": 3, 
       "title": "Dogville", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/ucWzUQQ3MXpUSAugk2kEsboSuYQ.jpg", 
@@ -11371,7 +11371,7 @@
         423, 
         210
       ], 
-      "weight": 7.592532157897949, 
+      "score": 7.592532157897949, 
       "level": 3, 
       "title": "Gandhi", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/2z9A4FSu1YySrhhcuqkdMIXpgyN.jpg", 
@@ -11392,7 +11392,7 @@
         70, 
         237
       ], 
-      "weight": 7.483895778656006, 
+      "score": 7.483895778656006, 
       "level": 3, 
       "title": "Letters to Juliet", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/gFzGHukJ4JIE98bLBgAwbPIQlf4.jpg", 
@@ -11415,7 +11415,7 @@
         210, 
         64
       ], 
-      "weight": 7.533474922180176, 
+      "score": 7.533474922180176, 
       "level": 3, 
       "title": "The Beach", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/wueuaJBxcXmixa8VNzrshAXgZjN.jpg", 
@@ -11439,7 +11439,7 @@
         398, 
         384
       ], 
-      "weight": 6.71226692199707, 
+      "score": 6.71226692199707, 
       "level": 2, 
       "title": "Artificial Intelligence: AI", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/seJhtsUcytRuRGa6oUGYhjVYL8g.jpg", 
@@ -11467,7 +11467,7 @@
         168, 
         192
       ], 
-      "weight": 7.799937725067139, 
+      "score": 7.799937725067139, 
       "level": 2, 
       "title": "Star Wars: Episode V - The Empire Strikes Back", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/6u1fYtxG5eqjhtCPDx04pJphQRW.jpg", 
@@ -11489,7 +11489,7 @@
         11, 
         36
       ], 
-      "weight": 7.450397968292236, 
+      "score": 7.450397968292236, 
       "level": 2, 
       "title": "Kiss of the Dragon", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/h5oAM0U0anZpIFpaBi9eb3yoXN7.jpg", 
@@ -11515,7 +11515,7 @@
         119, 
         401
       ], 
-      "weight": 7.94072151184082, 
+      "score": 7.94072151184082, 
       "level": 1, 
       "title": "Yip Man", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/8knFfuqW289DJi2cpPl4RVTDkbo.jpg", 
@@ -11540,7 +11540,7 @@
         307, 
         410
       ], 
-      "weight": 7.489570617675781, 
+      "score": 7.489570617675781, 
       "level": 2, 
       "title": "Jay And Silent Bob Strike Back", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/cfMfJ9tzt3Q3wHEk04yqURcCrXh.jpg", 
@@ -11570,7 +11570,7 @@
         38, 
         260
       ], 
-      "weight": 7.6070637702941895, 
+      "score": 7.6070637702941895, 
       "level": 3, 
       "title": "Jurassic Park", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/jdS21ipvYzLHqeVuLZrMxSUZsZ9.jpg", 
@@ -11592,7 +11592,7 @@
         7, 
         451
       ], 
-      "weight": 7.357993125915527, 
+      "score": 7.357993125915527, 
       "level": 2, 
       "title": "Last Action Hero", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/yeLurMF2Xy3nex17hBbxft6zGR0.jpg", 
@@ -11612,7 +11612,7 @@
         40, 
         263
       ], 
-      "weight": 7.433819770812988, 
+      "score": 7.433819770812988, 
       "level": 3, 
       "title": "Barbarella", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/v2U6FVqi4R2DOjarsg0m5x1B8LB.jpg", 

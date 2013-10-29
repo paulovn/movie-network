@@ -32,17 +32,31 @@
     <div id="help" class="panel_off">
       <img src="img/close.png" style="float: right;" 
            onClick="toggleDiv('help');"/>
-      This is a subset of the movie network produced from data in the PopCha!
-      app. Movies relate to each other as they are picked by PopCha! users.
+      This is a subset of the movie network produced from data in the
+      mobile PopCha! app. Movies relate to each other <em>as they get
+      picked by PopCha! users</em> (movie details are
+      <strong>not</strong> used for the graph).
+
       <ul>
-        <li>Hover over a node to see the movie title, and to highlight the movies related to it.</li>
-        <li>Click on a node to show movie details. It will open up a side panel.
-</li>
-        <li>On the movie details panel, you can click on the target to center the graph on that movie. And clicking on the link to a related movie will move to that movie (in the graph & in the panel)</li>
-        <li>You can use you usual browser controls to zoom and pan over the graph. If you zoom in when centred on a movie, the graph will expand around it.</li>
-        <li>Above a certain zoom level, movie titles are automatically displayed for all the nodes.</li>
+        <li>Hover over a node to see the movie title, and to highlight
+        the movies related to it.</li>
+
+        <li>Click on a node to show movie details. It will open up a
+        side panel.</li>
+
+        <li>On the movie details panel, you can click on the <em>target</em> 
+        icon to center the graph on that movie. And clicking on the link to
+        a related movie will move to that movie (in the graph and in the
+        panel)</li>
+
+        <li>You can use you usual browser controls to zoom and pan
+        over the graph. If you zoom in when centred on a movie, the
+        graph will expand around it.</li>
+
+        <li>Above a certain zoom level, movie titles are automatically
+        displayed for all the nodes.</li>
       </ul>
-      For additional information, check the <a href="" onClick="return toggleDiv('faq');">FAQ</a>.
+      For additional information, check the <strong><a href="" onClick="return toggleDiv('faq');">FAQ</a></strong>.
     </div>
 
     <div id="movieInfo" class="panel_off"></div>
@@ -53,29 +67,84 @@
       <img src="img/close.png" onClick="toggleDiv('faq');"/>
     </div>
     <dl>
+
       <dt>Where does this come from?</dt>
-      <dd>The <a href="https://www.popcha.tv">PopCha!</a> mobile app lets users search for movies, view their details, rate them, add them to bags to build personalized movie lists and receive notifications when they are available in theaters, TV or Video on Demand platforms. Its recommendation engine allows proposing users movies they might be interested in. PopCha! users have so far currently rated, added to bags or otherwise showed interest for more than 11,000 movies</dd>
+
+      <dd>The <a href="https://www.popcha.tv">PopCha!</a> mobile app
+      lets users search for movies, view their details, rate them, add
+      them to bags to build personalized movie lists and receive
+      notifications when they are available in theaters, TV or Video
+      on Demand platforms. Its recommendation engine allows proposing
+      users movies they might be interested in. PopCha! users have so
+      far currently rated, added to bags or otherwise showed interest
+      for more than 11,000 movies</dd>
+
       <dt>And how was this concrete "movie network" made?</dt>
       <dd>This is how we did it:
         <ol style="margin: 0px;">
-          <li> We selected the movies with the top ratings (the most highly valued movies for PopCha! users). Those were our initial seed, and are the nodes with a red border in the graph. As you can see, they are mostly the "usual suspects", but with also a few non-conventional movies added in.</li>
-          <li>Then we used our recommendation engine to find the movies most similar to them. Not by looking at their genre, director or cast, but by checking how users interact with them. That is, two movies are considered similar just by checking if users rate them equally, or usually appear together in their bags. Those movies make up the second level in our network, marked with a grey border.</li>
-          <li>Finally, we rounded up the graph by adding a third level, computed as the movies most similar to the ones in the second level</li>
+          <li> We selected the movies with the top ratings (the most
+          highly valued movies for PopCha! users). Those were our
+          initial seed, and are the nodes with a red border in the
+          graph. As you can see, they are mostly the "usual suspects",
+          but with also a few non-conventional movies added in.</li>
+
+          <li>Then we used our recommendation engine to find the
+          movies most similar to them. Not by looking at their genre,
+          director or cast, but by checking how users interact with
+          them. That is, two movies are considered similar just by
+          checking if users rate them equally, or usually appear
+          together in their bags. Those movies make up the second
+          level in our network, marked with a grey border.</li>
+
+          <li>Finally, we rounded up the graph by adding a third
+          level, computed as the movies most similar to the ones in
+          the second level</li>
         </ol>
       </dd>
+
       <dt>Ok, but <em>how</em> was the graph actually computed?</dt>
-      <dd>For those of you technically oriented, the links between movies were extracted as item-item similarity scores computed in our Collaborative Filtering engine, using all events produced by users of the PopCha! Android/iOS apps. Those links were then fed to a <a href="https://github.com/mbostock/d3/wiki/Force-Layout">force-directed graph layout</a> in <strong>D3.js</strong>.
+
+      <dd>For those of you technically oriented, the links between
+      movies were extracted as item-item similarity scores computed in
+      our Collaborative Filtering engine, using all events produced by
+      users of the PopCha! Android/iOS apps. Those links were then fed
+      to a <a
+      href="https://github.com/mbostock/d3/wiki/Force-Layout">force-directed
+      graph layout</a> in <strong>D3.js</strong>.
+
         <br>No movie metadata (title, director, cast, whatever) was used or harmed in any way during the production of this graph.</dd>
       <dt>What do the graph elements mean?</dt>
-      <dd>Each circle is a movie; it is linked to the set of movies most similar to it according to our engine (and therefore to PopCha! users). The size of the circle represents how it is valued by PopCha! users; the set of 25 most valued movies is highlighted with a red border. <br/>
-When a movie is selected (hovering or clicking) it is shown as purple in the network. The set of movies linked to it (the ones more similar to it) are also highlighted, this time in blue.<br/>
-The weight of the link between two movies reflect how similar they are (in terms of user response to them); this weight translates to the link length (within the constraints imposed by the layout algorithm).<br/>
-The force-directed layout is an iterative algorithm; each time the page is loaded the rendering starts anew, and converges towards a final stable state. There is some randomness in it, so that no two final states are equal (but relative positioning of movies, and the formed clusters, should be similar).
+
+      <dd>Each circle is a movie; it is linked to the set of movies
+      most similar to it according to our engine (and therefore to
+      PopCha! users). The size of the circle represents how it is
+      valued by PopCha! users; the set of 25 most valued movies is
+      highlighted with a red border. <br/>
+
+When a movie is selected (hovering or clicking) it is shown as purple
+in the network. The set of movies linked to it (the ones more similar
+to it) are also highlighted, this time in blue.<br/>
+
+The width of the link between two movies reflect how similar they are
+(in terms of user response to them); this similarity translates to the
+force attracting the nodes (so that two very similar movies will tend
+to stay close, within the constraints imposed by the rest of the
+forces from the other nodes).<br/>
+
+The force-directed layout is an iterative algorithm; each time the
+page is loaded the rendering starts anew, and converges towards a
+final stable state. There is some randomness in it, so that no two
+final states are equal (but relative positioning of movies, and the
+formed clusters, should be similar).
+
+
 <dt>What is the resulting structure?</dt>
-<dd>The graph is heavily connected: there are connections between many of the movies in the network (note that this is only a partial view of the overall network: in the full graph there are many more connections, and also to the movies that here appear to be in the edges).<br/>
+<dd>The graph is heavily connected: there are connections between many of the movies in the network (note that this is only a partial view of the overall network: in the full graph there are many more connections, and also to the movies that here appear to be at the edges).<br/>
+
+
 There is a strong central cluster containing some of the most important movies (it is so dense that it cannot be clearly seen unless you zoom in). Some of them are deeply connected, check for instance <em><a href="javascript:void(0);" onclick="clearAndSelect(56);">Seven</a></em> or <em><a href="javascript:void(0);" onclick="clearAndSelect(65);">Forrest Gump</a></em>. Within that central cluster we can also identify thematic subclusters, such as the <a href="javascript:void(0);" onclick="clearAndSelect(52);">Tolkien saga</a>.<br/> 
 
-Outside the graph core we can also find other areas with semantic meaning (e.g. the set of <em><a href="javascript:void(0);" onclick="clearAndSelect(165);">Star Wars</a></em> movies, or a group of classic <a href="javascript:void(0);" onclick="clearAndSelect(61);">Hitchcock thrillers</a>). There is also a small <a href="javascript:void(0);" onclick="clearAndSelect(20);">Western</a> cluster (mostly Clint Eastwood movies) and a <a href="javascript:void(0);" onclick="clearAndSelect(119);">Tarantino</a> group.<br/> As a curiosity, there seems to be an exaggerated importance given to movies that are seemingly minor, but that share title with more significant ones (i.e. there is a second <em>Godfather</em> or a second <em>Gladiator</em> in the graph). These might stem from user confusion when selecting the movie they actually wanted.</dd>
+Outside the graph core we can also find other areas with semantic meaning (e.g. the set of <em><a href="javascript:void(0);" onclick="clearAndSelect(165);">Star Wars</a></em> movies, or a group of classic <a href="javascript:void(0);" onclick="clearAndSelect(61);">Hitchcock thrillers</a>). There is also a small <a href="javascript:void(0);" onclick="clearAndSelect(20);">Western</a> cluster (mostly Clint Eastwood movies) and a <a href="javascript:void(0);" onclick="clearAndSelect(119);">Tarantino</a> group.<br/> As a curiosity, there seems to be an exaggerated importance given to movies that are seemingly minor, but that share title with more significant ones (i.e. there is a second <em>Godfather</em> or a second <em>Gladiator</em> in the graph, try to spot them!). These might stem from user confusion when selecting the movie they actually wanted.</dd>
     </dl>
     <dt>Credits</dt>
     <dd><em>

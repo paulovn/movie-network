@@ -8,7 +8,7 @@
         20, 
         16
       ], 
-      "weight": 8.05406665802002, 
+      "score": 8.05406665802002, 
       "level": 1, 
       "title": "La vita \u00e8 bella", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/f7DImXDebOs148U4uPjI61iDvaK.jpg", 
@@ -27,7 +27,7 @@
         7, 
         4
       ], 
-      "weight": 8.040080070495605, 
+      "score": 8.040080070495605, 
       "level": 1, 
       "title": "The Godfather", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/d4KNaTrltq6bpkFS01pYtyXa09m.jpg", 
@@ -48,7 +48,7 @@
         4, 
         12
       ], 
-      "weight": 7.986302852630615, 
+      "score": 7.986302852630615, 
       "level": 2, 
       "title": "Blade Runner", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/p64TtbZGCElxQHpAMWmDHkWJlH2.jpg", 
@@ -67,7 +67,7 @@
         9, 
         6
       ], 
-      "weight": 7.705840110778809, 
+      "score": 7.705840110778809, 
       "level": 3, 
       "title": "Reservoir Dogs", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/s6YVEP7vhGRz34kMyZOIs4gKNja.jpg", 
@@ -88,7 +88,7 @@
         9, 
         6
       ], 
-      "weight": 7.947475433349609, 
+      "score": 7.947475433349609, 
       "level": 2, 
       "title": "Pulp Fiction", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/dM2w364MScsjFf8pfMbaWUcWrR.jpg", 
@@ -106,7 +106,7 @@
         1, 
         7
       ], 
-      "weight": 7.819535732269287, 
+      "score": 7.819535732269287, 
       "level": 2, 
       "title": "The Godfather: Part II", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/tHbMIIF51rguMNSastqoQwR0sBs.jpg", 
@@ -125,7 +125,7 @@
         15, 
         4
       ], 
-      "weight": 7.526015758514404, 
+      "score": 7.526015758514404, 
       "level": 3, 
       "title": "Inglourious Basterds", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/vDwqPyhkzFPRDmwz9KbzN2ouEPe.jpg", 
@@ -143,7 +143,7 @@
         1, 
         5
       ], 
-      "weight": 7.332101821899414, 
+      "score": 7.332101821899414, 
       "level": 2, 
       "title": "The Godfather: Part III", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/uzaP0L7BEprcJHCuwbaHiYT0UYX.jpg", 
@@ -161,7 +161,7 @@
         15, 
         20
       ], 
-      "weight": 7.607611179351807, 
+      "score": 7.607611179351807, 
       "level": 3, 
       "title": "The Truman Show", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/j7E8pJprHyphmJC1QYy7rKsDGxo.jpg", 
@@ -180,7 +180,7 @@
         4, 
         12
       ], 
-      "weight": 7.833806037902832, 
+      "score": 7.833806037902832, 
       "level": 2, 
       "title": "The Big Lebowski", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/aHaVjVoXeNanfwUwQ92SG7tosFM.jpg", 
@@ -195,7 +195,7 @@
     {
       "index": 10, 
       "links": [], 
-      "weight": 8.107501029968262, 
+      "score": 8.107501029968262, 
       "level": 1, 
       "title": "Lost", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/j3NVKm1fSDM5j1ryeO7LGIWJV7K.jpg", 
@@ -215,7 +215,7 @@
         13, 
         16
       ], 
-      "weight": 8.05465316772461, 
+      "score": 8.05465316772461, 
       "level": 1, 
       "title": "Gladiator", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/6WBIzCgmDCYrqh64yDREGeDk9d3.jpg", 
@@ -234,7 +234,7 @@
         2, 
         9
       ], 
-      "weight": 8.146673202514648, 
+      "score": 8.146673202514648, 
       "level": 1, 
       "title": "The Adventures of Ford Fairlane", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/2MzZtmbazP5dUXrJHffKMn1lsrr.jpg", 
@@ -253,7 +253,7 @@
         20, 
         16
       ], 
-      "weight": 8.112346649169922, 
+      "score": 8.112346649169922, 
       "level": 1, 
       "title": "Cast Away", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/w515BrZvczKIxbHurG6HIiYYrba.jpg", 
@@ -272,7 +272,7 @@
         2, 
         12
       ], 
-      "weight": 7.890693187713623, 
+      "score": 7.890693187713623, 
       "level": 2, 
       "title": "Top Secret!", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/2ArC4IAAGXf3hTVJCzQfE0G5Vbf.jpg", 
@@ -292,7 +292,7 @@
         20, 
         6
       ], 
-      "weight": 7.626762866973877, 
+      "score": 7.626762866973877, 
       "level": 3, 
       "title": "Se7en", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/mhFXxB76LVgJBIfJM1sAuVBtVKv.jpg", 
@@ -314,7 +314,7 @@
         19, 
         20
       ], 
-      "weight": 8.008194923400879, 
+      "score": 8.008194923400879, 
       "level": 2, 
       "title": "The Shawshank Redemption", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/adAqmzscm4xSYDHw81xiwiLwbhU.jpg", 
@@ -332,7 +332,7 @@
         11, 
         20
       ], 
-      "weight": 7.9112324714660645, 
+      "score": 7.9112324714660645, 
       "level": 2, 
       "title": "Braveheart", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/4T4xQJXSdTNbzUrlT6Eh13kiy5H.jpg", 
@@ -350,7 +350,7 @@
         14, 
         2
       ], 
-      "weight": 7.974382400512695, 
+      "score": 7.974382400512695, 
       "level": 3, 
       "title": "Back to the Future", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/pTpxQB1N0waaSc3OSn0e9oc8kx9.jpg", 
@@ -369,7 +369,7 @@
         2, 
         16
       ], 
-      "weight": 8.061498641967773, 
+      "score": 8.061498641967773, 
       "level": 1, 
       "title": "Nuovo Cinema Paradiso", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/omg676j1avsJZrDqpzR4ZaP3XYK.jpg", 
@@ -391,7 +391,7 @@
         15, 
         8
       ], 
-      "weight": 7.931217670440674, 
+      "score": 7.931217670440674, 
       "level": 2, 
       "title": "Forrest Gump", 
       "cover": "http://d3gtl9l2a4fn1j.cloudfront.net/t/p/w342/pEYI2QILJWMN1ZeEMgMM0jxBVhK.jpg", 
