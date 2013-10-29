@@ -169,34 +169,31 @@ d3.json(
   'data/movie-network-25-7-3.json',
   function(data) {
 
-    //console.log(data);
-
     // Declare the variables pointing to the node & link arrays
     var nodeArray = data.nodes;
     var linkArray = data.links;
     console.log("NODES:",nodeArray);
     console.log("LINKS:",linkArray);
 
-    //console.log( nodeArray.map( function(n) {return n.weight;} ) );
     minLinkWeight = 
       Math.min.apply( null, linkArray.map( function(n) {return n.weight;} ) );
     maxLinkWeight = 
       Math.max.apply( null, linkArray.map( function(n) {return n.weight;} ) );
     console.log( "link weight = ["+minLinkWeight+","+maxLinkWeight+"]" );
 
-    // Create the force-directed layout, and add the node & link arrays
+    // Add the node & link arrays to the layout, and start it
     force
       .nodes(nodeArray)
       .links(linkArray)
       .start();
 
-    // Scales for node radius & edge width
+    // A couple of scales for node radius & edge width
     var node_size = d3.scale.linear()
-      .domain([5,10])
+      .domain([5,10])	// we know score is in this domain
       .range([1,16])
       .clamp(true);
     var edge_width = d3.scale.pow().exponent(8)
-      .domain([minLinkWeight,maxLinkWeight])
+      .domain( [minLinkWeight,maxLinkWeight] )
       .range([1,3])
       .clamp(true);
 
@@ -261,7 +258,6 @@ d3.json(
 
 
     /* --------------------------------------------------------------------- */
-
     /* Select/unselect a node in the network graph.
        Parameters are: 
        - node: data for the node to be changed,  
@@ -269,6 +265,8 @@ d3.json(
     */
     function highlightGraphNode( node, on )
     {
+      //if( d3.event.shiftKey ) on = false; // for debugging
+
       // If we are to activate a movie, and there's already one active,
       // first switch that one off
       if( on && activeMovie !== undefined ) {
@@ -277,10 +275,9 @@ d3.json(
 	console.log("..cleared: ",activeMovie);	
       }
 
-      //if( d3.event.shiftKey ) on = false; // for debugging
       console.log("SHOWNODE "+node.index+" ["+node.label + "]: " + on);
       console.log(" ..object ["+node + "]: " + on);
-      // locate the SVG nodes: circle & label
+      // locate the SVG nodes: circle & label group
       circle = d3.select( '#c' + node.index );
       label  = d3.select( '#l' + node.index );
       console.log(" ..DOM: ",label);
@@ -288,20 +285,18 @@ d3.json(
       // activate/deactivate the node itself
       console.log(" ..box CLASS BEFORE:", label.attr("class"));
       console.log(" ..circle",circle.attr('id'),"BEFORE:",circle.attr("class"));
-      //d3.select(dom_node.parentNode).select("div")
       circle
 	.classed( 'main', on );
       label
 	.classed( 'on', on || currentZoom >= SHOW_THRESHOLD );
       label.selectAll('text')
 	.classed( 'main', on );
-      console.log( " ..circle ",circle.attr('id')," AFTER:", circle.attr("class") );
-      console.log( " ..box CLASS AFTER:", label.attr("class") );
-      console.log( " ..label=" ,label );
+      console.log(" ..circle",circle.attr('id'),"AFTER:",circle.attr("class"));
+      console.log(" ..box AFTER:",label.attr("class"));
+      console.log(" ..label=",label);
 
       // activate all siblings
       console.log(" ..SIBLINGS ["+on+"]: "+node.links);
-      //Object.keys(d3_node.out).forEach( function(id) {
       Object(node.links).forEach( function(id) {
 	d3.select("#c"+id).classed( 'sibling', on );
 	label = d3.select('#l'+id);
@@ -317,18 +312,14 @@ d3.json(
 
 
     /* --------------------------------------------------------------------- */
-
     /* Show the details panel for a movie AND highlight its node in 
-       the graph. Called from outside.
+       the graph. Also called from outside the d3.json context.
        Parameters:
        - new_idx: index of the movie to show
        - doMoveTo: boolean to indicate if the graph should be centered
          on the movie
     */
     selectMovie = function( new_idx, doMoveTo ) {
-      //console.log( "FIND:", d3.select('#c'+nodeArray[new_idx].index) );
-      // we need to pass the DOM node here, not a d3 selection
-      //circle = document.getElementById( 'c' + nodeArray[new_idx].index );
       console.log("SELECT", new_idx, doMoveTo );
 
       // do we want to center the graph on the node?
@@ -339,20 +330,19 @@ d3.json(
 	s = getViewportSize();
 	width  = s.w<WIDTH ? s.w : WIDTH;
 	height = s.h<HEIGHT ? s.h : HEIGHT;
-	//console.log("MOVE (w,h)=("+w+","+h+") "
 	offset = { x : s.x + width/2  - nodeArray[new_idx].x*currentZoom,
 		   y : s.y + height/2 - nodeArray[new_idx].y*currentZoom };
 	repositionGraph( offset, undefined, 'move' );
       }
-      // now highlight the graph node and show its movie panel
+      // Now highlight the graph node and show its movie panel
       highlightGraphNode( nodeArray[new_idx], true );
       showMoviePanel( nodeArray[new_idx] );
     }
 
 
     /* --------------------------------------------------------------------- */
-    /* Show the movie details panel for a given node */
-
+    /* Show the movie details panel for a given node
+     */
     function showMoviePanel( node ) {
       // Fill it and display the panel
       movieInfoDiv
@@ -362,18 +352,17 @@ d3.json(
 
 	    
     /* --------------------------------------------------------------------- */
-
-    /* Move all graph elements to its new positions. Triggered
+    /* Move all graph elements to its new positions. Triggered:
        - on node repositioning (as result of a force-directed iteration)
-       - on translations (user panning)
-       - on zoom changes (user zooming)
-       - on explicit node highlight (user click in a movie panel link)
-       Set also the values keeping track of current offset & zoom
+       - on translations (user is panning)
+       - on zoom changes (user is zooming)
+       - on explicit node highlight (user clicks in a movie panel link)
+       Set also the values keeping track of current offset & zoom values
     */
     function repositionGraph( off, z, mode ) {
       console.log( "REPOS: off="+off, "zoom="+z, "mode="+mode );
 
-      // do we want a transition?
+      // do we want to do a transition?
       var doTr = (mode == 'move');
 
       // drag: translate to new offset
@@ -383,12 +372,12 @@ d3.json(
 	if( doTr )
 	  g = g.transition().duration(500);
 	g.attr("transform", function(d) { return "translate("+
-					  off.x+","+
-					  off.y+")" } );
+					  off.x+","+off.y+")" } );
 	currentOffset.x = off.x;
 	currentOffset.y = off.y;
       }
 
+      // zoom: get new value of zoom
       if( z === undefined ) {
 	if( mode != 'tick' )
 	  return;	// no zoom, no tick, we don't need to go further
@@ -404,6 +393,7 @@ d3.json(
         .attr("y1", function(d) { return z*(d.source.y); })
         .attr("x2", function(d) { return z*(d.target.x); })
         .attr("y2", function(d) { return z*(d.target.y); });
+
       // move nodes
       n = doTr ? graphNodes.transition().duration(500) : graphNodes;
       n
@@ -418,21 +408,19 @@ d3.json(
            
 
     /* --------------------------------------------------------------------- */
-
-    // Perform drag
+    /* Perform drag
+     */
     function dragmove(d) {
-      //console.log("DRAG", JSON.stringify(d3.event) );
-      console.log("DRAG", d3.event );
+      console.log("DRAG",d3.event);
       offset = { x : currentOffset.x + d3.event.dx,
 		 y : currentOffset.y + d3.event.dy };
-      repositionGraph( offset, undefined );
+      repositionGraph( offset, undefined, 'drag' );
     }
 
 
     /* --------------------------------------------------------------------- */
-
     /* Perform zoom. We do "semantic zoom", not geometric zoom
-     * (nodes do not change size, but get spread out or streched
+     * (i.e. nodes do not change size, but get spread out or stretched
      * together as zoom changes)
      */
     function doZoom( increment ) {
@@ -448,22 +436,22 @@ d3.json(
       else if( currentZoom>=SHOW_THRESHOLD && newZoom<SHOW_THRESHOLD )
 	svg.selectAll("g.label").classed('on',false);
 
-      // See what is the current graph window
+      // See what is the current graph window size
       s = getViewportSize();
       width  = s.w<WIDTH  ? s.w : WIDTH;
       height = s.h<HEIGHT ? s.h : HEIGHT;
 
-      // Compute the new offset
+      // Compute the new offset, so that the graph center does not move
       zoomRatio = newZoom/currentZoom;
       newOffset = { x : currentOffset.x*zoomRatio + width/2*(1-zoomRatio),
 		    y : currentOffset.y*zoomRatio + height/2*(1-zoomRatio) };
       console.log("offset",currentOffset,"->",newOffset);
 
       // Reposition the graph
-      repositionGraph( newOffset, newZoom );
+      repositionGraph( newOffset, newZoom, "zoom" );
     }
 
-    zoomCall = doZoom;	// unused
+    zoomCall = doZoom;	// unused, so far
 
     /* --------------------------------------------------------------------- */
 
@@ -472,7 +460,7 @@ d3.json(
       repositionGraph(undefined,undefined,'tick');
     });
 
-    /* small hack to start the graph centred on a given id */
+    /* A small hack to start the graph with a movie pre-selected */
     mid = getQStringParameterByName('id')
     if( mid != null )
       clearAndSelect( mid );

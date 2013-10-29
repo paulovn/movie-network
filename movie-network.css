@@ -79,6 +79,9 @@ div#help {
     z-index: 1001;
     border: 1px solid #989970;
 
+    font-family: Georgia, Times New Roman, Times, serif;
+    font-size: 11pt;
+
     -moz-transition: visibility 1.2s;
     -o-transition: visibility 1.2s;
     -webkit-transition: visibility 1.2s;
