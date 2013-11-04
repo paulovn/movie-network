@@ -52,7 +52,7 @@ div#title img {
 }
 
 
-img#help {
+img#helpIcon {
     position: absolute; 
     right: 6px; 
     top: 100px; 
@@ -157,6 +157,33 @@ div#close_faq {
     padding: 0px;
 }
 
+
+/* ....................................................................... */
+
+div#nocontent {
+    visibility: hidden;
+    pointer-events: none;
+    position: absolute;
+    width: 600px;
+    height: 200px;
+    top: 200px;
+    left: 200px;
+    background: #C3B091;
+    border: solid 2px #a00;
+    border-radius: 8px;    
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 20px;    
+    text-align: center;
+    vertical-align: center;
+    padding: 12px;
+}
+
+div#nocontent h1 {
+    margin: 1em;
+    color: red;
+    font-size: 24px;
+    font-weight: bold;
+}
 
 /* ....................................................................... */
 /* Movie details panel */

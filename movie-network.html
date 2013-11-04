@@ -4,14 +4,20 @@
     <meta charset="utf-8">
     <title>PopCha! Movie Network</title>
     <link rel="stylesheet" href="movie-network.css"/>
-     <link rel="shortcut icon" href="img/popcha.ico" type="image/x-icon">
-
- <link rel=favicon" 
-    <!-- JS's -->
-    <!-- <script src="http://d3js.org/d3.v3.min.js"></script>  -->
+    <link rel="shortcut icon" href="img/popcha.ico" type="image/x-icon">
+    <!--[if !IE]> -->
     <script src="d3.min.js"></script>
+    <!-- <![endif]-->
 </head>
 <body>
+
+  <div id="nocontent">
+    <h1>Sadly your browser is not (yet) compatible with this site</h1>
+
+    <div>You can use <a href="http://www.google.com/chrome/">Google
+    Chrome</a> or <a href="http://www.mozilla.org/firefox">Mozilla
+    Firefox</a> to access the PopCha Movie Network</div>
+  </div>
 
   <div id="movieNetwork"></div>
 
@@ -25,7 +31,7 @@
       <a href="javascript:void(0);" 
          onClick="zoomCall(-0.5);" style="pointer-events: all;">-</a> -->
 
-      <img id="help" 
+      <img id="helpIcon" 
            src="img/help-question-48.png" title="Click for help" 
            onClick="toggleDiv('help');"/>
 

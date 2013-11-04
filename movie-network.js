@@ -17,157 +17,187 @@
    -------------------------------------------------------------------------- */
 
 
-// Some constants
-var WIDTH = 960,
-    HEIGHT = 600,
-    SHOW_THRESHOLD = 2.5;
+//http://james.padolsey.com/javascript/detect-ie-in-js-using-conditional-comments/
+var ie = ( function(){
 
-// Variables keeping graph state
-var activeMovie = undefined;
-var currentOffset = { x : 0, y : 0 };
-var currentZoom = 1.0;
-
-// The D3.js scales
-var xScale = d3.scale.linear()
-  .domain([0, WIDTH])
-  .range([0, WIDTH]);
-var yScale = d3.scale.linear()
-  .domain([0, HEIGHT])
-  .range([0, HEIGHT]);
-var zoomScale = d3.scale.linear()
-  .domain([1,6])
-  .range([1,6])
-  .clamp(true);
-
-/* .......................................................................... */
-
-// The D3.js force-directed layout
-var force = d3.layout.force()
-  .charge(-320)
-  .size( [WIDTH, HEIGHT] )
-  .linkStrength( function(d,idx) { return d.weight; } );
-
-// Add to the page the SVG element that will contain the movie network
-var svg = d3.select("#movieNetwork").append("svg:svg")
-  .attr('xmlns','http://www.w3.org/2000/svg')
-  .attr("width", WIDTH)
-  .attr("height", HEIGHT)
-  .attr("id","graph")
-  .attr("viewBox", "0 0 " + WIDTH + " " + HEIGHT )
-  .attr("preserveAspectRatio", "xMidYMid meet");
-
-// Movie panel: the div into which the movie details info will be written
-movieInfoDiv = d3.select("#movieInfo");
-
-// Forward declaration: the function to be called to change the 
-// movie highlighted in the graph. It is a closure within the d3.json() call.
-var selectMovie = undefined;
-
-// The call to set a zoom value -- currently unused
-// (zoom is set via standard mouse-based zooming)
-var zoomCall = undefined;
+  var undef,
+  v = 3,
+  div = document.createElement('div'),
+  all = div.getElementsByTagName('i');
+ 
+  while (
+    div.innerHTML = '<!--[if gt IE ' + (++v) + ']><i></i><![endif]-->',
+    all[0]
+  );
+  return v > 4 ? v : undef;
+}());
 
 
-/* .......................................................................... */
-
-// Get the current size & offset of the browser's viewport window
-function getViewportSize( w ) {
-  var w = w || window;
-  console.log(w);
-  if( w.innerWidth != null ) 
-    return { w: w.innerWidth, 
-	     h: w.innerHeight,
-	     x : w.pageXOffset,
-	     y : w.pageYOffset };
-  var d = w.document;
-  if( document.compatMode == "CSS1Compat" )
-    return { w: d.documentElement.clientWidth,
-	     h: d.documentElement.clientHeight,
-	     x: d.documentElement.scrollLeft,
-	     y: d.documentElement.scrollTop };
-  else
-    return { w: d.body.clientWidth, 
-	     h: d.body.clientHeight,
-	     x: d.body.scrollLeft,
-	     y: d.body.scrollTop};
+if( ie !== undefined ) {
+  document.getElementById('sidepanel').style.visibility = 'hidden';
+  var nocontent = document.getElementById('nocontent');
+  nocontent.style.visibility = 'visible';
+  nocontent.style.pointerEvents = 'all';
+  var t = document.getElementsByTagName('body');
+  var body = document.getElementsByTagName('body')[0];
+  body.style.backgroundImage = "url('img/movie-network-screenshot-d.png')";
+  body.style.backgroundRepeat = "no-repeat";
 }
+else {
+
+
+  // Some constants
+  var WIDTH = 960,
+      HEIGHT = 600,
+      SHOW_THRESHOLD = 2.5;
+
+  // Variables keeping graph state
+  var activeMovie = undefined;
+  var currentOffset = { x : 0, y : 0 };
+  var currentZoom = 1.0;
+
+  // The D3.js scales
+  var xScale = d3.scale.linear()
+    .domain([0, WIDTH])
+    .range([0, WIDTH]);
+  var yScale = d3.scale.linear()
+    .domain([0, HEIGHT])
+    .range([0, HEIGHT]);
+  var zoomScale = d3.scale.linear()
+    .domain([1,6])
+    .range([1,6])
+    .clamp(true);
+
+/* .......................................................................... */
+
+  // The D3.js force-directed layout
+  var force = d3.layout.force()
+    .charge(-320)
+    .size( [WIDTH, HEIGHT] )
+    .linkStrength( function(d,idx) { return d.weight; } );
+
+  // Add to the page the SVG element that will contain the movie network
+  var svg = d3.select("#movieNetwork").append("svg:svg")
+    .attr('xmlns','http://www.w3.org/2000/svg')
+    .attr("width", WIDTH)
+    .attr("height", HEIGHT)
+    .attr("id","graph")
+    .attr("viewBox", "0 0 " + WIDTH + " " + HEIGHT )
+    .attr("preserveAspectRatio", "xMidYMid meet");
+
+  // Movie panel: the div into which the movie details info will be written
+  movieInfoDiv = d3.select("#movieInfo");
+
+  // Forward declaration: the function to be called to change the 
+  // movie highlighted in the graph. It is a closure within the d3.json() call.
+  var selectMovie = undefined;
+
+  // The call to set a zoom value -- currently unused
+  // (zoom is set via standard mouse-based zooming)
+  var zoomCall = undefined;
+
+
+  /* ....................................................................... */
+
+  // Get the current size & offset of the browser's viewport window
+  function getViewportSize( w ) {
+    var w = w || window;
+    console.log(w);
+    if( w.innerWidth != null ) 
+      return { w: w.innerWidth, 
+	       h: w.innerHeight,
+	       x : w.pageXOffset,
+	       y : w.pageYOffset };
+    var d = w.document;
+    if( document.compatMode == "CSS1Compat" )
+      return { w: d.documentElement.clientWidth,
+	       h: d.documentElement.clientHeight,
+	       x: d.documentElement.scrollLeft,
+	       y: d.documentElement.scrollTop };
+    else
+      return { w: d.body.clientWidth, 
+	       h: d.body.clientHeight,
+	       x: d.body.scrollLeft,
+	       y: d.body.scrollTop};
+  }
 
 
 
-function getQStringParameterByName(name) {
+  function getQStringParameterByName(name) {
     var match = RegExp('[?&]' + name + '=([^&]*)').exec(window.location.search);
     return match && decodeURIComponent(match[1].replace(/\+/g, ' '));
-}
+  }
 
 
-/* Change status of a panel from visible to hidden or viceversa
-   id: identifier of the div to change
-   status: 'on' or 'off'. If not specified, the panel will toggle status
-*/
-function toggleDiv( id, status ) {
-  d = d3.select('div#'+id);
-  console.log( 'TOGGLE', id, d.attr('class'), '->', status );
-  if( status === undefined )
-    status = d.attr('class') == 'panel_on' ? 'off' : 'on';
-  d.attr( 'class', 'panel_' + status );
-  return false;
-}
+  /* Change status of a panel from visible to hidden or viceversa
+     id: identifier of the div to change
+     status: 'on' or 'off'. If not specified, the panel will toggle status
+  */
+  function toggleDiv( id, status ) {
+    d = d3.select('div#'+id);
+    console.log( 'TOGGLE', id, d.attr('class'), '->', status );
+    if( status === undefined )
+      status = d.attr('class') == 'panel_on' ? 'off' : 'on';
+    d.attr( 'class', 'panel_' + status );
+    return false;
+  }
 
 
-/* Clear all help boxes and select a movie in the network and in the 
-   movie details panel
-*/
-function clearAndSelect(id) {
-  toggleDiv('faq','off'); 
-  toggleDiv('help','off'); 
-  selectMovie(id,true);	// we use here the selectMovie() closure
-}
+  /* Clear all help boxes and select a movie in the network and in the 
+     movie details panel
+  */
+  function clearAndSelect(id) {
+    toggleDiv('faq','off'); 
+    toggleDiv('help','off'); 
+    selectMovie(id,true);	// we use here the selectMovie() closure
+  }
 
 
-/* Compose the content for the panel with movie details.
-   Parameters: the node data, and the array containing all nodes
-   */
-function getMovieInfo( n, nodeArray ) {
-  console.log( "INFO", n );
-  info = '<div id="cover">';
-  if( n.cover )
-    info += '<img class="cover" height="300" src="' + n.cover + '" title="' + n.label + '"/>';
-  else
-    info += '<div class=t style="float: right">' + n.title + '</div>';
-  info +=
+  /* Compose the content for the panel with movie details.
+     Parameters: the node data, and the array containing all nodes
+  */
+  function getMovieInfo( n, nodeArray ) {
+    console.log( "INFO", n );
+    info = '<div id="cover">';
+    if( n.cover )
+      info += '<img class="cover" height="300" src="' + n.cover + '" title="' + n.label + '"/>';
+    else
+      info += '<div class=t style="float: right">' + n.title + '</div>';
+    info +=
     '<img src="img/close.png" class="action" style="top: 0px;" title="close panel" onClick="toggleDiv(\'movieInfo\');"/>' +
     '<img src="img/target-32.png" class="action" style="top: 280px;" title="center graph on movie" onclick="selectMovie('+n.index+',true);"/>';
 
-  info += '<br/></div><div style="clear: both;">'
-  if( n.genre )
-    info += '<div class=f><span class=l>Genre</span>: <span class=g>' 
-         + n.genre + '</span></div>';
-  if( n.director )
-    info += '<div class=f><span class=l>Directed by</span>: <span class=d>' 
-         + n.director + '</span></div>';
-  if( n.cast )
-    info += '<div class=f><span class=l>Cast</span>: <span class=c>' 
-         + n.cast + '</span></div>';
-  if( n.duration )
-    info += '<div class=f><span class=l>Year</span>: ' + n.year 
-         + '<span class=l style="margin-left:1em;">Duration</span>: ' + n.duration + '</div>';
-  if( n.links ) {
-    info += '<div class=f><span class=l>Related to</span>: ';
-    n.links.forEach( function(idx) {
-      info += '[<a href="javascript:void(0);" onclick="selectMovie('  
-	   + idx + ',true);">' + nodeArray[idx].label + '</a>]'
-    });
-    info += '</div>';
+    info += '<br/></div><div style="clear: both;">'
+    if( n.genre )
+      info += '<div class=f><span class=l>Genre</span>: <span class=g>' 
+           + n.genre + '</span></div>';
+    if( n.director )
+      info += '<div class=f><span class=l>Directed by</span>: <span class=d>' 
+           + n.director + '</span></div>';
+    if( n.cast )
+      info += '<div class=f><span class=l>Cast</span>: <span class=c>' 
+           + n.cast + '</span></div>';
+    if( n.duration )
+      info += '<div class=f><span class=l>Year</span>: ' + n.year 
+           + '<span class=l style="margin-left:1em;">Duration</span>: ' 
+           + n.duration + '</div>';
+    if( n.links ) {
+      info += '<div class=f><span class=l>Related to</span>: ';
+      n.links.forEach( function(idx) {
+	info += '[<a href="javascript:void(0);" onclick="selectMovie('  
+	     + idx + ',true);">' + nodeArray[idx].label + '</a>]'
+      });
+      info += '</div>';
+    }
+    return info;
   }
-  return info;
-}
 
 
-// ****************************************************************************
+  // *************************************************************************
 
-d3.json(
-  'data/movie-network-25-7-3.json',
-  function(data) {
+  d3.json(
+    'data/movie-network-25-7-3.json',
+    function(data) {
 
     // Declare the variables pointing to the node & link arrays
     var nodeArray = data.nodes;
@@ -466,4 +496,5 @@ d3.json(
       clearAndSelect( mid );
   });
 
+} // end of all non-IE processing
 
