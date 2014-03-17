@@ -30,9 +30,29 @@ function D3notok() {
 }
 
 // -------------------------------------------------------------------
+// A number of forward declarations. These variables need to be defined since 
+// they are attached to static code in HTML. But we cannot define them yet
+// since they need D3.js stuff. So we put placeholders.
 
 
-// Do the stuff
+// Highlight a movie in the graph. It is a closure within the d3.json() call.
+var selectMovie = undefined;
+
+// Change status of a panel from visible to hidden or viceversa
+var toggleDiv = undefined;
+
+// Clear all help boxes and select a movie in network and in movie details panel
+var clearAndSelect = undefined;
+
+
+// The call to set a zoom value -- currently unused
+// (zoom is set via standard mouse-based zooming)
+var zoomCall = undefined;
+
+
+// -------------------------------------------------------------------
+
+// Do the stuff -- to be called after D3.js has loaded
 function D3ok() {
 
   DEBUG = false;
@@ -86,15 +106,6 @@ function D3ok() {
   // Movie panel: the div into which the movie details info will be written
   movieInfoDiv = d3.select("#movieInfo");
 
-  // Forward declaration: the function to be called to change the 
-  // movie highlighted in the graph. It is a closure within the d3.json() call.
-  var selectMovie = undefined;
-
-  // The call to set a zoom value -- currently unused
-  // (zoom is set via standard mouse-based zooming)
-  var zoomCall = undefined;
-
-
   /* ....................................................................... */
 
   // Get the current size & offset of the browser's viewport window
@@ -131,7 +142,7 @@ function D3ok() {
      id: identifier of the div to change
      status: 'on' or 'off'. If not specified, the panel will toggle status
   */
-  function toggleDiv( id, status ) {
+  toggleDiv = function( id, status ) {
     d = d3.select('div#'+id);
     console.log( 'TOGGLE', id, d.attr('class'), '->', status );
     if( status === undefined )
@@ -144,7 +155,7 @@ function D3ok() {
   /* Clear all help boxes and select a movie in the network and in the 
      movie details panel
   */
-  function clearAndSelect(id) {
+  clearAndSelect = function (id) {
     toggleDiv('faq','off'); 
     toggleDiv('help','off'); 
     selectMovie(id,true);	// we use here the selectMovie() closure
@@ -494,5 +505,5 @@ function D3ok() {
       clearAndSelect( mid );
   });
 
-} // end of all non-IE processing
+} // end of D3ok()
 

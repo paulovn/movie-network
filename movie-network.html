@@ -23,6 +23,7 @@
         if( ie && ie < 9 ) {
 	  D3notok();
         } else {
+          // Load D3.js, and once loaded do our stuff
           var head = document.getElementsByTagName('head')[0];
           var script = document.createElement('script');
           script.type = 'text/javascript';
