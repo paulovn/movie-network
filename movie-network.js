@@ -17,23 +17,8 @@
    -------------------------------------------------------------------------- */
 
 
-//http://james.padolsey.com/javascript/detect-ie-in-js-using-conditional-comments/
-var ie = ( function(){
-
-  var undef,
-  v = 3,
-  div = document.createElement('div'),
-  all = div.getElementsByTagName('i');
- 
-  while (
-    div.innerHTML = '<!--[if gt IE ' + (++v) + ']><i></i><![endif]-->',
-    all[0]
-  );
-  return v > 4 ? v : undef;
-}());
-
-
-if( ie !== undefined ) {
+// For MSIE < 9, forget it
+function D3notok() {
   document.getElementById('sidepanel').style.visibility = 'hidden';
   var nocontent = document.getElementById('nocontent');
   nocontent.style.visibility = 'visible';
@@ -43,8 +28,21 @@ if( ie !== undefined ) {
   body.style.backgroundImage = "url('img/movie-network-screenshot-d.png')";
   body.style.backgroundRepeat = "no-repeat";
 }
-else {
 
+// -------------------------------------------------------------------
+
+
+// Do the stuff
+function D3ok() {
+
+  DEBUG = false;
+
+  // In debug mode, ensure there is a console object (MSIE does not have it by 
+  // default). In non-debug mode, ensure the console log does nothing
+  if( !window.console || !DEBUG ) {
+    window.console = {};
+    window.console.log = function () {};
+  }
 
   // Some constants
   var WIDTH = 960,

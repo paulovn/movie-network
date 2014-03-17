@@ -5,18 +5,46 @@
     <title>PopCha! Movie Network</title>
     <link rel="stylesheet" href="movie-network.css"/>
     <link rel="shortcut icon" href="img/popcha.ico" type="image/x-icon">
-    <!--[if !IE]> -->
-    <script src="d3.min.js"></script>
-    <!-- <![endif]-->
+    <script>
+      // Sniff MSIE version
+      // http://james.padolsey.com/javascript/detect-ie-in-js-using-conditional-comments/
+      var ie = ( function() {
+        var undef,
+        v = 3,
+        div = document.createElement('div'),
+        all = div.getElementsByTagName('i');
+        while (
+         div.innerHTML='<!--[if gt IE ' + (++v) + ']><i></i><![endif]-->',all[0]
+        );
+        return v > 4 ? v : undef;
+      }() );
+
+      function takeAction() {
+        if( ie && ie < 9 ) {
+	  D3notok();
+        } else {
+          var head = document.getElementsByTagName('head')[0];
+          var script = document.createElement('script');
+          script.type = 'text/javascript';
+	  script.src = "d3.min.js";
+          script.addEventListener('load', D3ok, false);
+          script.onload = "D3ok();";
+	  head.appendChild(script);
+       }
+     }
+    </script>
 </head>
-<body>
+<body onload="takeAction();">
 
   <div id="nocontent">
-    <h1>Sadly your browser is not (yet) compatible with this site</h1>
+    <h1>Sadly your browser is not compatible with this site</h1>
 
     <div>You can use <a href="http://www.google.com/chrome/">Google
-    Chrome</a> or <a href="http://www.mozilla.org/firefox">Mozilla
-    Firefox</a> to access the PopCha Movie Network</div>
+    Chrome</a>, <a href="http://www.mozilla.org/firefox">Mozilla Firefox</a>
+    or <a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie">Microsoft
+    Internet Explorer (v9 or above)</a> to access the PopCha Movie
+    Network</div>
+
   </div>
 
   <div id="movieNetwork"></div>
