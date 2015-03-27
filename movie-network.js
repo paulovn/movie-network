@@ -260,11 +260,11 @@ function D3ok() {
     // nodes: an SVG circle
     var graphNodes = networkGraph.append('svg:g').attr('class','grp gNodes')
       .selectAll("circle")
-      .data( nodeArray, function(d){return d.label} )
+      .data( nodeArray, function(d){ return d.id; } )
       .enter().append("svg:circle")
       .attr('id', function(d) { return "c" + d.index; } )
       .attr('class', function(d) { return 'node level'+d.level;} )
-      .attr('r', function(d) { return node_size(d.score); } )
+      .attr('r', function(d) { return node_size(d.score || 3); } )
       .attr('pointer-events', 'all')
       //.on("click", function(d) { highlightGraphNode(d,true,this); } )    
       .on("click", function(d) { showMoviePanel(d); } )
